@@ -1,0 +1,102 @@
+Toman munjeres de 12 a 45 años
+
+***Mod 64***
+RECH0
+Identificador de hogar HHID 
+-tenemos ubicación del Hogar (H) (L, Lg)
+
+RECH1
+Identificador de los miembros del hogar HHID + HVIDX(# de orden)
+-relación de parentesco con el jefe
+-sexo, edad, nivel de estudio en años (3 años más) y grado alcanzado 
+- HV117 nos dira si está disponible para la encuesta a mujeres
+-info sobre educación de los menores de edad: el grado, si estuvo matriculado, asistio a un colegio durante el año
+
+RECH4 
+ID = HHID + IDXH4 miembros del hogar 
+-preguntan sobre seguros y educación de la persona sin embargo la eligibilidad es de mayores a 15 y menores de 12
+
+RECHM 
+ID = HHID + NRO_ORDEN 
+Mortandad de la madre
+
+
+***Mod 65***
+RECH23
+Se pregunta al jefe de hogar
+id = HHID
+- toma agua para beber y todo relacionado al agua
+- no electricidad 
+
+
+RECHM
+id = HHID + NRO_ORDEN_ID
+
+
+RE223132
+id = CASEID
+id de identificación
+cuestionario para las mujeres seleccionadas desde los 12 a 49 años
+educación
+hijos que viven con ella
+
+
+RE516171
+id = CASEID
+educación del esposo
+ocupación de ella del esposo
+tipo de ingreso
+
+
+
+REC21
+id = CASEID
+Se le pregunta a la mujer que tuvo hijos a cada mujer que tuvo hijos. cada observación es un hijo que le pertenece a dicha madre con codigo CASEID
+info sobre sus hijos
+edad de muerte de hijos
+con quien vive el niño
+Dificultades en el nacimiento
+
+RECH5
+id = HHID + HA0(Número de orden en el hogar)
+
+
+RECH6
+id = HHID + HC0(Número de orden en el hogar)
+talla de los niños, peso/edad
+los hijos
+
+
+RECH44
+CASEID identifica a la madre y el record de sus hijos
+id = HHID + HWIDX(Número de orden de la historia del nacimiento)
+talla de los niños, peso/edad
+
+RECH6 RECH44 parece que son iguales
+
+//Hogares
+RECH0
+RECH23
+
+//personas
+RECH1-		RE516171*
+RECH4-		REC21*
+RE223132*	RECH5
+RECHM		RECH6*
+RECH44*	
+	
+RECH0 - RECH23 tenemos 37474 hogares entrevistados
+RECH1 tenemos 143 486 personas entrevistadas a esta encuesta de la que se obtiene sus datos. la misma cantidad de personas se tiene para RECH4 
+RECHM cada observación es una madre que haya perdido a un hijo. Su id se identifica con HHID + NRO_ORDEN
+
+RE223132 son 36 922 mujeres que las podemos identificar en las entrevistas RECH1 y RECH4 a través de CASEID que une HHID + NRO_ORDEN.
+REC21 son los hijos de las 36 922 mujeres que las podemos identificar en las entrevistas RECH1 y RECH4 a través de CASEID que une HHID + NRO_ORDEN. Sin embargo, cada hijo puede o no que este en las otras entrevistas
+Aqui cada observación es cada hijo de las seños de la entrevista RE223132
+
+RE516171 son mujeres para evaluación de agresión domestica. Cada observación es una mujer que se identifica con la entrevista a hogares + orde a través de CASEID.
+
+REC44 21 154 son los hijos de cada uno de los padres de familia
+RECH5 cada observación 39 989 es un hijo de la mujer RECH6 (solo a mujeres). estas dos se apendearán porque son las diferentes personas
+
+
+v000 v001 v005 v007 v012 v120 v121 v122 v123 v124 v125 v201 v218 v133 v511 v613 v705 v714 v715 urban floor
