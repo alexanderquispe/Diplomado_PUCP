@@ -1,0 +1,27 @@
+UserScreenName,UserName,Timestamp,Text,Embedded_text,Emojis,Comments,Likes,Retweets,Image link,Tweet URL
+Jeffrey Wooldridge,@jmwooldridge,2020-11-10T16:19:01.000Z,"Jeffrey Wooldridge
+@jmwooldridge
+·
+Nov 10, 2020","Continuing to dip my toes in the Twitter world. I think I'll try to avoid politics -- we'll see how successful I am -- and stick primarily to econometrics.
+18
+15
+366",,18,15,366,[],https://twitter.com/jmwooldridge/status/1326197681736265730
+Jeffrey Wooldridge,@jmwooldridge,2020-11-10T16:21:08.000Z,"Jeffrey Wooldridge
+@jmwooldridge
+·
+Nov 10, 2020","Those who use experimental data for causal inference may be interested in a recent paper in Econometric Reviews with my former student, Akanksha Negi. With random sampling, we prove separate linear regression adjustment can improve over the simple difference-in-means.
+1
+21
+125",,1,21,125,[],https://twitter.com/jmwooldridge/status/1326198213351706624
+Jeffrey Wooldridge,@jmwooldridge,2020-11-10T16:23:51.000Z,"Jeffrey Wooldridge
+@jmwooldridge
+·
+Nov 10, 2020","More promising is the nonlinear methods when Y is binary, fractional, or nonnegative. Logistic regression in the first two cases and Poisson regression for Y >= 0 are fully robust and often much more efficient.
+
+https://www-tandfonline-com.proxy2.cl.msu.edu/doi/full/10.1080/07474938.2020.1824732#aHR0cHM6Ly93d3ctdGFuZGZvbmxpbmUtY29tLnByb3h5Mi5jbC5tc3UuZWR1L2RvaS9wZGYvMTAuMTA4MC8wNzQ3NDkzOC4yMDIwLjE4MjQ3MzI/bmVlZEFjY2Vzcz10cnVlQEBAMA==…
+
+#causalinference
+#experiments
+2
+5
+44",,2,5,44,[],https://twitter.com/jmwooldridge/status/1326198899107913728
