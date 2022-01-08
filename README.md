@@ -51,7 +51,7 @@ The evaluation will consist of a final work at the end of the course.
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
 
 ## IX. Schedule
-
+## Introduction to Python
 ### Week 1
 
 
@@ -72,6 +72,28 @@ This course will not have a mandatory bibliography. Python is a widely supported
 |11/27/2021|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
 |11/28/2021|Sunday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
 
+## Intermediate Python Course
+
+### Week 4
+|Date|Day|Schedule|Topic|Subtopic
+|---|---|---|---|---
+|11/12/2021|Saturday|14:00-17:00| WebScraping| <ul>  <li> Selenium </ul> 
+
+
+### Week 5
+|Date|Day|Schedule|Topic|Subtopic
+|---|---|---|---|---
+|18/12/2021|Saturday|14:00-17:00| Geocoding| <ul>  <li> Googlemaps </ul> 
+
+ ### Week 6
+|Date|Day|Schedule|Topic|Subtopic
+|---|---|---|---|---
+|8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
+
+
+  
+  
+
 ## X. Complementary Bibliography
 1. Matthes, E. (2016). Python crash course: A hands – on, project-based introduction to programming (2nd ed.). No Starch Press. ISBN: 9781593279288
 
@@ -79,7 +101,7 @@ This course will not have a mandatory bibliography. Python is a widely supported
 
 3. VanderPlas, J. (2016). Python Data Science Handbook. O'Reilly Media. ISBN: 9781491912058
 
-## XI. Groups
+## XI. Groups - Second Part
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
