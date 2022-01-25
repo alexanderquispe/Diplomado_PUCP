@@ -1,0 +1,14 @@
+﻿Health_center,distrito,direction,Schedule,phone,especialidades,available_beds,Prueba_Covid,Centro_vacunacion,latitud,longitud
+SISOL001,ATE,Av. Matropolitana 187,7:00-19:00,(01) 352-0798,35,15,No,Si,-12.0336649,-76.9421563
+SISOL002,Santa Anita,Av. Cultura 808,7:00 - 20:00,(01) 231 3162,30,5,Si,Si,-12.0462475,-76.9687343
+SISOL003,Agustino,Av. Cesar Vallejo con J.C Mariátegui,7:00 - 20:0,(01) 385 0954,35,20,Si,No,-12.0398294,-76.9972703
+SISOL004,La Victoria,c. Manco Capac 218,8:00-18:00,(01) 426 4618,30,10,No,Si,-12.0608683,-77.0297089
+SISOL005,Cercado de Lima,Jirón Camaná 7000,8:00-20:00,(01) 272 9422,28,11,Si,Si,-12.0493306,-77.0354462
+SISOL006,Rimac,Av. Tupac Amaru Cdra.16,7:30-18:30,(01) 534 8556,20,25,No ,No,-12.0132465,-77.0520521
+SISOL007,Los Olivos,Av. Universitaria 15304,7:30-18:30,(01) 771 4269,30,15,Si ,Si,-11.9792382,-77.0769622
+SISOL008,Breña,Av. Colonial 2001,7:00-19:00,(01) 336 8228,25,20,Si,Si,-12.0491915,-77.068206
+SISOL009,Magdalena del Mar,Jr. Bolognesi 2013,7:00 - 20:00,(01) 263 6103,20,5,No ,Si,-12.0923019,-77.0700876
+SISOL010,Surquillo,Av. Angamos 734,8:00-18:00,(01) 243 1120,34,15,Si ,Si,-12.1136045,-77.0238516
+SISOL011,Chorrillos,Av. Fernando Teran,7:00-19:00,(01) 467 1684,40,25,No ,Si,-12.1678862,-77.0192418
+SISOL012,Villa María del Triunfo,Av. Pastor Sevilla con Óvalo Pumacahua,6:00-18:00,(01) 292 3504,38,17,Si,Si,-12.1709433,-76.9461571
+SISOL013,Lince,Av. César Canevaro,8:00-20:00,(01) 472 6755,31,20,Si ,No,-12.0839839,-77.0394842
