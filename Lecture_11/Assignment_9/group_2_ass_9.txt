@@ -1,1 +1,0 @@
-Folder to save assignment results.
