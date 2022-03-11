@@ -1,5 +1,5 @@
 # Diplomado_PUCP
-This public repository contains the training materials, tutorials, code, and assignments for the Intensive Python Course at PUCP. The sylabus and structure of this course was created by [Carla Solis](https://github.com/ccsuehara). Please, check her [Python Course](https://github.com/ccsuehara/python_verano) for further details. 
+This public repository contains the training materials, tutorials, code, and assignments for the Intensive Python Course at PUCP. The syllabus and structure of this course was created by [Carla Solis](https://github.com/ccsuehara). Please, check her [Python Course](https://github.com/ccsuehara/python_verano) for further details. 
 
 
 ## I. General Information
