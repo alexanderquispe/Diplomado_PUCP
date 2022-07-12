@@ -89,7 +89,7 @@ This course will not have a mandatory bibliography. Python is a widely supported
 |Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---
 |8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
-
+|8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul>
 
   
   
