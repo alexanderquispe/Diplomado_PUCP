@@ -11,7 +11,7 @@ This public repository contains the training materials, tutorials, code, and ass
 |Professor| Alexander Quispe Rojas <br>|
 |PUCP email| alexander.quispe@pucp.edu.pe <br>|
 |Teaching Assistant| Anzony Quispe Rojas <br>|
-|Email| 20150317@lamolina.edu.pe |
+|Email| anzony.quispe@gmail.com |
 
 ## II. Abstract
 The course will address the essential elements to develop programming skills with Python. In particular, the goal is to incorporate Python as a toolbox for quantitative research in the social sciences. This introduction will focus on data management and lay the foundation for training students in data science. Basic programming concepts such as data structures, defining functions, and working with essential specialized libraries for working with data, especially Numpy and Pandas, will be taught.
@@ -103,6 +103,120 @@ This course will not have a mandatory bibliography. Python is a widely supported
 <!-- 
 ## XI. Groups - Second Part
 <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Grupo 1</th>
+      <th>Grupo 2</th>
+      <th>Grupo 3</th>
+      <th>Grupo 4</th>
+      <th>Grupo 5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORNEJO SANCHEZ, CHRISTIAN SANTOS</td>
+      <td>TINTAYA ORIHUELA, MEIR ALVARO</td>
+      <td>LUZON CUEVA, BIANCA MARIETTE</td>
+      <td>MEZA HINOJO, GUSTAVO</td>
+      <td>TORRES ANICAMA, JANE CAMILA</td>
+    </tr>
+    <tr>
+      <td>ORELLANA QUISPE, CRISTIAN NASSER</td>
+      <td>CHAVEZ MARTINEZ, JOSELIN ALEXANDRA</td>
+      <td>SUAÑA ZEGARRA, ADRIAN ANDRE</td>
+      <td>LOZADA MURILLO, PERSEO MARCELO</td>
+      <td>LOPEZ ESTRADA, MARIA ELISA</td>
+    </tr>
+    <tr>
+      <td>MORALES CHOQUEHUANCA, ANGELICA KARINA</td>
+      <td>FIGUEROA MURO, LEONEL ARTURO</td>
+      <td>SOTO POMACHAGUA, DORKAS YOMIRA JHERMY</td>
+      <td>ZAMBRANO JIMENEZ, MIGUEL ALONZO</td>
+      <td>BOYCO ORAMS, ALEJANDRO</td>
+    </tr>
+    <tr>
+      <td>GUIMARAY RIBEYRO, JOSE ROBERTO</td>
+      <td>GOMEZ CRIBILLERO, JOSE FELIPE</td>
+      <td>FIORENTINO MARTINEZ, LADY ALY</td>
+      <td>JACOBS LUQUE, NICOLAS</td>
+      <td>DIAZ BERROSPI, KARLINE ROSMELI</td>
+    </tr>
+    <tr>
+      <td>CAMACHO GAVIDIA, ABEL FERNANDO</td>
+      <td>PALOMINO SEGUÍN, AFRANIA</td>
+      <td>LAMA MAVILA, HECTOR ANDRE</td>
+      <td>VIDAL VIDAL, ROCIO GABRIELA</td>
+      <td>RIEGA ESCALANTE, STEPHY ROSARIO</td>
+    </tr>
+    <tr>
+      <td>HUANCA MARTINEZ, JORGE ALBERTO</td>
+      <td>FLORES CADILLO, ALEXIS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Grupo 6</th>
+      <th>Grupo 7</th>
+      <th>Grupo 8</th>
+      <th>Grupo 9</th>
+      <th>Grupo 10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LEVANO TORRES, VALERIA CECILIA</td>
+      <td>AGUILAR GARCIA, ERICK JOSUE</td>
+      <td>HUANCAYA IDONE, CESAR DANTE</td>
+      <td>HINOJOSA CAHUANA, PERCY ALBERTH</td>
+      <td>SOTO PACHERRES, RODRIGO FRANCO</td>
+    </tr>
+    <tr>
+      <td>ESQUIVES BRAVO, SEBASTIAN RENATO</td>
+      <td>CALDAS VELASQUEZ, JOSUE DANIEL</td>
+      <td>CALVO PORTOCARRERO, GABRIELA ISABEL</td>
+      <td>ANGLAS GARCÍA, KEVIN ARTURO</td>
+      <td>INGARUCA RIVERA, GRETTEL ALEXANDRA</td>
+    </tr>
+    <tr>
+      <td>PEREZ GONZALES, JUAN CARLOS</td>
+      <td>SALAS NUÑEZ BORJA, FABIO MANUEL</td>
+      <td>IBAÑEZ ABANTO, ANGEL MAURICIO</td>
+      <td>ALDAVE ACOSTA, CESAR ERNESTO</td>
+      <td>ROJAS HUAMAN, ROSA ANGELA</td>
+    </tr>
+    <tr>
+      <td>OTERO MAGUIÑA, MARIANA</td>
+      <td>PIZARRO VILLANES, FERNANDA NICOLLE</td>
+      <td>MELÉNDEZ APONTE, JUAN DIEGO</td>
+      <td>NÚÑEZ HUAMÁN, CÉSAR AGUSTO</td>
+      <td>NEYRA SALAS, DANTE OMAR</td>
+    </tr>
+    <tr>
+      <td>CLAVO CAMPOS, ANDREA BRIZETH</td>
+      <td>QUILLATUPA MORALES, ANGELA ADELINA</td>
+      <td>CRISTIAN SERRANO, ARONE</td>
+      <td>OBREGON HUAMAN, DIANA EDITH</td>
+      <td>HUERTA ESPINOZA, YAJAIRA ALEXANDRA</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
