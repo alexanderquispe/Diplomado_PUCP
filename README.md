@@ -100,7 +100,7 @@ This course will not have a mandatory bibliography. Python is a widely supported
 2. McKinney, W. (2013). Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media. ISBN: 9789351100065
 
 3. VanderPlas, J. (2016). Python Data Science Handbook. O'Reilly Media. ISBN: 9781491912058
-<!-- 
+
 ## XI. Groups - Second Part
 <table border="1" class="dataframe">
   <thead>
