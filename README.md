@@ -43,11 +43,9 @@ The evaluation will consist of a final work at the end of the course.
 
 |N°| Project | Weighting on Final Grade|
 |---|---|---
-|1|Assignment  1|20%
-|2|Assignment  2|20%
-|3|Assignment  3|20%
-|4|Assignment  4|20%
-|5|Assignment  5|20%
+|1|Assignment  1|33%
+|2|Assignment  2|33%
+|3|Assignment  3|33%
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
