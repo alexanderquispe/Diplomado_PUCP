@@ -43,11 +43,9 @@ The evaluation will consist of a final work at the end of the course.
 
 |N°| Project | Weighting on Final Grade|
 |---|---|---
-|1|Assignment  1|20%
-|2|Assignment  2|20%
-|3|Assignment  3|20%
-|4|Assignment  4|20%
-|5|Assignment  5|20%
+|1|Assignment  1|33%
+|2|Assignment  2|33%
+|3|Assignment  3|33%
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
@@ -59,11 +57,11 @@ This course will not have a mandatory bibliography. Python is a widely supported
 |Week|Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---|---
 |1|12/10/2022|Saturday|14:00-17:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
-|2|12/17/2022|Sunday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
+|2|12/17/2022|Saturday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
 |3|01/07/2023|Saturday|14:00-17:00| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
-|4|01/14/2023|Sunday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
+|4|01/14/2023|Saturday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
 |5|01/21/2023|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
-|6|01/28/2023|Sunday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
+|6|01/28/2023|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
 <!-- 
 ## Intermediate Python Course
 
