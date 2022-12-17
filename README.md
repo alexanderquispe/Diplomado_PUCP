@@ -42,7 +42,7 @@ Classes will be given synchronously using Zoom. In exploring the use of Python f
 The evaluation will consist of a final work at the end of the course.
 
 |N°| Project | Weighting on Final Grade|Date|due
-|---|---|---|---
+|---|---|---|---|---
 |1|Assignment  1|25%|12/17/2022| 01/06/2023
 |2|Assignment  2|25%|01/07/2023| 01/13/2023
 |3|Assignment  3|25%|01/14/2023| 01/20/2023
