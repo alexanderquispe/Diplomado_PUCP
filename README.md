@@ -39,7 +39,7 @@ Classes will be given synchronously using Zoom. In exploring the use of Python f
 
 
 ## VII. Evaluation
-The evaluation will consist of a final work at the end of the course.
+The evaluation will consist of 5 projects. The minimum grade will be deleted. 
 
 |N°| Project | Weighting on Final Grade|Date|due
 |---|---|---|---|---
@@ -47,7 +47,7 @@ The evaluation will consist of a final work at the end of the course.
 |2|Assignment  2|20%|01/07/2023| 01/13/2023
 |3|Assignment  3|20%|01/14/2023| 01/20/2023
 |4|Assignment  4|20%|01/21/2023| 01/27/2023
-|4|Assignment  4|20%|01/28/2023| 02/03/2023
+|5|Assignment  5|20%|01/28/2023| 02/03/2023
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
