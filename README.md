@@ -43,10 +43,11 @@ The evaluation will consist of a final work at the end of the course.
 
 |N°| Project | Weighting on Final Grade|Date|due
 |---|---|---|---|---
-|1|Assignment  1|25%|12/17/2022| 01/06/2023
-|2|Assignment  2|25%|01/07/2023| 01/13/2023
-|3|Assignment  3|25%|01/14/2023| 01/20/2023
-|4|Assignment  4|25%|01/21/2023| 01/27/2023
+|1|Assignment  1|20%|12/17/2022| 01/06/2023
+|2|Assignment  2|20%|01/07/2023| 01/13/2023
+|3|Assignment  3|20%|01/14/2023| 01/20/2023
+|4|Assignment  4|20%|01/21/2023| 01/27/2023
+|4|Assignment  4|20%|01/28/2023| 02/03/2023
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
