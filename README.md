@@ -203,3 +203,15 @@ This course will not have a mandatory bibliography. Python is a widely supported
     </tr>
   </tbody>
 </table> -->
+
+## X. Website
+
+Video tutorials
+
+1. https://www.youtube.com/watch?v=zyGfECfJ9BY
+2. https://www.youtube.com/watch?v=K5xImVmm2Ds
+
+Templates
+
+1. https://bootstrapmade.com/bootstrap-portfolio-templates/
+2. https://cssauthor.com/free-bootstrap-portfolio-templates/
