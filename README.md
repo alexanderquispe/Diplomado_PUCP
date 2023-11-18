@@ -43,11 +43,11 @@ The evaluation will consist of 5 projects. The minimum grade will be deleted.
 
 |N°| Project | Weighting on Final Grade|Date|due
 |---|---|---|---|---
-|1|Assignment  1|20%|12/17/2022| 01/06/2023
-|2|Assignment  2|20%|01/07/2023| 01/13/2023
-|3|Assignment  3|20%|01/14/2023| 01/20/2023
-|4|Assignment  4|20%|01/21/2023| 01/27/2023
-|5|Assignment  5|20%|01/28/2023| 02/03/2023
+|1|Assignment  1|20%|11/19/2022| 11/24/2023
+|2|Assignment  2|20%|11/25/2023| 12/01/2023
+|3|Assignment  3|20%|12/02/2023| 01/08/2023
+|4|Assignment  4|20%|12/09/2023| 12/15/2023
+|5|Assignment  5|20%|12/16/2023| 12/22/2023
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
@@ -105,44 +105,78 @@ This course will not have a mandatory bibliography. Python is a widely supported
       <th>Grupo 4</th>
       <th>Grupo 5</th>
       <th>Grupo 6</th>
+      <th>Grupo 7</th>
+      <th>Grupo 8</th>
+      <th>Grupo 9</th>
+      <th>Grupo 10</th>
+      <th>Grupo 11</th>
+      <th>Grupo 12</th>
+      <th>Grupo 13</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ORELLANA QUISPE, CRISTIAN NASSER</td>
-      <td>SUAÑA ZEGARRA, ADRIAN ANDRE</td>
-      <td>VIDAL VIDAL, ROCIO GABRIELA</td>
-      <td>CALDAS VELASQUEZ, JOSUE DANIEL</td>
-      <td>MELÉNDEZ APONTE, JUAN DIEGO</td>
-      <td>INGARUCA RIVERA, GRETTEL ALEXANDRA</td>
+      <td>ORTIZ PAREDES, CÉSAR MARCELO</td>
+      <td>CALDERON NEYRA, JOSE DANIEL</td>
+      <td>FLOREZ OKUMURA, LEONARDO ANTONIO</td>
+      <td>SORIA PEÑA, CARLOS ALFREDO</td>
+      <td>DIAZ GONZALES, EMMANUEL</td>
+      <td>TITO SANTA CRUZ, KERLY MABEL</td>
+      <td>CORDOVA GAMBOA, ANA PAOLA</td>
+      <td>ZUÑIGA ROMERO, ADRIANA VIOLETA</td>
+      <td>MIÑAN SANCHEZ, LUIS FERNANDO</td>
+      <td>QUISPE MACAVILCA, LUIS CLAUDIO</td>
+      <td>RAMIREZ DE LA CRUZ, KELLY GUADALUPE</td>
+      <td>BENITES GARNIQUE, JOSUE MARCIAL</td>
+      <td>MONTJOY PITA, DANIEL GERAY</td>
     </tr>
     <tr>
-      <td>CAMACHO GAVIDIA, ABEL FERNANDO</td>
-      <td>LAMA MAVILA, HECTOR ANDRE</td>
-      <td>BOYCO ORAMS, ALEJANDRO</td>
-      <td>SALAS NUÑEZ BORJA, FABIO MANUEL</td>
-      <td>CRISTIAN SERRANO, ARONE</td>
-      <td>HUERTA ESPINOZA, YAJAIRA ALEXANDRA</td>
+      <td>CHINCHAY HABICH, FIORELLA ALEXANDRA</td>
+      <td>PINCHI MOREY, CINTHYA VALERIA</td>
+      <td>MORRO MUÑOZ, AURI W</td>
+      <td>MOLLA LEON, WALTER</td>
+      <td>ALARCON GUTIERREZ, EDUARDO BASILIO</td>
+      <td>MEZA VASQUEZ, MILAGROS</td>
+      <td>GAVILAN CASTAÑEDA, MAYRA ALEXANDRA</td>
+      <td>PLASENCIA CUSTODIO, CLAUDIA JIMENA</td>
+      <td>HUAMAN GARCIA, YANELL VALERYN</td>
+      <td>VENERO ACURIO, MARIA DEL CARMEN</td>
+      <td>ZAPATA ROJAS, ALVARO DANTE</td>
+      <td>SUAREZ PATILONGO, MICHAEL SALVADOR</td>
+      <td>VISURRAGA RODIL, JOEL ANDRE</td>
     </tr>
     <tr>
-      <td>TINTAYA ORIHUELA, MEIR ALVARO</td>
-      <td>MEZA HINOJO, GUSTAVO</td>
-      <td>RIEGA ESCALANTE, STEPHY ROSARIO</td>
-      <td>CALVO PORTOCARRERO, GABRIELA ISABEL</td>
-      <td>NÚÑEZ HUAMÁN, CÉSAR AGUSTO</td>
-      <td>HUANCA MARTINEZ, JORGE ALBERTO</td>
+      <td>RAMIREZ GOMERO, VIVIAN RUTH</td>
+      <td>HERRERA ALCOCER, MARIA INES</td>
+      <td>HUAMAN LOAYZA, GUIDO</td>
+      <td>CAJAS FALCÓN, ALONDRA NICOLE</td>
+      <td>ABURTO CAMACLLANQUI, ELÍAS</td>
+      <td>REYNA NIEVA, GINO SALVATTORE</td>
+      <td>RIVAS SU, JUAN DIEGO</td>
+      <td>ECHEVARRIA CARHUANCHO, FRANCISCO ANDRES</td>
+      <td>PASAPERA OROZCO, OSMAN ALDER</td>
+      <td>DELGADO DIAZ, DIEGO GONZALO</td>
+      <td>REMUZGO MELENDEZ, CARMEN ELIZABETH</td>
+      <td>SILVA ZARATE, CECILIA ISAI</td>
+      <td>SALAZAR RODRIGUEZ, MATTIAS GUSTAVO</td>
     </tr>
     <tr>
-      <td>PALOMINO SEGUÍN, AFRANIA</td>
-      <td>JACOBS LUQUE, NICOLAS</td>
-      <td>PEREZ GONZALES, JUAN CARLOS</td>
-      <td>IBAÑEZ ABANTO, ANGEL MAURICIO</td>
-      <td>SOTO PACHERRES, RODRIGO FRANCO</td>
-      <td></td>
+      <td>MENCHOLA GUERRERO, JULISSA ELENA</td>
+      <td>SÁNCHEZ PRIETO, FERNANDO ALONSO</td>
+      <td>TOLEDO RENGIFO, NURIA</td>
+      <td>PANDO PILCO, MARTIN DE JESUS</td>
+      <td>SANTANDER ALVA, DANIELA</td>
+      <td>ARISTA APARI, SERGHI GIANFRANCO</td>
+      <td>AVILES ELIAS, GABRIEL MARCIAL</td>
+      <td>VERA ROMAN, JOSSELYNE ANTUANE</td>
+      <td>FLORES GOICOCHEA, DANIELA SOFIA</td>
+      <td>CANELO CASTILLO, GONZALO ANDRES</td>
+      <td>VELAZCO MUÑOZ, ANAMILE</td>
+      <td>TORREJON MAGUIÑA, CLAUDIA FIORELLA</td>
+      <td>RIVAS MADUEÑO, MAURICIO RICARDO</td>
     </tr>
   </tbody>
 </table>
-
 <!-- <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
