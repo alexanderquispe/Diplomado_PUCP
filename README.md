@@ -43,7 +43,7 @@ The evaluation will consist of 5 projects. The minimum grade will be deleted.
 
 |N°| Project | Weighting on Final Grade|Date|due
 |---|---|---|---|---
-|1|Assignment  1|20%|11/19/2022| 11/24/2023
+|1|Assignment  1|20%|11/19/2023| 11/24/2023
 |2|Assignment  2|20%|11/25/2023| 12/01/2023
 |3|Assignment  3|20%|12/02/2023| 01/08/2023
 |4|Assignment  4|20%|12/09/2023| 12/15/2023
@@ -58,12 +58,12 @@ This course will not have a mandatory bibliography. Python is a widely supported
 
 |Week|Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---|---
-|1|12/10/2022|Saturday|14:00-17:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
-|2|12/17/2022|Saturday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
-|3|01/07/2023|Saturday|14:00-17:00| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
-|4|01/14/2023|Saturday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
-|5|01/21/2023|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
-|6|01/28/2023|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
+|1|11/18/2023|Saturday|14:00-17:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
+|2|11/25/2023|Saturday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
+|3|12/02/2023|Saturday|14:00-17:00| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
+|4|12/09/2023|Saturday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
+|5|12/16/2023|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
+|6|12/23/2023|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
 <!-- 
 ## Intermediate Python Course
 
@@ -81,8 +81,8 @@ This course will not have a mandatory bibliography. Python is a widely supported
  ### Week 6
 |Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---
-|8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
-|8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> -->
+|8/1/2023|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
+|8/1/2023|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> -->
 
 
 
@@ -249,3 +249,6 @@ Templates
 
 1. https://bootstrapmade.com/bootstrap-portfolio-templates/
 2. https://cssauthor.com/free-bootstrap-portfolio-templates/
+
+## XI. Office Hours
+Anzony: Wednesdays 8:00-10:00pm. Use this [link](https://us06web.zoom.us/j/4771998369?pwd=VFZXRlBSdHNES2JUcFRMenV1RVZhUT09).
