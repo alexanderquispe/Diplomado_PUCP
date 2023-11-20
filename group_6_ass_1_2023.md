@@ -1,6 +1,6 @@
 # Favorite Song - Group 6 Assigment 1
 
-## Milagros Meza - Dance with somebody
+## 1. Milagros Meza - Dance with somebody
 Clock strikes upon the hour
 And the sun begins to fade
 Still enough time to figure out
