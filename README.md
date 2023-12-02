@@ -43,11 +43,11 @@ The evaluation will consist of 5 projects. The minimum grade will be deleted.
 
 |N°| Project | Weighting on Final Grade|Date|due
 |---|---|---|---|---
-|1|Assignment  1|20%|12/17/2022| 01/06/2023
-|2|Assignment  2|20%|01/07/2023| 01/13/2023
-|3|Assignment  3|20%|01/14/2023| 01/20/2023
-|4|Assignment  4|20%|01/21/2023| 01/27/2023
-|5|Assignment  5|20%|01/28/2023| 02/03/2023
+|1|Assignment  1|20%|11/19/2023| 11/24/2023
+|2|Assignment  2|20%|11/25/2023| 12/01/2023
+|3|Assignment  3|20%|12/02/2023| 01/08/2023
+|4|Assignment  4|20%|12/09/2023| 12/15/2023
+|5|Assignment  5|20%|12/16/2023| 12/22/2023
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
@@ -58,12 +58,12 @@ This course will not have a mandatory bibliography. Python is a widely supported
 
 |Week|Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---|---
-|1|12/10/2022|Saturday|14:00-17:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
-|2|12/17/2022|Saturday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
-|3|01/07/2023|Saturday|14:00-17:00| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
-|4|01/14/2023|Saturday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
-|5|01/21/2023|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
-|6|01/28/2023|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
+|1|11/18/2023|Saturday|14:00-17:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
+|2|11/25/2023|Saturday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
+|3|12/02/2023|Saturday|14:00-17:00| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
+|4|12/09/2023|Saturday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
+|5|12/16/2023|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
+|6|12/23/2023|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
 <!-- 
 ## Intermediate Python Course
 
@@ -81,8 +81,8 @@ This course will not have a mandatory bibliography. Python is a widely supported
  ### Week 6
 |Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---
-|8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
-|8/1/2022|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> -->
+|8/1/2023|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
+|8/1/2023|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> -->
 
 
 
@@ -104,112 +104,79 @@ This course will not have a mandatory bibliography. Python is a widely supported
       <th>Grupo 3</th>
       <th>Grupo 4</th>
       <th>Grupo 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CORNEJO SANCHEZ, CHRISTIAN SANTOS</td>
-      <td>TINTAYA ORIHUELA, MEIR ALVARO</td>
-      <td>LUZON CUEVA, BIANCA MARIETTE</td>
-      <td>MEZA HINOJO, GUSTAVO</td>
-      <td>TORRES ANICAMA, JANE CAMILA</td>
-    </tr>
-    <tr>
-      <td>ORELLANA QUISPE, CRISTIAN NASSER</td>
-      <td>CHAVEZ MARTINEZ, JOSELIN ALEXANDRA</td>
-      <td>SUAÑA ZEGARRA, ADRIAN ANDRE</td>
-      <td>LOZADA MURILLO, PERSEO MARCELO</td>
-      <td>LOPEZ ESTRADA, MARIA ELISA</td>
-    </tr>
-    <tr>
-      <td>MORALES CHOQUEHUANCA, ANGELICA KARINA</td>
-      <td>FIGUEROA MURO, LEONEL ARTURO</td>
-      <td>SOTO POMACHAGUA, DORKAS YOMIRA JHERMY</td>
-      <td>ZAMBRANO JIMENEZ, MIGUEL ALONZO</td>
-      <td>BOYCO ORAMS, ALEJANDRO</td>
-    </tr>
-    <tr>
-      <td>GUIMARAY RIBEYRO, JOSE ROBERTO</td>
-      <td>GOMEZ CRIBILLERO, JOSE FELIPE</td>
-      <td>FIORENTINO MARTINEZ, LADY ALY</td>
-      <td>JACOBS LUQUE, NICOLAS</td>
-      <td>DIAZ BERROSPI, KARLINE ROSMELI</td>
-    </tr>
-    <tr>
-      <td>CAMACHO GAVIDIA, ABEL FERNANDO</td>
-      <td>PALOMINO SEGUÍN, AFRANIA</td>
-      <td>LAMA MAVILA, HECTOR ANDRE</td>
-      <td>VIDAL VIDAL, ROCIO GABRIELA</td>
-      <td>RIEGA ESCALANTE, STEPHY ROSARIO</td>
-    </tr>
-    <tr>
-      <td>HUANCA MARTINEZ, JORGE ALBERTO</td>
-      <td>FLORES CADILLO, ALEXIS</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
       <th>Grupo 6</th>
       <th>Grupo 7</th>
       <th>Grupo 8</th>
       <th>Grupo 9</th>
       <th>Grupo 10</th>
+      <th>Grupo 11</th>
+      <th>Grupo 12</th>
+      <th>Grupo 13</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>LEVANO TORRES, VALERIA CECILIA</td>
-      <td>AGUILAR GARCIA, ERICK JOSUE</td>
-      <td>HUANCAYA IDONE, CESAR DANTE</td>
-      <td>HINOJOSA CAHUANA, PERCY ALBERTH</td>
-      <td>SOTO PACHERRES, RODRIGO FRANCO</td>
+      <td>ORTIZ PAREDES, CÉSAR MARCELO</td>
+      <td>CALDERON NEYRA, JOSE DANIEL</td>
+      <td>FLOREZ OKUMURA, LEONARDO ANTONIO</td>
+      <td>SORIA PEÑA, CARLOS ALFREDO</td>
+      <td>DIAZ GONZALES, EMMANUEL</td>
+      <td>TITO SANTA CRUZ, KERLY MABEL</td>
+      <td>CORDOVA GAMBOA, ANA PAOLA</td>
+      <td>ZUÑIGA ROMERO, ADRIANA VIOLETA</td>
+      <td>MIÑAN SANCHEZ, LUIS FERNANDO</td>
+      <td>QUISPE MACAVILCA, LUIS CLAUDIO</td>
+      <td>RAMIREZ DE LA CRUZ, KELLY GUADALUPE</td>
+      <td>BENITES GARNIQUE, JOSUE MARCIAL</td>
+      <td>MONTJOY PITA, DANIEL GERAY</td>
     </tr>
     <tr>
-      <td>ESQUIVES BRAVO, SEBASTIAN RENATO</td>
-      <td>CALDAS VELASQUEZ, JOSUE DANIEL</td>
-      <td>CALVO PORTOCARRERO, GABRIELA ISABEL</td>
-      <td>ANGLAS GARCÍA, KEVIN ARTURO</td>
-      <td>INGARUCA RIVERA, GRETTEL ALEXANDRA</td>
+      <td>CHINCHAY HABICH, FIORELLA ALEXANDRA</td>
+      <td>PINCHI MOREY, CINTHYA VALERIA</td>
+      <td>MORRO MUÑOZ, AURI W</td>
+      <td>MOLLA LEON, WALTER</td>
+      <td>ALARCON GUTIERREZ, EDUARDO BASILIO</td>
+      <td>MEZA VASQUEZ, MILAGROS</td>
+      <td>GAVILAN CASTAÑEDA, MAYRA ALEXANDRA</td>
+      <td>PLASENCIA CUSTODIO, CLAUDIA JIMENA</td>
+      <td>HUAMAN GARCIA, YANELL VALERYN</td>
+      <td>VENERO ACURIO, MARIA DEL CARMEN</td>
+      <td>ZAPATA ROJAS, ALVARO DANTE</td>
+      <td>SUAREZ PATILONGO, MICHAEL SALVADOR</td>
+      <td>VISURRAGA RODIL, JOEL ANDRE</td>
     </tr>
     <tr>
-      <td>PEREZ GONZALES, JUAN CARLOS</td>
-      <td>SALAS NUÑEZ BORJA, FABIO MANUEL</td>
-      <td>IBAÑEZ ABANTO, ANGEL MAURICIO</td>
-      <td>ALDAVE ACOSTA, CESAR ERNESTO</td>
-      <td>ROJAS HUAMAN, ROSA ANGELA</td>
+      <td>RAMIREZ GOMERO, VIVIAN RUTH</td>
+      <td>HERRERA ALCOCER, MARIA INES</td>
+      <td>HUAMAN LOAYZA, GUIDO</td>
+      <td>CAJAS FALCÓN, ALONDRA NICOLE</td>
+      <td>ABURTO CAMACLLANQUI, ELÍAS</td>
+      <td>REYNA NIEVA, GINO SALVATTORE</td>
+      <td>RIVAS SU, JUAN DIEGO</td>
+      <td>ECHEVARRIA CARHUANCHO, FRANCISCO ANDRES</td>
+      <td>PASAPERA OROZCO, OSMAN ALDER</td>
+      <td>DELGADO DIAZ, DIEGO GONZALO</td>
+      <td>REMUZGO MELENDEZ, CARMEN ELIZABETH</td>
+      <td>SILVA ZARATE, CECILIA ISAI</td>
+      <td>SALAZAR RODRIGUEZ, MATTIAS GUSTAVO</td>
     </tr>
     <tr>
-      <td>OTERO MAGUIÑA, MARIANA</td>
-      <td>PIZARRO VILLANES, FERNANDA NICOLLE</td>
-      <td>MELÉNDEZ APONTE, JUAN DIEGO</td>
-      <td>NÚÑEZ HUAMÁN, CÉSAR AGUSTO</td>
-      <td>NEYRA SALAS, DANTE OMAR</td>
-    </tr>
-    <tr>
-      <td>CLAVO CAMPOS, ANDREA BRIZETH</td>
-      <td>QUILLATUPA MORALES, ANGELA ADELINA</td>
-      <td>CRISTIAN SERRANO, ARONE</td>
-      <td>OBREGON HUAMAN, DIANA EDITH</td>
-      <td>HUERTA ESPINOZA, YAJAIRA ALEXANDRA</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>MENCHOLA GUERRERO, JULISSA ELENA</td>
+      <td>SÁNCHEZ PRIETO, FERNANDO ALONSO</td>
+      <td>TOLEDO RENGIFO, NURIA</td>
+      <td>PANDO PILCO, MARTIN DE JESUS</td>
+      <td>SANTANDER ALVA, DANIELA</td>
+      <td>ARISTA APARI, SERGHI GIANFRANCO</td>
+      <td>AVILES ELIAS, GABRIEL MARCIAL</td>
+      <td>VERA ROMAN, JOSSELYNE ANTUANE</td>
+      <td>FLORES GOICOCHEA, DANIELA SOFIA</td>
+      <td>CANELO CASTILLO, GONZALO ANDRES</td>
+      <td>VELAZCO MUÑOZ, ANAMILE</td>
+      <td>TORREJON MAGUIÑA, CLAUDIA FIORELLA</td>
+      <td>RIVAS MADUEÑO, MAURICIO RICARDO</td>
     </tr>
   </tbody>
 </table>
-
 <!-- <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -270,3 +237,18 @@ This course will not have a mandatory bibliography. Python is a widely supported
     </tr>
   </tbody>
 </table> -->
+
+## X. Website
+
+Video tutorials
+
+1. https://www.youtube.com/watch?v=zyGfECfJ9BY
+2. https://www.youtube.com/watch?v=K5xImVmm2Ds
+
+Templates
+
+1. https://bootstrapmade.com/bootstrap-portfolio-templates/
+2. https://cssauthor.com/free-bootstrap-portfolio-templates/
+
+## XI. Office Hours
+Anzony: Wednesdays 8:00-10:00pm. Use this [link](https://us06web.zoom.us/j/4771998369?pwd=VFZXRlBSdHNES2JUcFRMenV1RVZhUT09).
