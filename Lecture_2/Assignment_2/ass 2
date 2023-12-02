@@ -1,0 +1,30 @@
+#Tuple
+tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
+tuple2 = ([7, 8], [9, 1], [10, 7])
+
+##1. Print the first item of the second item of tuple 1 object
+item2 = tuple1[1]
+first_item = item2[0]
+print("the first item of the second item is: ",first_item)
+
+##2. Print the last item of the tuple1
+last_item = tuple1 [-1]
+print("the last item is: ", last_item)
+
+##3. Change the value "orange" for "pink grapefruit".
+tuple1[0]= "pink grapefruit"
+print(tuple1)
+###This is a error because tuples are inmutable,this means it cannot be changed###
+
+###4. Print the length of tuple1.
+length = len(tuple1)
+print("the lengh of tuple1 is:", length)
+
+##5. Sum all the elements of tuple2 and describe the steps
+sum_tuple2= sum(list(map(sum,tuple2)))
+print("the answer is:", sum_tuple2)
+ ### the fist line creates a new object name sum_tuple2
+ ### then i used 'map' to sum each item in tuple2, so we get 3 partial sums
+ ### this gives us a map object than later is changed to a list with the function 'list'
+ ###this allows to sum the partial sums with the function 'sum'
+ ###finally i print the answer
