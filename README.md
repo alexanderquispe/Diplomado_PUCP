@@ -65,25 +65,6 @@ This course will not have a mandatory bibliography. Python is a widely supported
 |5|12/16/2023|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
 |6|12/23/2023|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul> 
 <!-- 
-## Intermediate Python Course
-
-### Week 4
-|Date|Day|Schedule|Topic|Subtopic
-|---|---|---|---|---
-|11/12/2021|Saturday|14:00-17:00| WebScraping| <ul>  <li> Selenium </ul> 
-
-
-### Week 5
-|Date|Day|Schedule|Topic|Subtopic
-|---|---|---|---|---
-|18/12/2021|Saturday|14:00-17:00| Geocoding| <ul>  <li> Googlemaps </ul> 
-
- ### Week 6
-|Date|Day|Schedule|Topic|Subtopic
-|---|---|---|---|---
-|8/1/2023|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
-|8/1/2023|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> -->
-
 
 
   
@@ -96,147 +77,13 @@ This course will not have a mandatory bibliography. Python is a widely supported
 3. VanderPlas, J. (2016). Python Data Science Handbook. O'Reilly Media. ISBN: 9781491912058
 
 ## XI. Groups - Second Part
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Grupo 1</th>
-      <th>Grupo 2</th>
-      <th>Grupo 3</th>
-      <th>Grupo 4</th>
-      <th>Grupo 5</th>
-      <th>Grupo 6</th>
-      <th>Grupo 7</th>
-      <th>Grupo 8</th>
-      <th>Grupo 9</th>
-      <th>Grupo 10</th>
-      <th>Grupo 11</th>
-      <th>Grupo 12</th>
-      <th>Grupo 13</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ORTIZ PAREDES, CÉSAR MARCELO</td>
-      <td>CALDERON NEYRA, JOSE DANIEL</td>
-      <td>FLOREZ OKUMURA, LEONARDO ANTONIO</td>
-      <td>SORIA PEÑA, CARLOS ALFREDO</td>
-      <td>DIAZ GONZALES, EMMANUEL</td>
-      <td>TITO SANTA CRUZ, KERLY MABEL</td>
-      <td>CORDOVA GAMBOA, ANA PAOLA</td>
-      <td>ZUÑIGA ROMERO, ADRIANA VIOLETA</td>
-      <td>MIÑAN SANCHEZ, LUIS FERNANDO</td>
-      <td>QUISPE MACAVILCA, LUIS CLAUDIO</td>
-      <td>RAMIREZ DE LA CRUZ, KELLY GUADALUPE</td>
-      <td>BENITES GARNIQUE, JOSUE MARCIAL</td>
-      <td>MONTJOY PITA, DANIEL GERAY</td>
-    </tr>
-    <tr>
-      <td>CHINCHAY HABICH, FIORELLA ALEXANDRA</td>
-      <td>PINCHI MOREY, CINTHYA VALERIA</td>
-      <td>MORRO MUÑOZ, AURI W</td>
-      <td>MOLLA LEON, WALTER</td>
-      <td>ALARCON GUTIERREZ, EDUARDO BASILIO</td>
-      <td>MEZA VASQUEZ, MILAGROS</td>
-      <td>GAVILAN CASTAÑEDA, MAYRA ALEXANDRA</td>
-      <td>PLASENCIA CUSTODIO, CLAUDIA JIMENA</td>
-      <td>HUAMAN GARCIA, YANELL VALERYN</td>
-      <td>VENERO ACURIO, MARIA DEL CARMEN</td>
-      <td>ZAPATA ROJAS, ALVARO DANTE</td>
-      <td>SUAREZ PATILONGO, MICHAEL SALVADOR</td>
-      <td>VISURRAGA RODIL, JOEL ANDRE</td>
-    </tr>
-    <tr>
-      <td>RAMIREZ GOMERO, VIVIAN RUTH</td>
-      <td>HERRERA ALCOCER, MARIA INES</td>
-      <td>HUAMAN LOAYZA, GUIDO</td>
-      <td>CAJAS FALCÓN, ALONDRA NICOLE</td>
-      <td>ABURTO CAMACLLANQUI, ELÍAS</td>
-      <td>REYNA NIEVA, GINO SALVATTORE</td>
-      <td>RIVAS SU, JUAN DIEGO</td>
-      <td>ECHEVARRIA CARHUANCHO, FRANCISCO ANDRES</td>
-      <td>PASAPERA OROZCO, OSMAN ALDER</td>
-      <td>DELGADO DIAZ, DIEGO GONZALO</td>
-      <td>REMUZGO MELENDEZ, CARMEN ELIZABETH</td>
-      <td>SILVA ZARATE, CECILIA ISAI</td>
-      <td>SALAZAR RODRIGUEZ, MATTIAS GUSTAVO</td>
-    </tr>
-    <tr>
-      <td>MENCHOLA GUERRERO, JULISSA ELENA</td>
-      <td>SÁNCHEZ PRIETO, FERNANDO ALONSO</td>
-      <td>TOLEDO RENGIFO, NURIA</td>
-      <td>PANDO PILCO, MARTIN DE JESUS</td>
-      <td>SANTANDER ALVA, DANIELA</td>
-      <td>ARISTA APARI, SERGHI GIANFRANCO</td>
-      <td>AVILES ELIAS, GABRIEL MARCIAL</td>
-      <td>VERA ROMAN, JOSSELYNE ANTUANE</td>
-      <td>FLORES GOICOCHEA, DANIELA SOFIA</td>
-      <td>CANELO CASTILLO, GONZALO ANDRES</td>
-      <td>VELAZCO MUÑOZ, ANAMILE</td>
-      <td>TORREJON MAGUIÑA, CLAUDIA FIORELLA</td>
-      <td>RIVAS MADUEÑO, MAURICIO RICARDO</td>
-    </tr>
-  </tbody>
-</table>
-<!-- <table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Group 1</th>
-      <th>Group 2</th>
-      <th>Group 3</th>
-      <th>Group 4</th>
-      <th>Group 5</th>
-      <th>Group 6</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>CORNEJO CASTELLANO, GISSELA CAROLINA</td>
-      <td>DIAZ ROMERO, RAYSA MARIANA</td>
-      <td>SOTO HURTADO, DANIEL MARTIN</td>
-      <td>HIDALGO SEDANO, FERNANDO SEBASTIAN</td>
-      <td>RIOS GAYTAN, MARIO JONATHAN</td>
-      <td>OSORES MENDIVES, JULIO ROBERTO</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>ZEGARRA DIAZ, KATHERINE VERONICA</td>
-      <td>NAVARRO PEÑA, VALERIA ALEXANDRA</td>
-      <td>HUAMAN ROCCA, IVETTE SUSANA</td>
-      <td>GASTAÑADUY FIESTAS, JESUS EDUARDO</td>
-      <td>AZULA PASTOR, JUAN LUIS</td>
-      <td>FIGUEROA VALDIVIA, LUCIANA</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>MOSQUEIRA CARRION, ADRIANA BERENICE</td>
-      <td>LOZANO RUIZ, KLARY MARLIT</td>
-      <td>ALAMO RAMOS, LUIS RODRIGO</td>
-      <td>KONG VEGA, CARLOS DANIEL</td>
-      <td>CARRILLO MIRANDA, ANA PAULA</td>
-      <td>ZAMORA MENDOZA, CHIARA MARIANNE</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>COLETTI ROMERO, ROBERT</td>
-      <td>AGUIRRE CCERARE, HANS ISAÍ</td>
-      <td>VILLENA TAGLE, CLAUDIA ARIANA</td>
-      <td>RAMOS CAMERO, BELLA ROSARIO</td>
-      <td>GALLARDO ARBILDO, JOSE DIEGO</td>
-      <td>AYALA VALENCIA, YOSEPH DANIEL</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>PALACIOS GÁLVEZ, ANDRÉS ANÍBAL</td>
-      <td>ZELADA CHAMBILLA, CARLOS ANDRÉS</td>
-      <td>GRIJALBA TOUZETT, RODRIGO ANTONIO</td>
-      <td>LÓPEZ BARBARÁN, LUZMILA LIBIA</td>
-      <td>AYALA LAUREL, ANTONIO MANUEL</td>
-      <td>CRUZ MANRIQUE, REINER</td>
-    </tr>
-  </tbody>
-</table> -->
+| Group1                             | Group2                                  | Group3                              | Group4                             | Group5                          | Group6                           | Group7                             |
+| ---------------------------------- | --------------------------------------- | ----------------------------------- | ---------------------------------- | ------------------------------- | -------------------------------- | ---------------------------------- |
+| REYNA NIEVA, GINO SALVATTORE       | ZUÑIGA ROMERO, ADRIANA VIOLETA          | FLORES GOICOCHEA, DANIELA SOFIA     | REMUZGO MELENDEZ, CARMEN ELIZABETH | QUISPE PAUCAR, ANGIE CRISTINA   | SÁNCHEZ PRIETO, FERNANDO ALONSO  | DIAZ GONZALES, EMMANUEL            |
+| ARISTA APARI, SERGHI GIANFRANCO    | PLASENCIA CUSTODIO, CLAUDIA JIMENA      | QUISPE MACAVILCA, LUIS CLAUDIO      | BENITES GARNIQUE, JOSUE MARCIAL    | MONTJOY PITA, DANIEL GERAY      | FLOREZ OKUMURA, LEONARDO ANTONIO | ALARCON GUTIERREZ, EDUARDO BASILIO |
+| CORDOVA GAMBOA, ANA PAOLA          | ECHEVARRIA CARHUANCHO, FRANCISCO ANDRES | DELGADO DIAZ, DIEGO GONZALO         | SUAREZ PATILONGO, MICHAEL SALVADOR | VISURRAGA RODIL, JOEL ANDRE     | MOLLA LEON, WALTER               | ABURTO CAMACLLANQUI, ELÍAS         |
+| GAVILAN CASTAÑEDA, MAYRA ALEXANDRA | VERA ROMAN, JOSSELYNE ANTUANE           | RAMIREZ DE LA CRUZ, KELLY GUADALUPE | SILVA ZARATE, CECILIA ISAI         | RIVAS MADUEÑO, MAURICIO RICARDO | CAJAS FALCÓN, ALONDRA NICOLE     | SANTANDER ALVA, DANIELA            |
+| RIVAS SU, JUAN DIEGO               | HUAMAN GARCIA, YANELL VALERYN           | ZAPATA ROJAS, ALVARO DANTE          | TORREJON MAGUIÑA, CLAUDIA FIORELLA | CALDERON NEYRA, JOSE DANIEL     | PANDO PILCO, MARTIN DE JESUS     |
 
 ## X. Website
 
