@@ -15,7 +15,7 @@ Python has emerged as a popular programming language for GIS due to its versatil
 
 ```{python}
 # requirementss
-# %pip install geopandas matplotlib shapely rasterio numpy pandas -q
+# %pip install geopandas matplotlib shapely rasterio numpy pandas sklearn-xarray -q
 # %pip install git+https://github.com/jgrss/geowombat  -q
 ```
 
@@ -547,14 +547,15 @@ plt.tight_layout(pad=1)
 #### Plot a local File
 
 ```{python}
+!wget -cq --show-progress "https://github.com/alexanderquispe/Diplomado_PUCP/raw/lecture14/Lecture_14/temp/LC08_20200518_webMC.tif"
+
 fix, ax = plt.subplots(dpi=200)
 
-# with gw.open("./temp/LC08_20200518_webMC.tif", band_names=["blue"]) as src:
 with gw.open(
-    "https://github.com/alexanderquispe/Diplomado_PUCP/raw/lecture14/Lecture_14/temp/LC08_20200518_webMC.tif",
-    band_names=["blue"],
+    "/content/LC08_20200518_webMC.tif",
+
 ) as src:
-    src.where(src != 0).sel(band=[3, 2, 1]).plot.imshow(robust=True, ax=ax)
+    src.where(src !=0).plot.imshow(robust=True, ax=ax)
 plt.tight_layout(pad=1)
 ```
 
@@ -865,7 +866,6 @@ import geowombat as gw
 from geowombat.data import l8_224078_20200518, l8_224078_20200518_polygons
 from geowombat.ml import fit, predict, fit_predict
 import geopandas as gpd
-from sklearn_xarray.preprocessing import Featurizer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.decomposition import PCA
@@ -875,7 +875,7 @@ le = LabelEncoder()
 
 # The labels are string names, so here we convert them to integers
 labels = gpd.read_file(l8_224078_20200518_polygons)
-labels['lc'] = le.fit(labels.name).transform(labels.name)
+labels["lc"] = le.fit(labels.name).transform(labels.name)
 print(labels)
 ```
 
