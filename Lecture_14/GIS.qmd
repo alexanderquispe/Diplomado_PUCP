@@ -16,7 +16,7 @@ Python has emerged as a popular programming language for GIS due to its versatil
 ```{python}
 # requirementss
 # %pip install geopandas matplotlib shapely rasterio numpy pandas -q
-# %pip install git+https://github.com/jgrss/geowombat --user -q
+# %pip install git+https://github.com/jgrss/geowombat  -q
 ```
 
 
@@ -713,6 +713,7 @@ plt.tight_layout(pad=1)
 Note that the rasters have missing data. To join the 2 rasters, we can use the following syntax:
 
 ```{python}
+fix, ax = plt.subplots(dpi=100)
 with gw.open(
     [l8_224077_20200518_B2, l8_224078_20200518_B2],  # images, o raster path
     band_names=["blue"],  # band
