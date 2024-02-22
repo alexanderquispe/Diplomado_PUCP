@@ -10,4 +10,4 @@
 - [x] Remote Sensing Coordinate Reference Systems
 - [x] Handle Multiple Remotely Sensed Images
 - [x] Raster Data Extraction
-- [] Spatial Prediction using ML in Python
+- [ ] Spatial Prediction using ML in Python
