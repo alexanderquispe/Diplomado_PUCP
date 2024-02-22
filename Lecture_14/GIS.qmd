@@ -549,7 +549,11 @@ plt.tight_layout(pad=1)
 ```{python}
 fix, ax = plt.subplots(dpi=200)
 
-with gw.open("./temp/LC08_20200518_webMC.tif", band_names=["blue"]) as src:
+# with gw.open("./temp/LC08_20200518_webMC.tif", band_names=["blue"]) as src:
+with gw.open(
+    "https://github.com/alexanderquispe/Diplomado_PUCP/raw/lecture14/Lecture_14/temp/LC08_20200518_webMC.tif",
+    band_names=["blue"],
+) as src:
     src.where(src != 0).sel(band=[3, 2, 1]).plot.imshow(robust=True, ax=ax)
 plt.tight_layout(pad=1)
 ```
@@ -847,3 +851,183 @@ df.query("name == 'water'").plot()
 <!-- https://pygis.io/docs/f_rs_ml_predict.html#spatial-prediction-using-ml-in-python -->
 
 
+
+### Land Use Classification using Geowombat & Sklearn
+
+Creating land cover classification is a common task for remotely sensed data. In this tutorial, we'll demonstrate how to train a machine learning (ML) model using raster data. These methods heavily rely on the `sklearn_xarray` package. For understanding the pipeline commands, please refer to their documentation and [examples](https://scikit-learn.org/stable/auto_examples/index.html#pipelines-and-composite-estimators).
+
+#### Supervised Classification in Python
+
+In the following example, we'll utilize Landsat data and some training data to train a supervised `sklearn` model. The initial step involves having land classifications for a set of points or polygons. For instance, we have three polygons with the classes ['water', 'crop', 'tree', 'developed']. The first step is to use `LabelEncoder` to convert these classes into integer-based categories, stored in a new column called 'lc'.
+
+```{python}
+import geowombat as gw
+from geowombat.data import l8_224078_20200518, l8_224078_20200518_polygons
+from geowombat.ml import fit, predict, fit_predict
+import geopandas as gpd
+from sklearn_xarray.preprocessing import Featurizer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.naive_bayes import GaussianNB
+
+le = LabelEncoder()
+
+# The labels are string names, so here we convert them to integers
+labels = gpd.read_file(l8_224078_20200518_polygons)
+labels['lc'] = le.fit(labels.name).transform(labels.name)
+print(labels)
+```
+
+After converting the labels, we'll generate our `sklearn` pipeline, which includes normalization, principal component analysis (PCA) for dimensionality reduction, and a Gaussian Naive Bayes classifier.
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Use a data pipeline
+pl = Pipeline([('scaler', StandardScaler()),
+               ('pca', PCA()),
+               ('clf', GaussianNB())])
+
+fig, ax = plt.subplots(dpi=200, figsize=(5, 5))
+
+# Fit the classifier
+with gw.config.update(ref_res=150):
+    with gw.open(l8_224078_20200518, nodata=0) as src:
+        X, Xy, clf = fit(src, pl, labels, col="lc")
+        y = predict(src, X, clf)
+        y.plot(robust=True, ax=ax)
+plt.tight_layout(pad=1)
+```
+
+Alternatively, to fit and predict the model in one step, we use `fit_predict`:
+
+```{python}
+from geowombat.ml import fit_predict
+fig, ax = plt.subplots(dpi=200, figsize=(5, 5))
+
+with gw.config.update(ref_res=150):
+    with gw.open(l8_224078_20200518, nodata=0) as src:
+        y = fit_predict(src, pl, labels, col='lc')
+        y.plot(robust=True, ax=ax)
+plt.tight_layout(pad=1)
+```
+
+
+#### Unsupervised Classification in Python
+
+Unsupervised classification takes a different approach. Here, we don’t provide examples of different land cover types. Instead, we rely on the algorithm to identify distinct clusters of similar data and apply a unique label to each cluster. For example, water and trees will look very different in terms of their reflectance properties. Water reflects more blue and absorbs all the near-infrared, while trees reflect little blue and a lot of near-infrared. 
+
+Therefore, water and trees should cluster together when plotted based on their different reflectances. These clusters will be assigned a unique value to each pixel (e.g., water = 1 and trees = 2), and later, the end user will need to assign the label to each numbered cluster (e.g., water = 1, trees = 2).
+
+
+In this example, we'll use KMeans to perform clustering. We need to decide beforehand how many clusters we want to identify. Typically, it's recommended to roughly double the number of expected classes and then recombine them later into the desired labels. This helps in better understanding and categorizing the variation in your image.
+
+```{python}
+from sklearn.cluster import KMeans
+
+cl = Pipeline([('clf', KMeans(n_clusters=6, random_state=0))])
+
+fig, ax = plt.subplots(dpi=200, figsize=(5, 5))
+
+# Fit_predict unsupervised classifier
+with gw.config.update(ref_res=150):
+    with gw.open(l8_224078_20200518, nodata=0) as src:
+        y = fit_predict(src, cl)
+        y.plot(robust=True, ax=ax)
+plt.tight_layout(pad=1)
+```
+
+In this case, we can observe that it effectively labels different clusters of data, and now it's up to us to determine which clusters should be categorized as water, trees, fields, etc.
+
+### Spatial Prediction with Time Series Stack
+
+When working with a stack of time series data, applying the same method as described previously is straightforward. However, we need to open multiple images, set `stack_dim` to 'time', and specify the `time_names`. Below, we're pretending to have two dates of Landsat imagery.
+
+```{python}
+fig, ax = plt.subplots(dpi=200, figsize=(5, 5))
+
+with gw.config.update(ref_res=150):
+    with gw.open(
+        [l8_224078_20200518, l8_224078_20200518],
+        time_names=["t1", "t2"],
+        stack_dim="time",
+        nodata=0,
+    ) as src:
+        y = fit_predict(src, pl, labels, col="lc")
+        print(y)
+        # plot one time period prediction
+        y.sel(time="t1").plot(robust=True, ax=ax)
+```
+
+The above code performs spatial prediction with a time series stack. It opens multiple images, sets the stack dimension to 'time', and specifies the time names. After fitting and predicting the model, it plots the prediction for one time period.
+
+If you want to perform more sophisticated model tuning using sklearn, you can break up your fit and predict steps as follows:
+
+```{python}
+fig, ax = plt.subplots(dpi=200, figsize=(5, 5))
+
+with gw.config.update(ref_res=150):
+    with gw.open(l8_224078_20200518, nodata=0) as src:
+        X, Xy, clf = fit(src, pl, labels, col="lc")
+        y = predict(src, X, clf)
+        y.plot(robust=True, ax=ax)
+```
+
+This code demonstrates how to perform model tuning using sklearn. It fits the model, makes predictions, and plots the results.
+
+### Evaluating Model Performance and Hyperparameter Tuning
+
+Assessing model performance is crucial for successfully building a model. Sklearn provides various built-in tools for this purpose. One common method is k-fold cross-validation, where the data is divided into independent sets of training and testing data multiple times. This allows us to assess the model's ability to predict outcomes on unseen data.
+
+In this scenario, we'll use the supervised classification pipeline `pl` from earlier and perform cross-validation using k-fold. To use k-fold with Geowombat, we need to employ `CrossValidatorWrapper`, as shown in the example below, to work with xarray objects.
+
+Hyperparameter tuning is also essential. For example, we may need to determine the number of PCA components or experiment with scaling the data range using `StandardScaler`. To perform hyperparameter tuning with `GridSearchCV` in a pipeline, we need to set up the parameter grid. Here's an example:
+
+```{python}
+pl = Pipeline([("scaler", StandardScaler()), ("pca", PCA()), ("clf", GaussianNB())])
+
+param_grid = {"scaler__with_std": [True, False], "pca__n_components": [1, 2, 3]}
+```
+
+In the `param_grid` dictionary, each step in the pipeline is labeled (e.g., 'scaler', 'pca', 'clf'). We reference these steps by name to try out different parameters for each step. For instance, `"pca__n_components": [1, 2, 3]` indicates that we'll experiment with three different values for the `n_components` parameter in the PCA step to choose the one that best predicts our testing data.
+
+
+```{python}
+from sklearn.model_selection import GridSearchCV, KFold
+from sklearn_xarray.model_selection import CrossValidatorWrapper
+
+pl = Pipeline([('scaler', StandardScaler()),
+               ('pca', PCA()),
+               ('clf', GaussianNB())])
+
+cv = CrossValidatorWrapper(KFold())
+gridsearch = GridSearchCV(pl, cv=cv, scoring='balanced_accuracy',
+                    param_grid={
+                      "scaler__with_std":[True,False],
+                      "pca__n_components": [1, 2, 3]
+                      })
+
+fig, ax = plt.subplots(dpi=200,figsize=(5,5))
+
+with gw.config.update(ref_res=150):
+    with gw.open(l8_224078_20200518, nodata=0) as src:
+        # fit a model to get Xy used to train model
+        X, Xy, pipe = fit(src, pl, labels, col="lc")
+
+        # fit cross valiation and parameter tuning
+        # NOTE: must unpack * object Xy
+        gridsearch.fit(*Xy)
+        print(gridsearch.cv_results_)
+        print(gridsearch.best_score_)
+        print(gridsearch.best_params_)        
+
+        # get set tuned parameters and make the prediction
+        # Note: predict(gridsearch.best_model_) not currently supported
+        pipe.set_params(**gridsearch.best_params_)
+        y = predict(src, X, pipe)
+        y.plot(robust=True, ax=ax)
+plt.tight_layout(pad=1)
+```
+
+In order to create a model with the optimal parameters we need to use `gridsearch.best_params_`, which holds a dictionary of each parameter and its optimal value. To `use` these values we need to update the parameters held in our returned pipeline, pipe, by using the `.set_params` method.
