@@ -1,0 +1,15 @@
+1 113 140 108 255 MSZ, open spaces, low vegetation surfaces NDVI <= 0.3
+2 138 216 107 255 MSZ, open spaces, medium vegetation surfaces 0.3 < NDVI <= 0.5
+3 193 255 161 255 MSZ, open spaces, high vegetation surfaces NDVI > 0.5
+4 86 86 86 255 MSZ, open spaces, water surfaces LAND < 0.5
+5 103 103 103 255 MSZ, open spaces, road surfaces 
+11 210 130 0 255 MSZ, built spaces, residential, building height <= 3m
+12 254 89 0 255 MSZ, built spaces, residential, 3m < building height <= 6m
+13 255 1 1 255 MSZ, built spaces, residential, 6m < building height <= 15m
+14 206 0 27 255 MSZ, built spaces, residential, 15m < building height <= 30m
+15 122 0 10 255 MSZ, built spaces, residential, building height > 30m
+21 255 159 244 255 MSZ, built spaces, non-residential, building height <=3m
+22 255 103 228 255 MSZ, built spaces, non-residential, 3m < building height <= 6m
+23 247 1 255 255 MSZ, built spaces, non-residential, 6m < building height <= 15m
+24 166 1 255 255 MSZ, built spaces, non-residential, 15m < building height <= 30m
+25 110 0 254 255 MSZ, built spaces, non-residential, building height > 30m
