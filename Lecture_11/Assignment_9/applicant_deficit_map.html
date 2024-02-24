@@ -1,0 +1,3344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_751277219c4b0ab434bc0f6031814bd6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_751277219c4b0ab434bc0f6031814bd6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_751277219c4b0ab434bc0f6031814bd6 = L.map(
+                "map_751277219c4b0ab434bc0f6031814bd6",
+                {
+                    center: [-11.140999581395349, -75.55083725581396],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f7679db0b7a59ddce2212d2e2577bbb0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f7679db0b7a59ddce2212d2e2577bbb0.addTo(map_751277219c4b0ab434bc0f6031814bd6);
+        
+    
+            var feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_f9f0169d4bb88021f1000701bc247c8b = L.circle(
+                [-14.79923, -71.41132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5652.173913043478, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_41dd1740494d0e08466a33e693c10c7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb89e53920e01dd577a58b388a8f2a44 = $(`<div id="html_eb89e53920e01dd577a58b388a8f2a44" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5652173913043478</div>`)[0];
+                popup_41dd1740494d0e08466a33e693c10c7b.setContent(html_eb89e53920e01dd577a58b388a8f2a44);
+            
+        
+
+        circle_f9f0169d4bb88021f1000701bc247c8b.bindPopup(popup_41dd1740494d0e08466a33e693c10c7b)
+        ;
+
+        
+    
+    
+            circle_f9f0169d4bb88021f1000701bc247c8b.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_df45b4d9505a102957a5e5b146e5cb42 = L.circle(
+                [-13.51953, -71.98321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6288.288288288289, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_5bf5d22393e7ff1040c33438cf3a9ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcd562e1d3072ae84217dbab1a7d2f35 = $(`<div id="html_dcd562e1d3072ae84217dbab1a7d2f35" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6288288288288288</div>`)[0];
+                popup_5bf5d22393e7ff1040c33438cf3a9ab6.setContent(html_dcd562e1d3072ae84217dbab1a7d2f35);
+            
+        
+
+        circle_df45b4d9505a102957a5e5b146e5cb42.bindPopup(popup_5bf5d22393e7ff1040c33438cf3a9ab6)
+        ;
+
+        
+    
+    
+            circle_df45b4d9505a102957a5e5b146e5cb42.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ce8cd7b5dc5ab5ba1f982fcfa23e2b2 = L.circle(
+                [-12.8665, -72.68892],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6432.4324324324325, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_6526a40bbbcda9f8d62df042bb708f9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdc0dd076f34ccfb6b2299de89aca348 = $(`<div id="html_bdc0dd076f34ccfb6b2299de89aca348" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6432432432432432</div>`)[0];
+                popup_6526a40bbbcda9f8d62df042bb708f9a.setContent(html_bdc0dd076f34ccfb6b2299de89aca348);
+            
+        
+
+        circle_6ce8cd7b5dc5ab5ba1f982fcfa23e2b2.bindPopup(popup_6526a40bbbcda9f8d62df042bb708f9a)
+        ;
+
+        
+    
+    
+            circle_6ce8cd7b5dc5ab5ba1f982fcfa23e2b2.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_52c7fb157020e6962effdcff619d6eb6 = L.circle(
+                [-13.53143, -71.93196],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9711.141678129297, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_fcaed650b912abc1125de60f6fb14a2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc8f0f9b9f6d0c5768a35a2a232642c = $(`<div id="html_3fc8f0f9b9f6d0c5768a35a2a232642c" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9711141678129298</div>`)[0];
+                popup_fcaed650b912abc1125de60f6fb14a2a.setContent(html_3fc8f0f9b9f6d0c5768a35a2a232642c);
+            
+        
+
+        circle_52c7fb157020e6962effdcff619d6eb6.bindPopup(popup_fcaed650b912abc1125de60f6fb14a2a)
+        ;
+
+        
+    
+    
+            circle_52c7fb157020e6962effdcff619d6eb6.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_368a3bbb67fae78cbc2b78dffefd23be = L.circle(
+                [-14.26576, -71.23002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1692.3076923076924, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_850880d86c1814b8cce84433605bdf86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_118d160c0d4ceb58f2e736c00fac49c8 = $(`<div id="html_118d160c0d4ceb58f2e736c00fac49c8" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.16923076923076924</div>`)[0];
+                popup_850880d86c1814b8cce84433605bdf86.setContent(html_118d160c0d4ceb58f2e736c00fac49c8);
+            
+        
+
+        circle_368a3bbb67fae78cbc2b78dffefd23be.bindPopup(popup_850880d86c1814b8cce84433605bdf86)
+        ;
+
+        
+    
+    
+            circle_368a3bbb67fae78cbc2b78dffefd23be.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5e61738b2363652a55d3fa28719ff229 = L.circle(
+                [-12.86332, -72.69288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7266.666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_7b9ad0e02d4e0b088e14b6ed12a58590 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8dfe33fcc9d54a3ca139ad9e172878a = $(`<div id="html_f8dfe33fcc9d54a3ca139ad9e172878a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7266666666666667</div>`)[0];
+                popup_7b9ad0e02d4e0b088e14b6ed12a58590.setContent(html_f8dfe33fcc9d54a3ca139ad9e172878a);
+            
+        
+
+        circle_5e61738b2363652a55d3fa28719ff229.bindPopup(popup_7b9ad0e02d4e0b088e14b6ed12a58590)
+        ;
+
+        
+    
+    
+            circle_5e61738b2363652a55d3fa28719ff229.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e9708542d8aeef96efa0fa28be48aa07 = L.circle(
+                [-13.77014, -71.8423],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9833.333333333332, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_bb189ce9b9e5404ca8a634386ffe8a67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db6580932503500efc71d233e08ddd89 = $(`<div id="html_db6580932503500efc71d233e08ddd89" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9833333333333333</div>`)[0];
+                popup_bb189ce9b9e5404ca8a634386ffe8a67.setContent(html_db6580932503500efc71d233e08ddd89);
+            
+        
+
+        circle_e9708542d8aeef96efa0fa28be48aa07.bindPopup(popup_bb189ce9b9e5404ca8a634386ffe8a67)
+        ;
+
+        
+    
+    
+            circle_e9708542d8aeef96efa0fa28be48aa07.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a150a6eba5fa8ff5b2bf4f05420edf01 = L.circle(
+                [-13.63631, -72.87916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7444.444444444444, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_9cfdd234610a6518c4d2f4c18f7dd1ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_154dac77733896f2a29bf1bcb82b7565 = $(`<div id="html_154dac77733896f2a29bf1bcb82b7565" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7444444444444445</div>`)[0];
+                popup_9cfdd234610a6518c4d2f4c18f7dd1ec.setContent(html_154dac77733896f2a29bf1bcb82b7565);
+            
+        
+
+        circle_a150a6eba5fa8ff5b2bf4f05420edf01.bindPopup(popup_9cfdd234610a6518c4d2f4c18f7dd1ec)
+        ;
+
+        
+    
+    
+            circle_a150a6eba5fa8ff5b2bf4f05420edf01.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a7db8d60ee94668ef8735558ab1fafd1 = L.circle(
+                [-16.08824, -69.63882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_15a222c1b4ed1b8a1194f51f358bf298 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc03a943e963d1f81d326f1963512f9c = $(`<div id="html_cc03a943e963d1f81d326f1963512f9c" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_15a222c1b4ed1b8a1194f51f358bf298.setContent(html_cc03a943e963d1f81d326f1963512f9c);
+            
+        
+
+        circle_a7db8d60ee94668ef8735558ab1fafd1.bindPopup(popup_15a222c1b4ed1b8a1194f51f358bf298)
+        ;
+
+        
+    
+    
+            circle_a7db8d60ee94668ef8735558ab1fafd1.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8cfec293e52aaa58fde0826c4b2e658e = L.circle(
+                [-15.49004, -70.12688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7677.419354838709, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_f73a1bf1ca3abf256a822354999d7765 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70d617d4e41e0de62b94e3c252d233b0 = $(`<div id="html_70d617d4e41e0de62b94e3c252d233b0" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7677419354838709</div>`)[0];
+                popup_f73a1bf1ca3abf256a822354999d7765.setContent(html_70d617d4e41e0de62b94e3c252d233b0);
+            
+        
+
+        circle_8cfec293e52aaa58fde0826c4b2e658e.bindPopup(popup_f73a1bf1ca3abf256a822354999d7765)
+        ;
+
+        
+    
+    
+            circle_8cfec293e52aaa58fde0826c4b2e658e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_47fee30843b2f3803128b4048e05a78a = L.circle(
+                [-16.24867, -69.09839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2827.5862068965516, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_841c892675d601f3d3b972031537d477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15bb05b2a78d35f6d30b090aa80291fd = $(`<div id="html_15bb05b2a78d35f6d30b090aa80291fd" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.2827586206896552</div>`)[0];
+                popup_841c892675d601f3d3b972031537d477.setContent(html_15bb05b2a78d35f6d30b090aa80291fd);
+            
+        
+
+        circle_47fee30843b2f3803128b4048e05a78a.bindPopup(popup_841c892675d601f3d3b972031537d477)
+        ;
+
+        
+    
+    
+            circle_47fee30843b2f3803128b4048e05a78a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c77041d46a4e0e9e67b812f545ee65a1 = L.circle(
+                [-16.24427, -69.09257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1222.2222222222222, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_76b4037ba69d5722543ddac6a5d8e638 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc243d8506a7e9f2b69ef87eec30bef3 = $(`<div id="html_fc243d8506a7e9f2b69ef87eec30bef3" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.12222222222222222</div>`)[0];
+                popup_76b4037ba69d5722543ddac6a5d8e638.setContent(html_fc243d8506a7e9f2b69ef87eec30bef3);
+            
+        
+
+        circle_c77041d46a4e0e9e67b812f545ee65a1.bindPopup(popup_76b4037ba69d5722543ddac6a5d8e638)
+        ;
+
+        
+    
+    
+            circle_c77041d46a4e0e9e67b812f545ee65a1.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f68833b496a088fe5ee277533f832d90 = L.circle(
+                [-15.83865, -70.02428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5639.999999999999, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_d3698e048e446bc2aeaf9df4d6ddea1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8838c5355e7805e7fac5d6dfbd43804a = $(`<div id="html_8838c5355e7805e7fac5d6dfbd43804a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.564</div>`)[0];
+                popup_d3698e048e446bc2aeaf9df4d6ddea1b.setContent(html_8838c5355e7805e7fac5d6dfbd43804a);
+            
+        
+
+        circle_f68833b496a088fe5ee277533f832d90.bindPopup(popup_d3698e048e446bc2aeaf9df4d6ddea1b)
+        ;
+
+        
+    
+    
+            circle_f68833b496a088fe5ee277533f832d90.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_714d2ffe867a1f11162c499a01f572cb = L.circle(
+                [-15.49249, -70.1284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3566.666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_22eb152cc6cdcf4147db28954af0ee5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b0a4d7188f9d529ba1166a70c51746 = $(`<div id="html_f5b0a4d7188f9d529ba1166a70c51746" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3566666666666667</div>`)[0];
+                popup_22eb152cc6cdcf4147db28954af0ee5c.setContent(html_f5b0a4d7188f9d529ba1166a70c51746);
+            
+        
+
+        circle_714d2ffe867a1f11162c499a01f572cb.bindPopup(popup_22eb152cc6cdcf4147db28954af0ee5c)
+        ;
+
+        
+    
+    
+            circle_714d2ffe867a1f11162c499a01f572cb.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9bef28acf50f483c046ac9843ca2836d = L.circle(
+                [-5.6304, -78.5383],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3523.809523809524, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_99a28c43895bba4bafccf95367fc5251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62ab25899ab6b006edde6649242884d2 = $(`<div id="html_62ab25899ab6b006edde6649242884d2" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3523809523809524</div>`)[0];
+                popup_99a28c43895bba4bafccf95367fc5251.setContent(html_62ab25899ab6b006edde6649242884d2);
+            
+        
+
+        circle_9bef28acf50f483c046ac9843ca2836d.bindPopup(popup_99a28c43895bba4bafccf95367fc5251)
+        ;
+
+        
+    
+    
+            circle_9bef28acf50f483c046ac9843ca2836d.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4b1eeb9a5ac47a6a995ec39fad3469d1 = L.circle(
+                [-14.05115, -75.75387],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8087.719298245614, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_018d96fb8e5c557960482eebd15366e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6b6c5cb1d6e7b1e57349142daddc217 = $(`<div id="html_e6b6c5cb1d6e7b1e57349142daddc217" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8087719298245614</div>`)[0];
+                popup_018d96fb8e5c557960482eebd15366e9.setContent(html_e6b6c5cb1d6e7b1e57349142daddc217);
+            
+        
+
+        circle_4b1eeb9a5ac47a6a995ec39fad3469d1.bindPopup(popup_018d96fb8e5c557960482eebd15366e9)
+        ;
+
+        
+    
+    
+            circle_4b1eeb9a5ac47a6a995ec39fad3469d1.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_15dbaba10f5d91997115f888b957c23c = L.circle(
+                [-14.05135, -75.7525],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2666.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_ec953b7b7d03b850b570f6d2978f187e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de2dc1d85e7a880bddc83fb9f78069bf = $(`<div id="html_de2dc1d85e7a880bddc83fb9f78069bf" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.26666666666666666</div>`)[0];
+                popup_ec953b7b7d03b850b570f6d2978f187e.setContent(html_de2dc1d85e7a880bddc83fb9f78069bf);
+            
+        
+
+        circle_15dbaba10f5d91997115f888b957c23c.bindPopup(popup_ec953b7b7d03b850b570f6d2978f187e)
+        ;
+
+        
+    
+    
+            circle_15dbaba10f5d91997115f888b957c23c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_270e4492328e4a07df5c39b46048933e = L.circle(
+                [-14.0628, -75.73437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 538.4615384615385, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_16b540e2c06355846c014d1e4aa79a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eadbe794cb3d2d6defc4d1ccae989c0 = $(`<div id="html_3eadbe794cb3d2d6defc4d1ccae989c0" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.05384615384615385</div>`)[0];
+                popup_16b540e2c06355846c014d1e4aa79a65.setContent(html_3eadbe794cb3d2d6defc4d1ccae989c0);
+            
+        
+
+        circle_270e4492328e4a07df5c39b46048933e.bindPopup(popup_16b540e2c06355846c014d1e4aa79a65)
+        ;
+
+        
+    
+    
+            circle_270e4492328e4a07df5c39b46048933e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ee0eb2a12b33409edb56fa0a2b4a549 = L.circle(
+                [-14.06224, -75.73125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2140.221402214022, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_6c533de1d673e9ff039bb93b40fda94b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_556949a8833c386765f1fefaed5ee381 = $(`<div id="html_556949a8833c386765f1fefaed5ee381" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.2140221402214022</div>`)[0];
+                popup_6c533de1d673e9ff039bb93b40fda94b.setContent(html_556949a8833c386765f1fefaed5ee381);
+            
+        
+
+        circle_6ee0eb2a12b33409edb56fa0a2b4a549.bindPopup(popup_6c533de1d673e9ff039bb93b40fda94b)
+        ;
+
+        
+    
+    
+            circle_6ee0eb2a12b33409edb56fa0a2b4a549.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1369232801403c0040e0ba54cd7e973f = L.circle(
+                [-14.07306, -75.72703],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_72d559d06cccc52fd7f597c4dcb1b8a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caf040f0e14f86688d09cb33d09a8f79 = $(`<div id="html_caf040f0e14f86688d09cb33d09a8f79" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_72d559d06cccc52fd7f597c4dcb1b8a4.setContent(html_caf040f0e14f86688d09cb33d09a8f79);
+            
+        
+
+        circle_1369232801403c0040e0ba54cd7e973f.bindPopup(popup_72d559d06cccc52fd7f597c4dcb1b8a4)
+        ;
+
+        
+    
+    
+            circle_1369232801403c0040e0ba54cd7e973f.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ebfb95d3137338bebbda2ea73d298e9c = L.circle(
+                [-13.70938, -76.20868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 518.5185185185185, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_caa28f65f1b3b5442abd4774e7c9e92c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_764e366988ad96679df6529aaea85a99 = $(`<div id="html_764e366988ad96679df6529aaea85a99" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.05185185185185185</div>`)[0];
+                popup_caa28f65f1b3b5442abd4774e7c9e92c.setContent(html_764e366988ad96679df6529aaea85a99);
+            
+        
+
+        circle_ebfb95d3137338bebbda2ea73d298e9c.bindPopup(popup_caa28f65f1b3b5442abd4774e7c9e92c)
+        ;
+
+        
+    
+    
+            circle_ebfb95d3137338bebbda2ea73d298e9c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_deabcc79d456f97fd167b8f763b99222 = L.circle(
+                [-14.06394, -75.7292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_79ae7935eaf022e4d7812ae0c5731ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fca993e9cc6004dbab690240327817a = $(`<div id="html_5fca993e9cc6004dbab690240327817a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_79ae7935eaf022e4d7812ae0c5731ec2.setContent(html_5fca993e9cc6004dbab690240327817a);
+            
+        
+
+        circle_deabcc79d456f97fd167b8f763b99222.bindPopup(popup_79ae7935eaf022e4d7812ae0c5731ec2)
+        ;
+
+        
+    
+    
+            circle_deabcc79d456f97fd167b8f763b99222.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_11fcde84349982bf8d443dba51632838 = L.circle(
+                [-18.01777, -70.25185],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7124.600638977636, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_140966b1f084502429c29cbbc61867d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aabee2829e56c9baf0591684fafff31 = $(`<div id="html_2aabee2829e56c9baf0591684fafff31" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7124600638977636</div>`)[0];
+                popup_140966b1f084502429c29cbbc61867d2.setContent(html_2aabee2829e56c9baf0591684fafff31);
+            
+        
+
+        circle_11fcde84349982bf8d443dba51632838.bindPopup(popup_140966b1f084502429c29cbbc61867d2)
+        ;
+
+        
+    
+    
+            circle_11fcde84349982bf8d443dba51632838.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eea8d868cd51bbb1d2b4707c77e31c7e = L.circle(
+                [-18.0137, -70.2508],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6990.291262135923, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_a9f4a3ae57d6d43789f55bcffeefd29c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d64b3e82ffd5aefb169ff64eabfb410 = $(`<div id="html_5d64b3e82ffd5aefb169ff64eabfb410" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6990291262135923</div>`)[0];
+                popup_a9f4a3ae57d6d43789f55bcffeefd29c.setContent(html_5d64b3e82ffd5aefb169ff64eabfb410);
+            
+        
+
+        circle_eea8d868cd51bbb1d2b4707c77e31c7e.bindPopup(popup_a9f4a3ae57d6d43789f55bcffeefd29c)
+        ;
+
+        
+    
+    
+            circle_eea8d868cd51bbb1d2b4707c77e31c7e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_38fdf48a61ba9cd9c315ef0d126947a7 = L.circle(
+                [-5.18106, -80.66289],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8958.333333333334, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_8a68159f4ddac34aa748a66638faaad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf7cd04f0dfa3e1a17fb4d58211da74 = $(`<div id="html_0cf7cd04f0dfa3e1a17fb4d58211da74" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8958333333333334</div>`)[0];
+                popup_8a68159f4ddac34aa748a66638faaad4.setContent(html_0cf7cd04f0dfa3e1a17fb4d58211da74);
+            
+        
+
+        circle_38fdf48a61ba9cd9c315ef0d126947a7.bindPopup(popup_8a68159f4ddac34aa748a66638faaad4)
+        ;
+
+        
+    
+    
+            circle_38fdf48a61ba9cd9c315ef0d126947a7.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_50ebeecb979d62ded7c2f9a7854b08d3 = L.circle(
+                [-4.912, -80.6947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_37e825fe7ab55164578eab408bdf0ccf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf157cb36f0a78c7033ffc0195bef826 = $(`<div id="html_bf157cb36f0a78c7033ffc0195bef826" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 1.0</div>`)[0];
+                popup_37e825fe7ab55164578eab408bdf0ccf.setContent(html_bf157cb36f0a78c7033ffc0195bef826);
+            
+        
+
+        circle_50ebeecb979d62ded7c2f9a7854b08d3.bindPopup(popup_37e825fe7ab55164578eab408bdf0ccf)
+        ;
+
+        
+    
+    
+            circle_50ebeecb979d62ded7c2f9a7854b08d3.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b07f8b016034d0ce08bb6f2380a84e12 = L.circle(
+                [-11.2539, -74.637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6222.222222222223, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_36dde95692f99fd222728891c2a05766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a42d6a6ecbfa1b7be2b03c95b8fbfaa1 = $(`<div id="html_a42d6a6ecbfa1b7be2b03c95b8fbfaa1" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6222222222222222</div>`)[0];
+                popup_36dde95692f99fd222728891c2a05766.setContent(html_a42d6a6ecbfa1b7be2b03c95b8fbfaa1);
+            
+        
+
+        circle_b07f8b016034d0ce08bb6f2380a84e12.bindPopup(popup_36dde95692f99fd222728891c2a05766)
+        ;
+
+        
+    
+    
+            circle_b07f8b016034d0ce08bb6f2380a84e12.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a232981086d391a106a939562e9d4aaa = L.circle(
+                [-11.38346, -75.68851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9980.079681274901, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_12febac0df924bce9e6a6c8ac5731939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfb27c0cbd571080bbe356f0a393b2b4 = $(`<div id="html_bfb27c0cbd571080bbe356f0a393b2b4" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.99800796812749</div>`)[0];
+                popup_12febac0df924bce9e6a6c8ac5731939.setContent(html_bfb27c0cbd571080bbe356f0a393b2b4);
+            
+        
+
+        circle_a232981086d391a106a939562e9d4aaa.bindPopup(popup_12febac0df924bce9e6a6c8ac5731939)
+        ;
+
+        
+    
+    
+            circle_a232981086d391a106a939562e9d4aaa.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8202ecb6a78e2fb0ecb5e8b85cad47b5 = L.circle(
+                [-12.06796, -75.21005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8193.548387096775, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_243a6a380e7e753f7cb1497ca04711f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_007537780c9e43df1160c5895c167ae1 = $(`<div id="html_007537780c9e43df1160c5895c167ae1" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8193548387096774</div>`)[0];
+                popup_243a6a380e7e753f7cb1497ca04711f4.setContent(html_007537780c9e43df1160c5895c167ae1);
+            
+        
+
+        circle_8202ecb6a78e2fb0ecb5e8b85cad47b5.bindPopup(popup_243a6a380e7e753f7cb1497ca04711f4)
+        ;
+
+        
+    
+    
+            circle_8202ecb6a78e2fb0ecb5e8b85cad47b5.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c0a134e0599e7f9bb0af812ab6096493 = L.circle(
+                [-12.04845, -75.20177],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6133.333333333333, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_2c8331f17ccb9e513141ffb6db8f1557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cddbd2d120235cc7640b3549807165d = $(`<div id="html_5cddbd2d120235cc7640b3549807165d" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6133333333333333</div>`)[0];
+                popup_2c8331f17ccb9e513141ffb6db8f1557.setContent(html_5cddbd2d120235cc7640b3549807165d);
+            
+        
+
+        circle_c0a134e0599e7f9bb0af812ab6096493.bindPopup(popup_2c8331f17ccb9e513141ffb6db8f1557)
+        ;
+
+        
+    
+    
+            circle_c0a134e0599e7f9bb0af812ab6096493.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2defb02e2a3fee45de11e566534257ac = L.circle(
+                [-12.06796, -75.21005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8333.333333333334, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_144465491dd1093b52f69d835c410068 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16baa7cd74c715fe2c6dd83e9ee11b29 = $(`<div id="html_16baa7cd74c715fe2c6dd83e9ee11b29" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8333333333333334</div>`)[0];
+                popup_144465491dd1093b52f69d835c410068.setContent(html_16baa7cd74c715fe2c6dd83e9ee11b29);
+            
+        
+
+        circle_2defb02e2a3fee45de11e566534257ac.bindPopup(popup_144465491dd1093b52f69d835c410068)
+        ;
+
+        
+    
+    
+            circle_2defb02e2a3fee45de11e566534257ac.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cc4720443a7fbcb825932113a50b299e = L.circle(
+                [-12.0644, -75.21445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1900.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_652f7bea7e758b8f6f45fbd134d36fca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f887fecb08e715a8c58d1d53e9c06cbd = $(`<div id="html_f887fecb08e715a8c58d1d53e9c06cbd" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.19</div>`)[0];
+                popup_652f7bea7e758b8f6f45fbd134d36fca.setContent(html_f887fecb08e715a8c58d1d53e9c06cbd);
+            
+        
+
+        circle_cc4720443a7fbcb825932113a50b299e.bindPopup(popup_652f7bea7e758b8f6f45fbd134d36fca)
+        ;
+
+        
+    
+    
+            circle_cc4720443a7fbcb825932113a50b299e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5aab083687672424d919492ffc5c7385 = L.circle(
+                [-12.05921, -75.22029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8035.714285714286, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_2c997aae0247acd2a6d559f9e59d13dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282eb093a81b8d78b46c3ada19e6255e = $(`<div id="html_282eb093a81b8d78b46c3ada19e6255e" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8035714285714286</div>`)[0];
+                popup_2c997aae0247acd2a6d559f9e59d13dd.setContent(html_282eb093a81b8d78b46c3ada19e6255e);
+            
+        
+
+        circle_5aab083687672424d919492ffc5c7385.bindPopup(popup_2c997aae0247acd2a6d559f9e59d13dd)
+        ;
+
+        
+    
+    
+            circle_5aab083687672424d919492ffc5c7385.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7c26377fd20193681edbe7c599642171 = L.circle(
+                [-12.06796, -75.21005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3866.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_7e47e91b964cf5c3cad4fec896c9c442 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df08d71b2dee205b4b7a83e4b1c96bf3 = $(`<div id="html_df08d71b2dee205b4b7a83e4b1c96bf3" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.38666666666666666</div>`)[0];
+                popup_7e47e91b964cf5c3cad4fec896c9c442.setContent(html_df08d71b2dee205b4b7a83e4b1c96bf3);
+            
+        
+
+        circle_7c26377fd20193681edbe7c599642171.bindPopup(popup_7e47e91b964cf5c3cad4fec896c9c442)
+        ;
+
+        
+    
+    
+            circle_7c26377fd20193681edbe7c599642171.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_589b9477212780fc29492820f30b081e = L.circle(
+                [-12.06087, -75.21489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6111.111111111111, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_efc8b4cc4c8ab3c39b7e8d954e8778d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1384bfd85405b78d02128c35b1491896 = $(`<div id="html_1384bfd85405b78d02128c35b1491896" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6111111111111112</div>`)[0];
+                popup_efc8b4cc4c8ab3c39b7e8d954e8778d0.setContent(html_1384bfd85405b78d02128c35b1491896);
+            
+        
+
+        circle_589b9477212780fc29492820f30b081e.bindPopup(popup_efc8b4cc4c8ab3c39b7e8d954e8778d0)
+        ;
+
+        
+    
+    
+            circle_589b9477212780fc29492820f30b081e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4bed432ea7512caffad2a7d430e05de6 = L.circle(
+                [-12.06304, -75.21519],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5111.11111111111, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_3ef100970cb3a22f2077e2a413cc4519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cebf7c3695595b2f16f9963dc6bf025 = $(`<div id="html_5cebf7c3695595b2f16f9963dc6bf025" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5111111111111111</div>`)[0];
+                popup_3ef100970cb3a22f2077e2a413cc4519.setContent(html_5cebf7c3695595b2f16f9963dc6bf025);
+            
+        
+
+        circle_4bed432ea7512caffad2a7d430e05de6.bindPopup(popup_3ef100970cb3a22f2077e2a413cc4519)
+        ;
+
+        
+    
+    
+            circle_4bed432ea7512caffad2a7d430e05de6.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1c2c7b00a5e6e97465e58148fad17cec = L.circle(
+                [-7.6217, -78.05019],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9843.13725490196, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_c80f8a7cc32bb77a9948be2d85fc5037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48eb321c5342fc07ce8eb02f322dd67f = $(`<div id="html_48eb321c5342fc07ce8eb02f322dd67f" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.984313725490196</div>`)[0];
+                popup_c80f8a7cc32bb77a9948be2d85fc5037.setContent(html_48eb321c5342fc07ce8eb02f322dd67f);
+            
+        
+
+        circle_1c2c7b00a5e6e97465e58148fad17cec.bindPopup(popup_c80f8a7cc32bb77a9948be2d85fc5037)
+        ;
+
+        
+    
+    
+            circle_1c2c7b00a5e6e97465e58148fad17cec.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a7be6d62956a165661af4304f1b3a638 = L.circle(
+                [-7.36391, -78.80364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_786341b394386393b0fa4da48f93d64c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c13e93f815d9b3a8fda5becc2c5d4707 = $(`<div id="html_c13e93f815d9b3a8fda5becc2c5d4707" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 1.0</div>`)[0];
+                popup_786341b394386393b0fa4da48f93d64c.setContent(html_c13e93f815d9b3a8fda5becc2c5d4707);
+            
+        
+
+        circle_a7be6d62956a165661af4304f1b3a638.bindPopup(popup_786341b394386393b0fa4da48f93d64c)
+        ;
+
+        
+    
+    
+            circle_a7be6d62956a165661af4304f1b3a638.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e5a7f6d06e0493cd5e61b20a4e74245a = L.circle(
+                [-6.67954, -78.51915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6447.368421052632, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_00414edcb93122a3bac569ab4ab7f7ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffb55c2d48dc572fb675c1a55bbd973a = $(`<div id="html_ffb55c2d48dc572fb675c1a55bbd973a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6447368421052632</div>`)[0];
+                popup_00414edcb93122a3bac569ab4ab7f7ea.setContent(html_ffb55c2d48dc572fb675c1a55bbd973a);
+            
+        
+
+        circle_e5a7f6d06e0493cd5e61b20a4e74245a.bindPopup(popup_00414edcb93122a3bac569ab4ab7f7ea)
+        ;
+
+        
+    
+    
+            circle_e5a7f6d06e0493cd5e61b20a4e74245a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aa72f6dc678ff32edabe520bb640341b = L.circle(
+                [-7.15737, -78.51537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7866.666666666666, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_284d5f432bb65b1b71c27477dfecc4cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d8e5b315c7c985554b081c58b2c0e78 = $(`<div id="html_6d8e5b315c7c985554b081c58b2c0e78" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7866666666666666</div>`)[0];
+                popup_284d5f432bb65b1b71c27477dfecc4cf.setContent(html_6d8e5b315c7c985554b081c58b2c0e78);
+            
+        
+
+        circle_aa72f6dc678ff32edabe520bb640341b.bindPopup(popup_284d5f432bb65b1b71c27477dfecc4cf)
+        ;
+
+        
+    
+    
+            circle_aa72f6dc678ff32edabe520bb640341b.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_665eb07069fbb082a82d12572147cf25 = L.circle(
+                [-5.7088, -78.80783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6886.95652173913, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_080ae38276eaded5ab934b0a72af61f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5226d3a72e7a217cc5f8d337b5e34265 = $(`<div id="html_5226d3a72e7a217cc5f8d337b5e34265" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.688695652173913</div>`)[0];
+                popup_080ae38276eaded5ab934b0a72af61f3.setContent(html_5226d3a72e7a217cc5f8d337b5e34265);
+            
+        
+
+        circle_665eb07069fbb082a82d12572147cf25.bindPopup(popup_080ae38276eaded5ab934b0a72af61f3)
+        ;
+
+        
+    
+    
+            circle_665eb07069fbb082a82d12572147cf25.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cfd3e6ac73f88026360abca38d926e5a = L.circle(
+                [-10.15305, -77.15257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8666.666666666666, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_9e0c048836aa95c046d80ad36cbb953f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e1aac5c72820d493c99f982f3e44962 = $(`<div id="html_1e1aac5c72820d493c99f982f3e44962" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8666666666666667</div>`)[0];
+                popup_9e0c048836aa95c046d80ad36cbb953f.setContent(html_1e1aac5c72820d493c99f982f3e44962);
+            
+        
+
+        circle_cfd3e6ac73f88026360abca38d926e5a.bindPopup(popup_9e0c048836aa95c046d80ad36cbb953f)
+        ;
+
+        
+    
+    
+            circle_cfd3e6ac73f88026360abca38d926e5a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e3cb7754816906b6a2421f282b1a08a = L.circle(
+                [-9.12415, -78.5139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9283.819628647216, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_a43134b931a58e05811aa9ca8e61f8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24077407967ae057b6e07c33c8573ffe = $(`<div id="html_24077407967ae057b6e07c33c8573ffe" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9283819628647215</div>`)[0];
+                popup_a43134b931a58e05811aa9ca8e61f8d4.setContent(html_24077407967ae057b6e07c33c8573ffe);
+            
+        
+
+        circle_7e3cb7754816906b6a2421f282b1a08a.bindPopup(popup_a43134b931a58e05811aa9ca8e61f8d4)
+        ;
+
+        
+    
+    
+            circle_7e3cb7754816906b6a2421f282b1a08a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cd11c31e4b3ba2a94751c37d2e1114c0 = L.circle(
+                [-9.04599, -77.80868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7545.454545454545, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_9dcb4f795006f3a05240bbcd314fd56f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4295bfea03c588ba665fe8f33970e3ec = $(`<div id="html_4295bfea03c588ba665fe8f33970e3ec" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7545454545454545</div>`)[0];
+                popup_9dcb4f795006f3a05240bbcd314fd56f.setContent(html_4295bfea03c588ba665fe8f33970e3ec);
+            
+        
+
+        circle_cd11c31e4b3ba2a94751c37d2e1114c0.bindPopup(popup_9dcb4f795006f3a05240bbcd314fd56f)
+        ;
+
+        
+    
+    
+            circle_cd11c31e4b3ba2a94751c37d2e1114c0.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_339f24093f78e10859b32aae2e93f04e = L.circle(
+                [-9.16349, -77.36661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6307.692307692308, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_aab52121422a3c7c849dc51063285b5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d2ea2e36b3c5d2476f6662119ad6c90 = $(`<div id="html_9d2ea2e36b3c5d2476f6662119ad6c90" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6307692307692307</div>`)[0];
+                popup_aab52121422a3c7c849dc51063285b5d.setContent(html_9d2ea2e36b3c5d2476f6662119ad6c90);
+            
+        
+
+        circle_339f24093f78e10859b32aae2e93f04e.bindPopup(popup_aab52121422a3c7c849dc51063285b5d)
+        ;
+
+        
+    
+    
+            circle_339f24093f78e10859b32aae2e93f04e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0093733248f7d80b93807c2965503a03 = L.circle(
+                [-15.00902, -73.77972],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9928.57142857143, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_2887e24a2c4fc3f2f5205c3a6b39d19b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b86d3bb88c9e7092b86a02012f7612d = $(`<div id="html_3b86d3bb88c9e7092b86a02012f7612d" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9928571428571429</div>`)[0];
+                popup_2887e24a2c4fc3f2f5205c3a6b39d19b.setContent(html_3b86d3bb88c9e7092b86a02012f7612d);
+            
+        
+
+        circle_0093733248f7d80b93807c2965503a03.bindPopup(popup_2887e24a2c4fc3f2f5205c3a6b39d19b)
+        ;
+
+        
+    
+    
+            circle_0093733248f7d80b93807c2965503a03.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_818ba1f37554eaf9adaaf35c31026067 = L.circle(
+                [-13.1592, -74.22828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_55a42718efe885b32385cb5bb79cadc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb09e8ab950c06ade517d075b03e1bc5 = $(`<div id="html_fb09e8ab950c06ade517d075b03e1bc5" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_55a42718efe885b32385cb5bb79cadc1.setContent(html_fb09e8ab950c06ade517d075b03e1bc5);
+            
+        
+
+        circle_818ba1f37554eaf9adaaf35c31026067.bindPopup(popup_55a42718efe885b32385cb5bb79cadc1)
+        ;
+
+        
+    
+    
+            circle_818ba1f37554eaf9adaaf35c31026067.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a6a577b12082fc309fd77a1690f3dde5 = L.circle(
+                [-13.15878, -74.22737],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5116.883116883117, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_b67a8c1a5c41da38658a09b8118a5d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_711a0add06417656ba706f6dc3462115 = $(`<div id="html_711a0add06417656ba706f6dc3462115" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5116883116883116</div>`)[0];
+                popup_b67a8c1a5c41da38658a09b8118a5d4a.setContent(html_711a0add06417656ba706f6dc3462115);
+            
+        
+
+        circle_a6a577b12082fc309fd77a1690f3dde5.bindPopup(popup_b67a8c1a5c41da38658a09b8118a5d4a)
+        ;
+
+        
+    
+    
+            circle_a6a577b12082fc309fd77a1690f3dde5.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b99d96b007a3fc59868d627fa2f8a6a7 = L.circle(
+                [-6.6459, -79.7856],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8871.5953307393, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_4a83341127a420aca98799394926994e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_727634c64ece156300363d4b1f176a7f = $(`<div id="html_727634c64ece156300363d4b1f176a7f" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8871595330739299</div>`)[0];
+                popup_4a83341127a420aca98799394926994e.setContent(html_727634c64ece156300363d4b1f176a7f);
+            
+        
+
+        circle_b99d96b007a3fc59868d627fa2f8a6a7.bindPopup(popup_4a83341127a420aca98799394926994e)
+        ;
+
+        
+    
+    
+            circle_b99d96b007a3fc59868d627fa2f8a6a7.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1f5770dd61c9e951ccc1eca210b2edae = L.circle(
+                [-6.50623, -79.85809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_6cd230e8ec22fddd5144be35f3655f7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90466e33f009f2bb973e60911eacc53a = $(`<div id="html_90466e33f009f2bb973e60911eacc53a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 1.0</div>`)[0];
+                popup_6cd230e8ec22fddd5144be35f3655f7b.setContent(html_90466e33f009f2bb973e60911eacc53a);
+            
+        
+
+        circle_1f5770dd61c9e951ccc1eca210b2edae.bindPopup(popup_6cd230e8ec22fddd5144be35f3655f7b)
+        ;
+
+        
+    
+    
+            circle_1f5770dd61c9e951ccc1eca210b2edae.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_be47ef1de2f568ccc52d6f26554bbbee = L.circle(
+                [-6.7715, -79.83866],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4487.179487179487, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_3e53cb125c7f1918e90ecfaa686e68cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7677de2547eba8e7691124d83fe7650 = $(`<div id="html_e7677de2547eba8e7691124d83fe7650" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.44871794871794873</div>`)[0];
+                popup_3e53cb125c7f1918e90ecfaa686e68cf.setContent(html_e7677de2547eba8e7691124d83fe7650);
+            
+        
+
+        circle_be47ef1de2f568ccc52d6f26554bbbee.bindPopup(popup_3e53cb125c7f1918e90ecfaa686e68cf)
+        ;
+
+        
+    
+    
+            circle_be47ef1de2f568ccc52d6f26554bbbee.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_747c476e08d869dcd4621818a73d199c = L.circle(
+                [-6.77233, -79.83116],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7357.142857142858, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_8ece572d4a1d8821e73e6b64564c2d1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_742e9c2058d5c877deaf6de37c0e20bb = $(`<div id="html_742e9c2058d5c877deaf6de37c0e20bb" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7357142857142858</div>`)[0];
+                popup_8ece572d4a1d8821e73e6b64564c2d1d.setContent(html_742e9c2058d5c877deaf6de37c0e20bb);
+            
+        
+
+        circle_747c476e08d869dcd4621818a73d199c.bindPopup(popup_8ece572d4a1d8821e73e6b64564c2d1d)
+        ;
+
+        
+    
+    
+            circle_747c476e08d869dcd4621818a73d199c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8a40cb2c2d92dc7d220d95363d28f113 = L.circle(
+                [-6.85507, -79.30732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3615.3846153846152, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_c900079a1f6f507aeeb66da9470f389a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15a2887f42344877ce21ac652f2b09aa = $(`<div id="html_15a2887f42344877ce21ac652f2b09aa" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.36153846153846153</div>`)[0];
+                popup_c900079a1f6f507aeeb66da9470f389a.setContent(html_15a2887f42344877ce21ac652f2b09aa);
+            
+        
+
+        circle_8a40cb2c2d92dc7d220d95363d28f113.bindPopup(popup_c900079a1f6f507aeeb66da9470f389a)
+        ;
+
+        
+    
+    
+            circle_8a40cb2c2d92dc7d220d95363d28f113.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_167bffbd6003f6a3933becc402fea361 = L.circle(
+                [-6.76945, -79.83166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5666.666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_4181a9169beb4ec53d047cfc26c13792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81d54c469d2e3f4e80417c066fde0c8a = $(`<div id="html_81d54c469d2e3f4e80417c066fde0c8a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5666666666666667</div>`)[0];
+                popup_4181a9169beb4ec53d047cfc26c13792.setContent(html_81d54c469d2e3f4e80417c066fde0c8a);
+            
+        
+
+        circle_167bffbd6003f6a3933becc402fea361.bindPopup(popup_4181a9169beb4ec53d047cfc26c13792)
+        ;
+
+        
+    
+    
+            circle_167bffbd6003f6a3933becc402fea361.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a5e2e6180babd8cd3564eed5b4becd4a = L.circle(
+                [-8.37618, -74.56951],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_044344558799ac3d08efdd489a778286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f645ed16bb101905f5592d8b4ed6565 = $(`<div id="html_1f645ed16bb101905f5592d8b4ed6565" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6</div>`)[0];
+                popup_044344558799ac3d08efdd489a778286.setContent(html_1f645ed16bb101905f5592d8b4ed6565);
+            
+        
+
+        circle_a5e2e6180babd8cd3564eed5b4becd4a.bindPopup(popup_044344558799ac3d08efdd489a778286)
+        ;
+
+        
+    
+    
+            circle_a5e2e6180babd8cd3564eed5b4becd4a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_97aef8eddf2742c637855a9abbbb311a = L.circle(
+                [-3.74177, -73.25092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9205.607476635514, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_3c45e6121d19a4c0f9dc2432093d42ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb5dfbfadfee509769494d5abaa9f419 = $(`<div id="html_cb5dfbfadfee509769494d5abaa9f419" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9205607476635514</div>`)[0];
+                popup_3c45e6121d19a4c0f9dc2432093d42ad.setContent(html_cb5dfbfadfee509769494d5abaa9f419);
+            
+        
+
+        circle_97aef8eddf2742c637855a9abbbb311a.bindPopup(popup_3c45e6121d19a4c0f9dc2432093d42ad)
+        ;
+
+        
+    
+    
+            circle_97aef8eddf2742c637855a9abbbb311a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_03b957287dd3d4d5c034138a43108b7b = L.circle(
+                [-12.04935, -77.03284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1576.283441793203, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_6efab2e1fbe069ad0be3a61ca0e00224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa54e63ce95cd5287cb02a40ef3c498e = $(`<div id="html_aa54e63ce95cd5287cb02a40ef3c498e" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.1576283441793203</div>`)[0];
+                popup_6efab2e1fbe069ad0be3a61ca0e00224.setContent(html_aa54e63ce95cd5287cb02a40ef3c498e);
+            
+        
+
+        circle_03b957287dd3d4d5c034138a43108b7b.bindPopup(popup_6efab2e1fbe069ad0be3a61ca0e00224)
+        ;
+
+        
+    
+    
+            circle_03b957287dd3d4d5c034138a43108b7b.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6348ba24bbf8a339be0f38b53e704668 = L.circle(
+                [-12.05871, -77.04596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6089.385474860335, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_0c86e72bae635edec55d0a1b3742f190 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ceef09d35fe87d4ded398eb5a518690 = $(`<div id="html_2ceef09d35fe87d4ded398eb5a518690" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6089385474860335</div>`)[0];
+                popup_0c86e72bae635edec55d0a1b3742f190.setContent(html_2ceef09d35fe87d4ded398eb5a518690);
+            
+        
+
+        circle_6348ba24bbf8a339be0f38b53e704668.bindPopup(popup_0c86e72bae635edec55d0a1b3742f190)
+        ;
+
+        
+    
+    
+            circle_6348ba24bbf8a339be0f38b53e704668.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c85b91b4e9dd3d5ebd73176299cd7253 = L.circle(
+                [-12.0653, -77.03665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1640.706126687435, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_6d1ad9b101612c71de1b995a937e7ad6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68d0b52158bb1cba0a3fd7c61125ebf0 = $(`<div id="html_68d0b52158bb1cba0a3fd7c61125ebf0" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.1640706126687435</div>`)[0];
+                popup_6d1ad9b101612c71de1b995a937e7ad6.setContent(html_68d0b52158bb1cba0a3fd7c61125ebf0);
+            
+        
+
+        circle_c85b91b4e9dd3d5ebd73176299cd7253.bindPopup(popup_6d1ad9b101612c71de1b995a937e7ad6)
+        ;
+
+        
+    
+    
+            circle_c85b91b4e9dd3d5ebd73176299cd7253.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f22913777f07ccddf9b9dda9b69d8674 = L.circle(
+                [-12.07673, -77.0439],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9306.742640075974, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_16dbe2555a3325f4ed66dd4d5add60ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d9c26dc7d640ea67b2364b139b9a4df = $(`<div id="html_2d9c26dc7d640ea67b2364b139b9a4df" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9306742640075973</div>`)[0];
+                popup_16dbe2555a3325f4ed66dd4d5add60ce.setContent(html_2d9c26dc7d640ea67b2364b139b9a4df);
+            
+        
+
+        circle_f22913777f07ccddf9b9dda9b69d8674.bindPopup(popup_16dbe2555a3325f4ed66dd4d5add60ce)
+        ;
+
+        
+    
+    
+            circle_f22913777f07ccddf9b9dda9b69d8674.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2aad0307aa61c0d1c23abb2c050e1748 = L.circle(
+                [-12.07691, -77.03529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1985.4280510018216, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_54991e7ddadb380a3cc3c827b3a09a81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e59acfa940210672c93a6373ee969328 = $(`<div id="html_e59acfa940210672c93a6373ee969328" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.19854280510018216</div>`)[0];
+                popup_54991e7ddadb380a3cc3c827b3a09a81.setContent(html_e59acfa940210672c93a6373ee969328);
+            
+        
+
+        circle_2aad0307aa61c0d1c23abb2c050e1748.bindPopup(popup_54991e7ddadb380a3cc3c827b3a09a81)
+        ;
+
+        
+    
+    
+            circle_2aad0307aa61c0d1c23abb2c050e1748.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_51cf033ea5d3383ef1e30ef0e4a61005 = L.circle(
+                [-12.06415, -77.10044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5574.712643678161, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_8a11d80c0c1975238e6ccd7a9bdbe93f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43245751e15f055885c187279dd02315 = $(`<div id="html_43245751e15f055885c187279dd02315" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5574712643678161</div>`)[0];
+                popup_8a11d80c0c1975238e6ccd7a9bdbe93f.setContent(html_43245751e15f055885c187279dd02315);
+            
+        
+
+        circle_51cf033ea5d3383ef1e30ef0e4a61005.bindPopup(popup_8a11d80c0c1975238e6ccd7a9bdbe93f)
+        ;
+
+        
+    
+    
+            circle_51cf033ea5d3383ef1e30ef0e4a61005.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2e7f1a6f8edf19bb4de41eb3c521908f = L.circle(
+                [-12.09069, -77.03816],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 915.6626506024096, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_d2b8b536972b5a9fa85b9c05d4b116c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40a5bbad7be936d32d48e5ebdf6d4625 = $(`<div id="html_40a5bbad7be936d32d48e5ebdf6d4625" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.09156626506024096</div>`)[0];
+                popup_d2b8b536972b5a9fa85b9c05d4b116c3.setContent(html_40a5bbad7be936d32d48e5ebdf6d4625);
+            
+        
+
+        circle_2e7f1a6f8edf19bb4de41eb3c521908f.bindPopup(popup_d2b8b536972b5a9fa85b9c05d4b116c3)
+        ;
+
+        
+    
+    
+            circle_2e7f1a6f8edf19bb4de41eb3c521908f.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c3ea5e2804c1ac07497602f219733ca6 = L.circle(
+                [-11.97355, -77.00792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4916.420845624385, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_0562205b391f5313a18648b67b9acae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f46dd7306172f485feaa1fa10c9c10f = $(`<div id="html_6f46dd7306172f485feaa1fa10c9c10f" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.4916420845624385</div>`)[0];
+                popup_0562205b391f5313a18648b67b9acae6.setContent(html_6f46dd7306172f485feaa1fa10c9c10f);
+            
+        
+
+        circle_c3ea5e2804c1ac07497602f219733ca6.bindPopup(popup_0562205b391f5313a18648b67b9acae6)
+        ;
+
+        
+    
+    
+            circle_c3ea5e2804c1ac07497602f219733ca6.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_24f6d7ac2e6abda5c1879731b5cee559 = L.circle(
+                [-11.92636, -77.05503],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3920.863309352518, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_8158f563b2139b0637e17974201eb327 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c385b6600798575ee4a239badc8986c4 = $(`<div id="html_c385b6600798575ee4a239badc8986c4" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3920863309352518</div>`)[0];
+                popup_8158f563b2139b0637e17974201eb327.setContent(html_c385b6600798575ee4a239badc8986c4);
+            
+        
+
+        circle_24f6d7ac2e6abda5c1879731b5cee559.bindPopup(popup_8158f563b2139b0637e17974201eb327)
+        ;
+
+        
+    
+    
+            circle_24f6d7ac2e6abda5c1879731b5cee559.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db9e13f552a095a10777732a439d3029 = L.circle(
+                [-11.95373, -77.05768],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5142.857142857142, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_fe41e998a109d52011246a1a84a8f5ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62e7124ca13355a653ea92759157d264 = $(`<div id="html_62e7124ca13355a653ea92759157d264" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5142857142857142</div>`)[0];
+                popup_fe41e998a109d52011246a1a84a8f5ea.setContent(html_62e7124ca13355a653ea92759157d264);
+            
+        
+
+        circle_db9e13f552a095a10777732a439d3029.bindPopup(popup_fe41e998a109d52011246a1a84a8f5ea)
+        ;
+
+        
+    
+    
+            circle_db9e13f552a095a10777732a439d3029.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9eeec8001e94483dfd9e5536845b8f32 = L.circle(
+                [-11.97857, -77.0763],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1827.485380116959, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_e5504859e56be49eb0c1cb0df2e1cdf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d3d2736ae8579793f3c54d363ed4758 = $(`<div id="html_3d3d2736ae8579793f3c54d363ed4758" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.1827485380116959</div>`)[0];
+                popup_e5504859e56be49eb0c1cb0df2e1cdf4.setContent(html_3d3d2736ae8579793f3c54d363ed4758);
+            
+        
+
+        circle_9eeec8001e94483dfd9e5536845b8f32.bindPopup(popup_e5504859e56be49eb0c1cb0df2e1cdf4)
+        ;
+
+        
+    
+    
+            circle_9eeec8001e94483dfd9e5536845b8f32.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6469fa2c8da4da3f70081ca3ce93a80a = L.circle(
+                [-12.0095, -77.00905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2583.3333333333335, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_8c04eb35b811d4d7f3e24ba1be4c7a88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e44c584d3641962cba7dd9ca740ee72 = $(`<div id="html_1e44c584d3641962cba7dd9ca740ee72" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.25833333333333336</div>`)[0];
+                popup_8c04eb35b811d4d7f3e24ba1be4c7a88.setContent(html_1e44c584d3641962cba7dd9ca740ee72);
+            
+        
+
+        circle_6469fa2c8da4da3f70081ca3ce93a80a.bindPopup(popup_8c04eb35b811d4d7f3e24ba1be4c7a88)
+        ;
+
+        
+    
+    
+            circle_6469fa2c8da4da3f70081ca3ce93a80a.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f6addd049f985d3edefe564b15823061 = L.circle(
+                [-12.08973, -77.01833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_ccea9b2daf69bb50209a7823caf6b316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a60064543345f55f4f626cb8c2202b = $(`<div id="html_48a60064543345f55f4f626cb8c2202b" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_ccea9b2daf69bb50209a7823caf6b316.setContent(html_48a60064543345f55f4f626cb8c2202b);
+            
+        
+
+        circle_f6addd049f985d3edefe564b15823061.bindPopup(popup_ccea9b2daf69bb50209a7823caf6b316)
+        ;
+
+        
+    
+    
+            circle_f6addd049f985d3edefe564b15823061.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_18cb5091031e34840d526ae30aa81326 = L.circle(
+                [-12.11111, -76.87489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6589.74358974359, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_2f1378e084bed64f08aa3d6355b07131 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0155649b7b78cfac119c435ca8bb55e = $(`<div id="html_d0155649b7b78cfac119c435ca8bb55e" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.658974358974359</div>`)[0];
+                popup_2f1378e084bed64f08aa3d6355b07131.setContent(html_d0155649b7b78cfac119c435ca8bb55e);
+            
+        
+
+        circle_18cb5091031e34840d526ae30aa81326.bindPopup(popup_2f1378e084bed64f08aa3d6355b07131)
+        ;
+
+        
+    
+    
+            circle_18cb5091031e34840d526ae30aa81326.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cd5ad1f460b3b45e63544919c416ed57 = L.circle(
+                [-12.09646, -76.77599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2300.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_04daceeb8048c2d018b9b35d246418e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7798516188a1beee9c7270f7ef6a33a1 = $(`<div id="html_7798516188a1beee9c7270f7ef6a33a1" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.23</div>`)[0];
+                popup_04daceeb8048c2d018b9b35d246418e7.setContent(html_7798516188a1beee9c7270f7ef6a33a1);
+            
+        
+
+        circle_cd5ad1f460b3b45e63544919c416ed57.bindPopup(popup_04daceeb8048c2d018b9b35d246418e7)
+        ;
+
+        
+    
+    
+            circle_cd5ad1f460b3b45e63544919c416ed57.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_303ceeffa4df5add1aed1dcd8e652f8f = L.circle(
+                [-12.21321, -76.93709],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6424.116424116424, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_c477ac9df7ad27b8474c4d410b110354 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f61bdf08fbaa3f118fc1a932ed105e0 = $(`<div id="html_7f61bdf08fbaa3f118fc1a932ed105e0" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6424116424116424</div>`)[0];
+                popup_c477ac9df7ad27b8474c4d410b110354.setContent(html_7f61bdf08fbaa3f118fc1a932ed105e0);
+            
+        
+
+        circle_303ceeffa4df5add1aed1dcd8e652f8f.bindPopup(popup_c477ac9df7ad27b8474c4d410b110354)
+        ;
+
+        
+    
+    
+            circle_303ceeffa4df5add1aed1dcd8e652f8f.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2103138c4fccd926ae3c9690ef5a249c = L.circle(
+                [-12.21856, -76.93808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_e8dace4e0301117eec3c91a074df42e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fddf0f81cd695bbdc3c7bafaf678b9ea = $(`<div id="html_fddf0f81cd695bbdc3c7bafaf678b9ea" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6</div>`)[0];
+                popup_e8dace4e0301117eec3c91a074df42e7.setContent(html_fddf0f81cd695bbdc3c7bafaf678b9ea);
+            
+        
+
+        circle_2103138c4fccd926ae3c9690ef5a249c.bindPopup(popup_e8dace4e0301117eec3c91a074df42e7)
+        ;
+
+        
+    
+    
+            circle_2103138c4fccd926ae3c9690ef5a249c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f7617e5182883879f76c0a694080721f = L.circle(
+                [-12.05871, -77.04596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_4164090b4f9a4af160e101e4bb3d3f72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_348b9a75b4fee8eb34aeba8278732f6e = $(`<div id="html_348b9a75b4fee8eb34aeba8278732f6e" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_4164090b4f9a4af160e101e4bb3d3f72.setContent(html_348b9a75b4fee8eb34aeba8278732f6e);
+            
+        
+
+        circle_f7617e5182883879f76c0a694080721f.bindPopup(popup_4164090b4f9a4af160e101e4bb3d3f72)
+        ;
+
+        
+    
+    
+            circle_f7617e5182883879f76c0a694080721f.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7dfa85426677dda1da3e06bd022017ca = L.circle(
+                [-12.01393, -77.07534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2471.9101123595506, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_2679b9cd00769d6759442313001dd677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e84de7675396d3cdce0947a624b5a3d3 = $(`<div id="html_e84de7675396d3cdce0947a624b5a3d3" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.24719101123595505</div>`)[0];
+                popup_2679b9cd00769d6759442313001dd677.setContent(html_e84de7675396d3cdce0947a624b5a3d3);
+            
+        
+
+        circle_7dfa85426677dda1da3e06bd022017ca.bindPopup(popup_2679b9cd00769d6759442313001dd677)
+        ;
+
+        
+    
+    
+            circle_7dfa85426677dda1da3e06bd022017ca.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0592ef76a10cf1fc30c69da5e7feab35 = L.circle(
+                [-11.86678, -77.07771],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6302.003081664098, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_0a279440ef01dd97565521e0464c2330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b19fa4ac70018cbc34489721a86e2d5 = $(`<div id="html_6b19fa4ac70018cbc34489721a86e2d5" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6302003081664098</div>`)[0];
+                popup_0a279440ef01dd97565521e0464c2330.setContent(html_6b19fa4ac70018cbc34489721a86e2d5);
+            
+        
+
+        circle_0592ef76a10cf1fc30c69da5e7feab35.bindPopup(popup_0a279440ef01dd97565521e0464c2330)
+        ;
+
+        
+    
+    
+            circle_0592ef76a10cf1fc30c69da5e7feab35.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fba622059ad6c620543b6912d42d9d66 = L.circle(
+                [-12.06794, -76.98795],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3825.396825396825, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_27ec8ea291e1c1a76412b6945a14b55f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d98801b9226c219ab702b01b83342288 = $(`<div id="html_d98801b9226c219ab702b01b83342288" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3825396825396825</div>`)[0];
+                popup_27ec8ea291e1c1a76412b6945a14b55f.setContent(html_d98801b9226c219ab702b01b83342288);
+            
+        
+
+        circle_fba622059ad6c620543b6912d42d9d66.bindPopup(popup_27ec8ea291e1c1a76412b6945a14b55f)
+        ;
+
+        
+    
+    
+            circle_fba622059ad6c620543b6912d42d9d66.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_18c29926b1df579cd2e641196b6577a8 = L.circle(
+                [-12.01667, -77.00468],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4400.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_a6e0b8ee707b9da749d2ffc482fc1a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bfff678dbc5dd6fc547948ae31b5bca = $(`<div id="html_2bfff678dbc5dd6fc547948ae31b5bca" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.44</div>`)[0];
+                popup_a6e0b8ee707b9da749d2ffc482fc1a32.setContent(html_2bfff678dbc5dd6fc547948ae31b5bca);
+            
+        
+
+        circle_18c29926b1df579cd2e641196b6577a8.bindPopup(popup_a6e0b8ee707b9da749d2ffc482fc1a32)
+        ;
+
+        
+    
+    
+            circle_18c29926b1df579cd2e641196b6577a8.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a6a935550ff5f4485a603b5e65480c33 = L.circle(
+                [-13.07775, -76.38743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2980.392156862745, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_f650d9315e7b693d944c2373fa90c610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b205a8d78a1d386f8763036948d35f9 = $(`<div id="html_6b205a8d78a1d386f8763036948d35f9" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.2980392156862745</div>`)[0];
+                popup_f650d9315e7b693d944c2373fa90c610.setContent(html_6b205a8d78a1d386f8763036948d35f9);
+            
+        
+
+        circle_a6a935550ff5f4485a603b5e65480c33.bindPopup(popup_f650d9315e7b693d944c2373fa90c610)
+        ;
+
+        
+    
+    
+            circle_a6a935550ff5f4485a603b5e65480c33.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5b82e974620b9038f199a950319d8a7c = L.circle(
+                [-12.65776, -76.63236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4397.163120567376, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_6c42c4da9cc06972f17b622e192380d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4930d7c0534a69b2a66561dfdad94ed = $(`<div id="html_e4930d7c0534a69b2a66561dfdad94ed" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.4397163120567376</div>`)[0];
+                popup_6c42c4da9cc06972f17b622e192380d7.setContent(html_e4930d7c0534a69b2a66561dfdad94ed);
+            
+        
+
+        circle_5b82e974620b9038f199a950319d8a7c.bindPopup(popup_6c42c4da9cc06972f17b622e192380d7)
+        ;
+
+        
+    
+    
+            circle_5b82e974620b9038f199a950319d8a7c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cdcb564a266d68684091c5a1d6274f06 = L.circle(
+                [-11.49541, -77.20719],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7854.671280276817, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_d5e1a90e6329d27b1423ce538557798d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9690bb9a81bfa599ce094a8d005f4265 = $(`<div id="html_9690bb9a81bfa599ce094a8d005f4265" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7854671280276817</div>`)[0];
+                popup_d5e1a90e6329d27b1423ce538557798d.setContent(html_9690bb9a81bfa599ce094a8d005f4265);
+            
+        
+
+        circle_cdcb564a266d68684091c5a1d6274f06.bindPopup(popup_d5e1a90e6329d27b1423ce538557798d)
+        ;
+
+        
+    
+    
+            circle_cdcb564a266d68684091c5a1d6274f06.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e2ef65efaee501c36bca9f519891e025 = L.circle(
+                [-12.04174, -76.93053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_f9eaea6510a0d3eaaf780c372fd2c9a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d99b9a55ef690a3832bc3d1524d3cb0 = $(`<div id="html_6d99b9a55ef690a3832bc3d1524d3cb0" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6</div>`)[0];
+                popup_f9eaea6510a0d3eaaf780c372fd2c9a5.setContent(html_6d99b9a55ef690a3832bc3d1524d3cb0);
+            
+        
+
+        circle_e2ef65efaee501c36bca9f519891e025.bindPopup(popup_f9eaea6510a0d3eaaf780c372fd2c9a5)
+        ;
+
+        
+    
+    
+            circle_e2ef65efaee501c36bca9f519891e025.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_29702b81504c284da5edd32b91fc26ed = L.circle(
+                [-12.02962, -77.00997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3166.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_10aeaa9fd4efde17013801001d852521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6f3d6399f4c08d0316c8d25c874ad7a = $(`<div id="html_e6f3d6399f4c08d0316c8d25c874ad7a" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.31666666666666665</div>`)[0];
+                popup_10aeaa9fd4efde17013801001d852521.setContent(html_e6f3d6399f4c08d0316c8d25c874ad7a);
+            
+        
+
+        circle_29702b81504c284da5edd32b91fc26ed.bindPopup(popup_10aeaa9fd4efde17013801001d852521)
+        ;
+
+        
+    
+    
+            circle_29702b81504c284da5edd32b91fc26ed.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_17e2fe6aa6337dfb0172fde026043afd = L.circle(
+                [-13.07775, -76.38743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_83c8474ef4895b72c2dc62a3b71fd263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d3853743ead9852a0aaff14b114185f = $(`<div id="html_3d3853743ead9852a0aaff14b114185f" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7</div>`)[0];
+                popup_83c8474ef4895b72c2dc62a3b71fd263.setContent(html_3d3853743ead9852a0aaff14b114185f);
+            
+        
+
+        circle_17e2fe6aa6337dfb0172fde026043afd.bindPopup(popup_83c8474ef4895b72c2dc62a3b71fd263)
+        ;
+
+        
+    
+    
+            circle_17e2fe6aa6337dfb0172fde026043afd.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_07d78fd3491dcdb6e96ded9c8b2ad026 = L.circle(
+                [-12.11074, -76.97907],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1916.6666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_cec724bfd541e9590c6525aa8cc93def = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3ecaf601cdfda5fd2799f38353dc01d = $(`<div id="html_c3ecaf601cdfda5fd2799f38353dc01d" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.19166666666666668</div>`)[0];
+                popup_cec724bfd541e9590c6525aa8cc93def.setContent(html_c3ecaf601cdfda5fd2799f38353dc01d);
+            
+        
+
+        circle_07d78fd3491dcdb6e96ded9c8b2ad026.bindPopup(popup_cec724bfd541e9590c6525aa8cc93def)
+        ;
+
+        
+    
+    
+            circle_07d78fd3491dcdb6e96ded9c8b2ad026.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b6c4ab3d0b352063126499256c0d9bf4 = L.circle(
+                [-12.06367, -76.94851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3212.1212121212125, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_ae388bac83d3d3fa276c49e334848724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_145a63f11e85288a0e433832b3124a00 = $(`<div id="html_145a63f11e85288a0e433832b3124a00" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3212121212121212</div>`)[0];
+                popup_ae388bac83d3d3fa276c49e334848724.setContent(html_145a63f11e85288a0e433832b3124a00);
+            
+        
+
+        circle_b6c4ab3d0b352063126499256c0d9bf4.bindPopup(popup_ae388bac83d3d3fa276c49e334848724)
+        ;
+
+        
+    
+    
+            circle_b6c4ab3d0b352063126499256c0d9bf4.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f82f58065c4ebe6367bbb9c742fe727e = L.circle(
+                [-11.98931, -76.8194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5555.555555555556, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_713df103afd56a367bef149df5a81662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f20d2c78ebbdb33e04f789fb9ff08289 = $(`<div id="html_f20d2c78ebbdb33e04f789fb9ff08289" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5555555555555556</div>`)[0];
+                popup_713df103afd56a367bef149df5a81662.setContent(html_f20d2c78ebbdb33e04f789fb9ff08289);
+            
+        
+
+        circle_f82f58065c4ebe6367bbb9c742fe727e.bindPopup(popup_713df103afd56a367bef149df5a81662)
+        ;
+
+        
+    
+    
+            circle_f82f58065c4ebe6367bbb9c742fe727e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a0226163e430a236a942454856028514 = L.circle(
+                [-12.15437, -76.97779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5920.6349206349205, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_b83e2ce38451712b5070f88150183dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f253aa0b2ba75766650fd65917f41a2d = $(`<div id="html_f253aa0b2ba75766650fd65917f41a2d" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.5920634920634921</div>`)[0];
+                popup_b83e2ce38451712b5070f88150183dc3.setContent(html_f253aa0b2ba75766650fd65917f41a2d);
+            
+        
+
+        circle_a0226163e430a236a942454856028514.bindPopup(popup_b83e2ce38451712b5070f88150183dc3)
+        ;
+
+        
+    
+    
+            circle_a0226163e430a236a942454856028514.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_702ddfa562662f79ad15731a8adde818 = L.circle(
+                [-12.10676, -77.03083],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3384.6153846153848, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_dc79b93f39aedd46d27f84290c0b652b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e6f4a3d481c91fff799b1eca297d344 = $(`<div id="html_1e6f4a3d481c91fff799b1eca297d344" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3384615384615385</div>`)[0];
+                popup_dc79b93f39aedd46d27f84290c0b652b.setContent(html_1e6f4a3d481c91fff799b1eca297d344);
+            
+        
+
+        circle_702ddfa562662f79ad15731a8adde818.bindPopup(popup_dc79b93f39aedd46d27f84290c0b652b)
+        ;
+
+        
+    
+    
+            circle_702ddfa562662f79ad15731a8adde818.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_042b68656bb7c8c637ce3ebc28021228 = L.circle(
+                [-12.16264, -76.94429],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3416.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_e1bf654faa1226b595df07b2fd82d5ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21331893e413c00ef859ed611fd18bb0 = $(`<div id="html_21331893e413c00ef859ed611fd18bb0" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3416666666666667</div>`)[0];
+                popup_e1bf654faa1226b595df07b2fd82d5ca.setContent(html_21331893e413c00ef859ed611fd18bb0);
+            
+        
+
+        circle_042b68656bb7c8c637ce3ebc28021228.bindPopup(popup_e1bf654faa1226b595df07b2fd82d5ca)
+        ;
+
+        
+    
+    
+            circle_042b68656bb7c8c637ce3ebc28021228.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0c5234701041de2e6146eabad9f71e44 = L.circle(
+                [-11.95714, -77.04984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_9b35a9659ab65d7eb1a7f0c90948943c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b410993b18cd3278a0d2b2e1e1553565 = $(`<div id="html_b410993b18cd3278a0d2b2e1e1553565" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_9b35a9659ab65d7eb1a7f0c90948943c.setContent(html_b410993b18cd3278a0d2b2e1e1553565);
+            
+        
+
+        circle_0c5234701041de2e6146eabad9f71e44.bindPopup(popup_9b35a9659ab65d7eb1a7f0c90948943c)
+        ;
+
+        
+    
+    
+            circle_0c5234701041de2e6146eabad9f71e44.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cbdc0ec3d9a2c7cd2c65b4b9deb687b1 = L.circle(
+                [-12.02987, -77.05831],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1596.4240102171136, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_259e8e52892b6c4140a2eeb034984b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ce8612cb3d8598c4ad663c43eb20fbf = $(`<div id="html_9ce8612cb3d8598c4ad663c43eb20fbf" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.15964240102171137</div>`)[0];
+                popup_259e8e52892b6c4140a2eeb034984b08.setContent(html_9ce8612cb3d8598c4ad663c43eb20fbf);
+            
+        
+
+        circle_cbdc0ec3d9a2c7cd2c65b4b9deb687b1.bindPopup(popup_259e8e52892b6c4140a2eeb034984b08)
+        ;
+
+        
+    
+    
+            circle_cbdc0ec3d9a2c7cd2c65b4b9deb687b1.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fe163b2574f52cfff983defe643a03a1 = L.circle(
+                [-12.08215, -77.05295],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2605.633802816901, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_8e40be17990eadb38e449244d4c67d0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8383a60de8cd1b19178fc849a9215423 = $(`<div id="html_8383a60de8cd1b19178fc849a9215423" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.2605633802816901</div>`)[0];
+                popup_8e40be17990eadb38e449244d4c67d0a.setContent(html_8383a60de8cd1b19178fc849a9215423);
+            
+        
+
+        circle_fe163b2574f52cfff983defe643a03a1.bindPopup(popup_8e40be17990eadb38e449244d4c67d0a)
+        ;
+
+        
+    
+    
+            circle_fe163b2574f52cfff983defe643a03a1.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a00d9f864fea15216159b394f3248637 = L.circle(
+                [-7.9025, -78.5657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7021.857923497268, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_bdb4065e0bb69e426912e40561866f22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94901037c6dfaa71d1f743a3a77521a5 = $(`<div id="html_94901037c6dfaa71d1f743a3a77521a5" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.7021857923497268</div>`)[0];
+                popup_bdb4065e0bb69e426912e40561866f22.setContent(html_94901037c6dfaa71d1f743a3a77521a5);
+            
+        
+
+        circle_a00d9f864fea15216159b394f3248637.bindPopup(popup_bdb4065e0bb69e426912e40561866f22)
+        ;
+
+        
+    
+    
+            circle_a00d9f864fea15216159b394f3248637.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d41461878d8370da8ce65b96208ba7b = L.circle(
+                [-7.4216, -79.5064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8259.25925925926, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_c44fb604886523cadfadffa10e6ba5b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d2ebee3f5f20cd03d85a9a9f9d5c8fb = $(`<div id="html_4d2ebee3f5f20cd03d85a9a9f9d5c8fb" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.825925925925926</div>`)[0];
+                popup_c44fb604886523cadfadffa10e6ba5b4.setContent(html_4d2ebee3f5f20cd03d85a9a9f9d5c8fb);
+            
+        
+
+        circle_7d41461878d8370da8ce65b96208ba7b.bindPopup(popup_c44fb604886523cadfadffa10e6ba5b4)
+        ;
+
+        
+    
+    
+            circle_7d41461878d8370da8ce65b96208ba7b.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0b6d20cee4bf3ff590d5ff49e8908b4e = L.circle(
+                [-7.84955, -79.14462],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_135c5c64409ebc023f74271d74ff75b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52ede1b94b3b03b136a536d966969c93 = $(`<div id="html_52ede1b94b3b03b136a536d966969c93" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6</div>`)[0];
+                popup_135c5c64409ebc023f74271d74ff75b9.setContent(html_52ede1b94b3b03b136a536d966969c93);
+            
+        
+
+        circle_0b6d20cee4bf3ff590d5ff49e8908b4e.bindPopup(popup_135c5c64409ebc023f74271d74ff75b9)
+        ;
+
+        
+    
+    
+            circle_0b6d20cee4bf3ff590d5ff49e8908b4e.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3ddfcee8866278737ac1be3c23e2843c = L.circle(
+                [-7.79007, -79.22205],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_a7683ba2b1d440cfdbfb1b27e1303c47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a029e0df8912b88c823b6762a68bb2be = $(`<div id="html_a029e0df8912b88c823b6762a68bb2be" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.2</div>`)[0];
+                popup_a7683ba2b1d440cfdbfb1b27e1303c47.setContent(html_a029e0df8912b88c823b6762a68bb2be);
+            
+        
+
+        circle_3ddfcee8866278737ac1be3c23e2843c.bindPopup(popup_a7683ba2b1d440cfdbfb1b27e1303c47)
+        ;
+
+        
+    
+    
+            circle_3ddfcee8866278737ac1be3c23e2843c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_af9f6f8603345f2afef49167898f6951 = L.circle(
+                [-8.14315, -78.17375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9666.666666666666, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_3d4c1f1cd3a6beab985c53bfb2098529 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81fe0b204021d18fab59742c09d42a8b = $(`<div id="html_81fe0b204021d18fab59742c09d42a8b" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.9666666666666667</div>`)[0];
+                popup_3d4c1f1cd3a6beab985c53bfb2098529.setContent(html_81fe0b204021d18fab59742c09d42a8b);
+            
+        
+
+        circle_af9f6f8603345f2afef49167898f6951.bindPopup(popup_3d4c1f1cd3a6beab985c53bfb2098529)
+        ;
+
+        
+    
+    
+            circle_af9f6f8603345f2afef49167898f6951.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c4ec965a3ac7ed9a9dfe57d9102f8fe9 = L.circle(
+                [-7.90226, -78.56625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3557.6923076923076, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_2b9dc9f911b91871ca8c39ca7407f917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_566ff89d736c276776975721fb9470d2 = $(`<div id="html_566ff89d736c276776975721fb9470d2" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3557692307692308</div>`)[0];
+                popup_2b9dc9f911b91871ca8c39ca7407f917.setContent(html_566ff89d736c276776975721fb9470d2);
+            
+        
+
+        circle_c4ec965a3ac7ed9a9dfe57d9102f8fe9.bindPopup(popup_2b9dc9f911b91871ca8c39ca7407f917)
+        ;
+
+        
+    
+    
+            circle_c4ec965a3ac7ed9a9dfe57d9102f8fe9.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fc6bee95ba612bb3441747514942c83c = L.circle(
+                [-8.11665, -79.02465],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6844.444444444444, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_f78303f91906393a01642724c3ac3448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4903704c6db1553bb1e6e123f49b556 = $(`<div id="html_a4903704c6db1553bb1e6e123f49b556" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6844444444444444</div>`)[0];
+                popup_f78303f91906393a01642724c3ac3448.setContent(html_a4903704c6db1553bb1e6e123f49b556);
+            
+        
+
+        circle_fc6bee95ba612bb3441747514942c83c.bindPopup(popup_f78303f91906393a01642724c3ac3448)
+        ;
+
+        
+    
+    
+            circle_fc6bee95ba612bb3441747514942c83c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ecd4c872b922bb3c0fc4d80638c31a5d = L.circle(
+                [-8.11863, -79.02393],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_55354d46ceac36b5932e567982f89e09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fd036a0b023796368a55444a28596e8 = $(`<div id="html_4fd036a0b023796368a55444a28596e8" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.4</div>`)[0];
+                popup_55354d46ceac36b5932e567982f89e09.setContent(html_4fd036a0b023796368a55444a28596e8);
+            
+        
+
+        circle_ecd4c872b922bb3c0fc4d80638c31a5d.bindPopup(popup_55354d46ceac36b5932e567982f89e09)
+        ;
+
+        
+    
+    
+            circle_ecd4c872b922bb3c0fc4d80638c31a5d.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cf83d4a2c792a5f8789e38832f0aba09 = L.circle(
+                [-8.10377, -79.03546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_d011230ff084b03b5ec05169ddb698ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4443195ca5e184c9942534ab7a520de2 = $(`<div id="html_4443195ca5e184c9942534ab7a520de2" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.0</div>`)[0];
+                popup_d011230ff084b03b5ec05169ddb698ae.setContent(html_4443195ca5e184c9942534ab7a520de2);
+            
+        
+
+        circle_cf83d4a2c792a5f8789e38832f0aba09.bindPopup(popup_d011230ff084b03b5ec05169ddb698ae)
+        ;
+
+        
+    
+    
+            circle_cf83d4a2c792a5f8789e38832f0aba09.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_daad920f37281bc9891f923b6b6acfb2 = L.circle(
+                [-8.11176, -79.02869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2654.320987654321, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_c61b0fe1f5f17a38f9693bb9cacec578 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33d9873849f9f4d4a197d993d15b7300 = $(`<div id="html_33d9873849f9f4d4a197d993d15b7300" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.2654320987654321</div>`)[0];
+                popup_c61b0fe1f5f17a38f9693bb9cacec578.setContent(html_33d9873849f9f4d4a197d993d15b7300);
+            
+        
+
+        circle_daad920f37281bc9891f923b6b6acfb2.bindPopup(popup_c61b0fe1f5f17a38f9693bb9cacec578)
+        ;
+
+        
+    
+    
+            circle_daad920f37281bc9891f923b6b6acfb2.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d6bb7d1f39973298d42dd02f9a74e03b = L.circle(
+                [-8.1157, -79.02005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3902.702702702703, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_ebae49b15bb5dc0e797035ea95b68d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec10bb90abf27144b3a5fc8cb210f981 = $(`<div id="html_ec10bb90abf27144b3a5fc8cb210f981" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3902702702702703</div>`)[0];
+                popup_ebae49b15bb5dc0e797035ea95b68d8c.setContent(html_ec10bb90abf27144b3a5fc8cb210f981);
+            
+        
+
+        circle_d6bb7d1f39973298d42dd02f9a74e03b.bindPopup(popup_ebae49b15bb5dc0e797035ea95b68d8c)
+        ;
+
+        
+    
+    
+            circle_d6bb7d1f39973298d42dd02f9a74e03b.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a147a0d870efc870fd63afce847398ed = L.circle(
+                [-8.11176, -79.02869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5062.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_5f35ac645dc73a5fc2544525c3dc4745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc694574351b8cfe14ae58c22cd27701 = $(`<div id="html_fc694574351b8cfe14ae58c22cd27701" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.50625</div>`)[0];
+                popup_5f35ac645dc73a5fc2544525c3dc4745.setContent(html_fc694574351b8cfe14ae58c22cd27701);
+            
+        
+
+        circle_a147a0d870efc870fd63afce847398ed.bindPopup(popup_5f35ac645dc73a5fc2544525c3dc4745)
+        ;
+
+        
+    
+    
+            circle_a147a0d870efc870fd63afce847398ed.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_759b8c3fc264066e36ffed7e5a9602b7 = L.circle(
+                [-16.60199, -72.70256],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6477.272727272727, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_92958b1da61255176811c062a01ddc10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fedf01497a3426b577013db2a061892 = $(`<div id="html_6fedf01497a3426b577013db2a061892" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.6477272727272727</div>`)[0];
+                popup_92958b1da61255176811c062a01ddc10.setContent(html_6fedf01497a3426b577013db2a061892);
+            
+        
+
+        circle_759b8c3fc264066e36ffed7e5a9602b7.bindPopup(popup_92958b1da61255176811c062a01ddc10)
+        ;
+
+        
+    
+    
+            circle_759b8c3fc264066e36ffed7e5a9602b7.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d4f3a817331af72c46790cc5950463f2 = L.circle(
+                [-16.39935, -71.52288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3854.389721627409, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_35e1883ae42779945a5f36e78ceed8da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e23b0fba90b8a8f34309f068af753ca = $(`<div id="html_0e23b0fba90b8a8f34309f068af753ca" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.3854389721627409</div>`)[0];
+                popup_35e1883ae42779945a5f36e78ceed8da.setContent(html_0e23b0fba90b8a8f34309f068af753ca);
+            
+        
+
+        circle_d4f3a817331af72c46790cc5950463f2.bindPopup(popup_35e1883ae42779945a5f36e78ceed8da)
+        ;
+
+        
+    
+    
+            circle_d4f3a817331af72c46790cc5950463f2.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5ef651669300baccbb30277d74d0ac72 = L.circle(
+                [-15.77308, -73.36253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8444.444444444445, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_b6232234475ee056ab10ace7758919f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddffd983c5a8bea6c9a981a0a687522b = $(`<div id="html_ddffd983c5a8bea6c9a981a0a687522b" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.8444444444444444</div>`)[0];
+                popup_b6232234475ee056ab10ace7758919f4.setContent(html_ddffd983c5a8bea6c9a981a0a687522b);
+            
+        
+
+        circle_5ef651669300baccbb30277d74d0ac72.bindPopup(popup_b6232234475ee056ab10ace7758919f4)
+        ;
+
+        
+    
+    
+            circle_5ef651669300baccbb30277d74d0ac72.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f770d88e18bfba616ebd913aed44e45 = L.circle(
+                [-16.4097, -71.53386],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4556.962025316456, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_e4cb5709e5d019a74a78e351cf121c78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1eb40b41abff5151c17100198db9a1b = $(`<div id="html_b1eb40b41abff5151c17100198db9a1b" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.45569620253164556</div>`)[0];
+                popup_e4cb5709e5d019a74a78e351cf121c78.setContent(html_b1eb40b41abff5151c17100198db9a1b);
+            
+        
+
+        circle_5f770d88e18bfba616ebd913aed44e45.bindPopup(popup_e4cb5709e5d019a74a78e351cf121c78)
+        ;
+
+        
+    
+    
+            circle_5f770d88e18bfba616ebd913aed44e45.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fff17c741db7d327a5e1f36dc59f1539 = L.circle(
+                [-16.40434, -71.53947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6380.952380952381, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_4fad66312aabaccdcec643a5ec1046d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f5fe13289d97a6367880f48cdcd535f = $(`<div id="html_4f5fe13289d97a6367880f48cdcd535f" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.638095238095238</div>`)[0];
+                popup_4fad66312aabaccdcec643a5ec1046d9.setContent(html_4f5fe13289d97a6367880f48cdcd535f);
+            
+        
+
+        circle_fff17c741db7d327a5e1f36dc59f1539.bindPopup(popup_4fad66312aabaccdcec643a5ec1046d9)
+        ;
+
+        
+    
+    
+            circle_fff17c741db7d327a5e1f36dc59f1539.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_83dc747d75cb9b2b5ed033509916d938 = L.circle(
+                [-16.07656, -72.49262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4873.949579831933, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_15807507908b457cbf5e6c7bdbafcb69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757bfb9ea37a01995e5ab7ee366f7ae5 = $(`<div id="html_757bfb9ea37a01995e5ab7ee366f7ae5" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.48739495798319327</div>`)[0];
+                popup_15807507908b457cbf5e6c7bdbafcb69.setContent(html_757bfb9ea37a01995e5ab7ee366f7ae5);
+            
+        
+
+        circle_83dc747d75cb9b2b5ed033509916d938.bindPopup(popup_15807507908b457cbf5e6c7bdbafcb69)
+        ;
+
+        
+    
+    
+            circle_83dc747d75cb9b2b5ed033509916d938.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e9c47d0ca2ad8f7b5587460c898f093c = L.circle(
+                [-12.07409, -77.16323],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5937.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb);
+        
+    
+        var popup_1fe98178ddf2a09924e0cfba3708b983 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7305a15c875a658ede925553afc477e6 = $(`<div id="html_7305a15c875a658ede925553afc477e6" style="width: 100.0%; height: 100.0%;"><b>Applicant Deficit:</b> 0.59375</div>`)[0];
+                popup_1fe98178ddf2a09924e0cfba3708b983.setContent(html_7305a15c875a658ede925553afc477e6);
+            
+        
+
+        circle_e9c47d0ca2ad8f7b5587460c898f093c.bindPopup(popup_1fe98178ddf2a09924e0cfba3708b983)
+        ;
+
+        
+    
+    
+            circle_e9c47d0ca2ad8f7b5587460c898f093c.bindTooltip(
+                `<div>
+                     Click!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb.addTo(map_751277219c4b0ab434bc0f6031814bd6);
+        
+    
+            var layer_control_2f2d69336caacbf425ba37546ef51831_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f7679db0b7a59ddce2212d2e2577bbb0,
+                },
+                overlays :  {
+                    "Applicant Deficit" : feature_group_a4c61e1b41e5cf7288a5cb90c71a4adb,
+                },
+            };
+            let layer_control_2f2d69336caacbf425ba37546ef51831 = L.control.layers(
+                layer_control_2f2d69336caacbf425ba37546ef51831_layers.base_layers,
+                layer_control_2f2d69336caacbf425ba37546ef51831_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_751277219c4b0ab434bc0f6031814bd6);
+
+        
+</script>
+</html>
