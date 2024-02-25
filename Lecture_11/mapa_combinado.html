@@ -1,0 +1,2394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e1b8fedadd3e2eb964f0cedd8fb48494 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e1b8fedadd3e2eb964f0cedd8fb48494" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e1b8fedadd3e2eb964f0cedd8fb48494 = L.map(
+                "map_e1b8fedadd3e2eb964f0cedd8fb48494",
+                {
+                    center: [-12.0464, -77.0428],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ac454ecb9f8f1f909e9020625c0aa4b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8ac454ecb9f8f1f909e9020625c0aa4b.addTo(map_e1b8fedadd3e2eb964f0cedd8fb48494);
+        
+    
+            var feature_group_9e03c69fbc0f3646d4abb5b2a275a823 = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_9e03c69fbc0f3646d4abb5b2a275a823.addTo(map_e1b8fedadd3e2eb964f0cedd8fb48494);
+        
+    
+            var feature_group_74e1c7aabdc6b07c9ebf5ffb67296871 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_55184581a33b7acfb9702df5ae02c955 = L.circle(
+                [-14.79923, -71.41132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5652.173913043478, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_0bf477de1cb88fa46b3ef95c318cd93d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626c7e4ce9cefa80bd8bef5bbf37e315 = $(`<div id="html_626c7e4ce9cefa80bd8bef5bbf37e315" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 644<br>Total Applicants: 364<br>Ratio Applicants/Vacancies: 5652.17</div>`)[0];
+                popup_0bf477de1cb88fa46b3ef95c318cd93d.setContent(html_626c7e4ce9cefa80bd8bef5bbf37e315);
+            
+        
+
+        circle_55184581a33b7acfb9702df5ae02c955.bindPopup(popup_0bf477de1cb88fa46b3ef95c318cd93d)
+        ;
+
+        
+    
+    
+            var circle_830a9b0193e6e8a2a3827eef874333cf = L.circle(
+                [-13.51953, -71.98321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6288.288288288289, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_5533f27144408a781eba09258bb1dc97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b205d4aeebe7e66799f64605388bdec = $(`<div id="html_9b205d4aeebe7e66799f64605388bdec" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 555<br>Total Applicants: 349<br>Ratio Applicants/Vacancies: 6288.29</div>`)[0];
+                popup_5533f27144408a781eba09258bb1dc97.setContent(html_9b205d4aeebe7e66799f64605388bdec);
+            
+        
+
+        circle_830a9b0193e6e8a2a3827eef874333cf.bindPopup(popup_5533f27144408a781eba09258bb1dc97)
+        ;
+
+        
+    
+    
+            var circle_ff0fb94dfbda6397a3c823af5634bf14 = L.circle(
+                [-12.8665, -72.68892],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6432.4324324324325, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_176a298e2f0b1e7623fdb83cd8894b1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d42b7425929d93abc50efa225c60083e = $(`<div id="html_d42b7425929d93abc50efa225c60083e" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 740<br>Total Applicants: 476<br>Ratio Applicants/Vacancies: 6432.43</div>`)[0];
+                popup_176a298e2f0b1e7623fdb83cd8894b1a.setContent(html_d42b7425929d93abc50efa225c60083e);
+            
+        
+
+        circle_ff0fb94dfbda6397a3c823af5634bf14.bindPopup(popup_176a298e2f0b1e7623fdb83cd8894b1a)
+        ;
+
+        
+    
+    
+            var circle_c76208e64777b4d92949c326e6d4312e = L.circle(
+                [-13.53143, -71.93196],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9711.141678129297, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_84d936af7e0b36ae5537985d4dcf0bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53a334bd65301d031a2d2e5185710cdd = $(`<div id="html_53a334bd65301d031a2d2e5185710cdd" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 727<br>Total Applicants: 706<br>Ratio Applicants/Vacancies: 9711.14</div>`)[0];
+                popup_84d936af7e0b36ae5537985d4dcf0bf1.setContent(html_53a334bd65301d031a2d2e5185710cdd);
+            
+        
+
+        circle_c76208e64777b4d92949c326e6d4312e.bindPopup(popup_84d936af7e0b36ae5537985d4dcf0bf1)
+        ;
+
+        
+    
+    
+            var circle_3be4ce2fcb27123bd67b20992ca23fea = L.circle(
+                [-14.26576, -71.23002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1692.3076923076924, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_a7c23a5fe82c5cc4337ee840cf684d5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78c34755fbea6bbdb86a44f428f961a4 = $(`<div id="html_78c34755fbea6bbdb86a44f428f961a4" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 390<br>Total Applicants: 66<br>Ratio Applicants/Vacancies: 1692.31</div>`)[0];
+                popup_a7c23a5fe82c5cc4337ee840cf684d5a.setContent(html_78c34755fbea6bbdb86a44f428f961a4);
+            
+        
+
+        circle_3be4ce2fcb27123bd67b20992ca23fea.bindPopup(popup_a7c23a5fe82c5cc4337ee840cf684d5a)
+        ;
+
+        
+    
+    
+            var circle_a6c00c5be663d3a76cb583161e5db519 = L.circle(
+                [-12.86332, -72.69288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7266.666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_3b30efc0648abc5452766fc47815f0ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b44e1280715963587ab8323d76fde8 = $(`<div id="html_11b44e1280715963587ab8323d76fde8" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 150<br>Total Applicants: 109<br>Ratio Applicants/Vacancies: 7266.67</div>`)[0];
+                popup_3b30efc0648abc5452766fc47815f0ea.setContent(html_11b44e1280715963587ab8323d76fde8);
+            
+        
+
+        circle_a6c00c5be663d3a76cb583161e5db519.bindPopup(popup_3b30efc0648abc5452766fc47815f0ea)
+        ;
+
+        
+    
+    
+            var circle_ae62883eccbed4b52bd19d2807e25da2 = L.circle(
+                [-13.77014, -71.8423],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9833.333333333332, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_3d511abbecc6eaed1634097ec9710453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296876fc1090e6c0bfbe5d47c2954945 = $(`<div id="html_296876fc1090e6c0bfbe5d47c2954945" style="width: 100.0%; height: 100.0%;"><strong>CUSCO</strong><br>Total Vacancies: 120<br>Total Applicants: 118<br>Ratio Applicants/Vacancies: 9833.33</div>`)[0];
+                popup_3d511abbecc6eaed1634097ec9710453.setContent(html_296876fc1090e6c0bfbe5d47c2954945);
+            
+        
+
+        circle_ae62883eccbed4b52bd19d2807e25da2.bindPopup(popup_3d511abbecc6eaed1634097ec9710453)
+        ;
+
+        
+    
+    
+            var circle_3749294462721344b9484f3fd0a2c43b = L.circle(
+                [-13.63631, -72.87916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7444.444444444444, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f69bf767323d3a998e04b5e2bf76d45a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f09d82028d07b992f8d2b91786d901 = $(`<div id="html_55f09d82028d07b992f8d2b91786d901" style="width: 100.0%; height: 100.0%;"><strong>APURIMAC</strong><br>Total Vacancies: 180<br>Total Applicants: 134<br>Ratio Applicants/Vacancies: 7444.44</div>`)[0];
+                popup_f69bf767323d3a998e04b5e2bf76d45a.setContent(html_55f09d82028d07b992f8d2b91786d901);
+            
+        
+
+        circle_3749294462721344b9484f3fd0a2c43b.bindPopup(popup_f69bf767323d3a998e04b5e2bf76d45a)
+        ;
+
+        
+    
+    
+            var circle_fcd44e1ffc07325e7fbb3cb53fefce4d = L.circle(
+                [-16.08824, -69.63882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_ef82c17e7611aeb986e3e707066e2799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95a896845c2f110d19f4fb28ce4c5e37 = $(`<div id="html_95a896845c2f110d19f4fb28ce4c5e37" style="width: 100.0%; height: 100.0%;"><strong>PUNO</strong><br>Total Vacancies: 30<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_ef82c17e7611aeb986e3e707066e2799.setContent(html_95a896845c2f110d19f4fb28ce4c5e37);
+            
+        
+
+        circle_fcd44e1ffc07325e7fbb3cb53fefce4d.bindPopup(popup_ef82c17e7611aeb986e3e707066e2799)
+        ;
+
+        
+    
+    
+            var circle_e8b755ca1f391605009969547832656b = L.circle(
+                [-15.49004, -70.12688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7677.419354838709, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_e9d348914cdbdd598d3d00ef17c01359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a62b35cdd67d50f9fcf97cb76847ab5d = $(`<div id="html_a62b35cdd67d50f9fcf97cb76847ab5d" style="width: 100.0%; height: 100.0%;"><strong>PUNO</strong><br>Total Vacancies: 155<br>Total Applicants: 119<br>Ratio Applicants/Vacancies: 7677.42</div>`)[0];
+                popup_e9d348914cdbdd598d3d00ef17c01359.setContent(html_a62b35cdd67d50f9fcf97cb76847ab5d);
+            
+        
+
+        circle_e8b755ca1f391605009969547832656b.bindPopup(popup_e9d348914cdbdd598d3d00ef17c01359)
+        ;
+
+        
+    
+    
+            var circle_bc132ac951ebd3c55f5313c9b02f0501 = L.circle(
+                [-16.24867, -69.09839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2827.5862068965516, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_04e9438702421ac5d4b54b36f92d358f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_189d5aafaddddb07b5db8a0b071c950d = $(`<div id="html_189d5aafaddddb07b5db8a0b071c950d" style="width: 100.0%; height: 100.0%;"><strong>PUNO</strong><br>Total Vacancies: 870<br>Total Applicants: 246<br>Ratio Applicants/Vacancies: 2827.59</div>`)[0];
+                popup_04e9438702421ac5d4b54b36f92d358f.setContent(html_189d5aafaddddb07b5db8a0b071c950d);
+            
+        
+
+        circle_bc132ac951ebd3c55f5313c9b02f0501.bindPopup(popup_04e9438702421ac5d4b54b36f92d358f)
+        ;
+
+        
+    
+    
+            var circle_58eb719d36136a5ef016f9430950dfd1 = L.circle(
+                [-16.24427, -69.09257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1222.2222222222222, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_d7aecaa0a7f606a45930e45c4381086f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28ef120ba1623f437dc9388209fde5dc = $(`<div id="html_28ef120ba1623f437dc9388209fde5dc" style="width: 100.0%; height: 100.0%;"><strong>PUNO</strong><br>Total Vacancies: 180<br>Total Applicants: 22<br>Ratio Applicants/Vacancies: 1222.22</div>`)[0];
+                popup_d7aecaa0a7f606a45930e45c4381086f.setContent(html_28ef120ba1623f437dc9388209fde5dc);
+            
+        
+
+        circle_58eb719d36136a5ef016f9430950dfd1.bindPopup(popup_d7aecaa0a7f606a45930e45c4381086f)
+        ;
+
+        
+    
+    
+            var circle_840601e71747ab622d55339091068b15 = L.circle(
+                [-15.83865, -70.02428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5639.999999999999, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_98d607f7fc19d83a6368e7ef2e4dd8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01f8bac4812403137085d094624e2a32 = $(`<div id="html_01f8bac4812403137085d094624e2a32" style="width: 100.0%; height: 100.0%;"><strong>PUNO</strong><br>Total Vacancies: 250<br>Total Applicants: 141<br>Ratio Applicants/Vacancies: 5640.00</div>`)[0];
+                popup_98d607f7fc19d83a6368e7ef2e4dd8c3.setContent(html_01f8bac4812403137085d094624e2a32);
+            
+        
+
+        circle_840601e71747ab622d55339091068b15.bindPopup(popup_98d607f7fc19d83a6368e7ef2e4dd8c3)
+        ;
+
+        
+    
+    
+            var circle_b9cc4c1449dd704821f0f4eeef2a6c9a = L.circle(
+                [-15.49249, -70.1284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3566.666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_fcc538e3d3b7a63a0756dfb25af71b5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ec5c19ba1af40319f04801d2f12ef7 = $(`<div id="html_99ec5c19ba1af40319f04801d2f12ef7" style="width: 100.0%; height: 100.0%;"><strong>PUNO</strong><br>Total Vacancies: 600<br>Total Applicants: 214<br>Ratio Applicants/Vacancies: 3566.67</div>`)[0];
+                popup_fcc538e3d3b7a63a0756dfb25af71b5a.setContent(html_99ec5c19ba1af40319f04801d2f12ef7);
+            
+        
+
+        circle_b9cc4c1449dd704821f0f4eeef2a6c9a.bindPopup(popup_fcc538e3d3b7a63a0756dfb25af71b5a)
+        ;
+
+        
+    
+    
+            var circle_0a738928fe24494ecd5212080105b1b2 = L.circle(
+                [-5.6304, -78.5383],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3523.809523809524, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_a86e6328e065327921eac6ae9d702f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_327533d3e92b5b97d5c89e32816f7824 = $(`<div id="html_327533d3e92b5b97d5c89e32816f7824" style="width: 100.0%; height: 100.0%;"><strong>AMAZONAS</strong><br>Total Vacancies: 210<br>Total Applicants: 74<br>Ratio Applicants/Vacancies: 3523.81</div>`)[0];
+                popup_a86e6328e065327921eac6ae9d702f21.setContent(html_327533d3e92b5b97d5c89e32816f7824);
+            
+        
+
+        circle_0a738928fe24494ecd5212080105b1b2.bindPopup(popup_a86e6328e065327921eac6ae9d702f21)
+        ;
+
+        
+    
+    
+            var circle_0dc36f1634f4bb2bf310fd1400d7cd67 = L.circle(
+                [-14.05115, -75.75387],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8087.719298245614, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f438d560b2019459bc57b52bcec41173 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69d402cb12b5f7ff19d4d1513aaf7128 = $(`<div id="html_69d402cb12b5f7ff19d4d1513aaf7128" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 570<br>Total Applicants: 461<br>Ratio Applicants/Vacancies: 8087.72</div>`)[0];
+                popup_f438d560b2019459bc57b52bcec41173.setContent(html_69d402cb12b5f7ff19d4d1513aaf7128);
+            
+        
+
+        circle_0dc36f1634f4bb2bf310fd1400d7cd67.bindPopup(popup_f438d560b2019459bc57b52bcec41173)
+        ;
+
+        
+    
+    
+            var circle_a479cd405af469c79067b4e11cda2bd5 = L.circle(
+                [-14.05135, -75.7525],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2666.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_740589924fd8819278b114675e99504c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8f10ba21d25b661aa3915ca2bc9610a = $(`<div id="html_e8f10ba21d25b661aa3915ca2bc9610a" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 210<br>Total Applicants: 56<br>Ratio Applicants/Vacancies: 2666.67</div>`)[0];
+                popup_740589924fd8819278b114675e99504c.setContent(html_e8f10ba21d25b661aa3915ca2bc9610a);
+            
+        
+
+        circle_a479cd405af469c79067b4e11cda2bd5.bindPopup(popup_740589924fd8819278b114675e99504c)
+        ;
+
+        
+    
+    
+            var circle_1be8b1e9678066fa0a636ad6aff5c09e = L.circle(
+                [-14.0628, -75.73437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 538.4615384615385, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_0d90928129ff5afa23611012c61ed2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853c37a61eb614d05011ef48e4a82761 = $(`<div id="html_853c37a61eb614d05011ef48e4a82761" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 390<br>Total Applicants: 21<br>Ratio Applicants/Vacancies: 538.46</div>`)[0];
+                popup_0d90928129ff5afa23611012c61ed2c2.setContent(html_853c37a61eb614d05011ef48e4a82761);
+            
+        
+
+        circle_1be8b1e9678066fa0a636ad6aff5c09e.bindPopup(popup_0d90928129ff5afa23611012c61ed2c2)
+        ;
+
+        
+    
+    
+            var circle_3c1080a247e642f8983355252ed6baa3 = L.circle(
+                [-14.06224, -75.73125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2140.221402214022, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_53edf00f639e57f6dd80d89cebbdf20b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f524922bdbd8f397dd30d3da6e0f910d = $(`<div id="html_f524922bdbd8f397dd30d3da6e0f910d" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 542<br>Total Applicants: 116<br>Ratio Applicants/Vacancies: 2140.22</div>`)[0];
+                popup_53edf00f639e57f6dd80d89cebbdf20b.setContent(html_f524922bdbd8f397dd30d3da6e0f910d);
+            
+        
+
+        circle_3c1080a247e642f8983355252ed6baa3.bindPopup(popup_53edf00f639e57f6dd80d89cebbdf20b)
+        ;
+
+        
+    
+    
+            var circle_2a78d71a802ac13bbae4ab98c045a6b7 = L.circle(
+                [-14.07306, -75.72703],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_36d979e1fd87215fc11e06309a0d7f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c0c4659746070bd19d69627b51735f = $(`<div id="html_09c0c4659746070bd19d69627b51735f" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 60<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_36d979e1fd87215fc11e06309a0d7f99.setContent(html_09c0c4659746070bd19d69627b51735f);
+            
+        
+
+        circle_2a78d71a802ac13bbae4ab98c045a6b7.bindPopup(popup_36d979e1fd87215fc11e06309a0d7f99)
+        ;
+
+        
+    
+    
+            var circle_89d639180189a2471c4c1b81132709c4 = L.circle(
+                [-13.70938, -76.20868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 518.5185185185185, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_a1b64f9bafd772423ac690c897d8a9e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bddee963f08d4fbab705aea4e0773c37 = $(`<div id="html_bddee963f08d4fbab705aea4e0773c37" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 270<br>Total Applicants: 14<br>Ratio Applicants/Vacancies: 518.52</div>`)[0];
+                popup_a1b64f9bafd772423ac690c897d8a9e5.setContent(html_bddee963f08d4fbab705aea4e0773c37);
+            
+        
+
+        circle_89d639180189a2471c4c1b81132709c4.bindPopup(popup_a1b64f9bafd772423ac690c897d8a9e5)
+        ;
+
+        
+    
+    
+            var circle_cdce14e56bdd421d27a8b4bd1e637938 = L.circle(
+                [-14.06394, -75.7292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_ef7dc9e839f237e13ac2912ee5093043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_655d55e43ce8e3d33ad4a65540fc0a30 = $(`<div id="html_655d55e43ce8e3d33ad4a65540fc0a30" style="width: 100.0%; height: 100.0%;"><strong>ICA</strong><br>Total Vacancies: 150<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_ef7dc9e839f237e13ac2912ee5093043.setContent(html_655d55e43ce8e3d33ad4a65540fc0a30);
+            
+        
+
+        circle_cdce14e56bdd421d27a8b4bd1e637938.bindPopup(popup_ef7dc9e839f237e13ac2912ee5093043)
+        ;
+
+        
+    
+    
+            var circle_08bc20e76cdd38f8f44070354135df03 = L.circle(
+                [-18.01777, -70.25185],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7124.600638977636, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_ce18fc0b69cfb8cb52086df3a2a24976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbed676aec69b0d4b912e2ba42843d43 = $(`<div id="html_fbed676aec69b0d4b912e2ba42843d43" style="width: 100.0%; height: 100.0%;"><strong>TACNA</strong><br>Total Vacancies: 313<br>Total Applicants: 223<br>Ratio Applicants/Vacancies: 7124.60</div>`)[0];
+                popup_ce18fc0b69cfb8cb52086df3a2a24976.setContent(html_fbed676aec69b0d4b912e2ba42843d43);
+            
+        
+
+        circle_08bc20e76cdd38f8f44070354135df03.bindPopup(popup_ce18fc0b69cfb8cb52086df3a2a24976)
+        ;
+
+        
+    
+    
+            var circle_4e105f2766fe30fdc95ae8c1c708c0c9 = L.circle(
+                [-18.0137, -70.2508],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6990.291262135923, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_32a1ec44ec2b296ff1a0713dfe4abc03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33021fa5beb3c193040cce6721625aff = $(`<div id="html_33021fa5beb3c193040cce6721625aff" style="width: 100.0%; height: 100.0%;"><strong>TACNA</strong><br>Total Vacancies: 206<br>Total Applicants: 144<br>Ratio Applicants/Vacancies: 6990.29</div>`)[0];
+                popup_32a1ec44ec2b296ff1a0713dfe4abc03.setContent(html_33021fa5beb3c193040cce6721625aff);
+            
+        
+
+        circle_4e105f2766fe30fdc95ae8c1c708c0c9.bindPopup(popup_32a1ec44ec2b296ff1a0713dfe4abc03)
+        ;
+
+        
+    
+    
+            var circle_358268d9d558e3a96e6ff66b33b26ece = L.circle(
+                [-5.18106, -80.66289],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8958.333333333334, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_ed56507d51897f01e059cca96a45795a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd054454ab2ccfe308a195e7a6cff5c7 = $(`<div id="html_bd054454ab2ccfe308a195e7a6cff5c7" style="width: 100.0%; height: 100.0%;"><strong>PIURA</strong><br>Total Vacancies: 480<br>Total Applicants: 430<br>Ratio Applicants/Vacancies: 8958.33</div>`)[0];
+                popup_ed56507d51897f01e059cca96a45795a.setContent(html_bd054454ab2ccfe308a195e7a6cff5c7);
+            
+        
+
+        circle_358268d9d558e3a96e6ff66b33b26ece.bindPopup(popup_ed56507d51897f01e059cca96a45795a)
+        ;
+
+        
+    
+    
+            var circle_2342a5b4cbbb17a81c0f7f584ecff9c8 = L.circle(
+                [-11.2539, -74.637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6222.222222222223, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_353439e83b4e35594c1562afc7757e26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83380e657bb7dd483a916e2170ff130c = $(`<div id="html_83380e657bb7dd483a916e2170ff130c" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 180<br>Total Applicants: 112<br>Ratio Applicants/Vacancies: 6222.22</div>`)[0];
+                popup_353439e83b4e35594c1562afc7757e26.setContent(html_83380e657bb7dd483a916e2170ff130c);
+            
+        
+
+        circle_2342a5b4cbbb17a81c0f7f584ecff9c8.bindPopup(popup_353439e83b4e35594c1562afc7757e26)
+        ;
+
+        
+    
+    
+            var circle_b8e1271ad5de8904d1925d347169075e = L.circle(
+                [-11.38346, -75.68851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9980.079681274901, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_1bb363464d6e3bec7ecc12f647ec412b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2661ac175e1237792b63bac631013994 = $(`<div id="html_2661ac175e1237792b63bac631013994" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 502<br>Total Applicants: 501<br>Ratio Applicants/Vacancies: 9980.08</div>`)[0];
+                popup_1bb363464d6e3bec7ecc12f647ec412b.setContent(html_2661ac175e1237792b63bac631013994);
+            
+        
+
+        circle_b8e1271ad5de8904d1925d347169075e.bindPopup(popup_1bb363464d6e3bec7ecc12f647ec412b)
+        ;
+
+        
+    
+    
+            var circle_a1fc12f1750355907580f74676d5cf36 = L.circle(
+                [-12.06796, -75.21005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8193.548387096775, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_c18197d46706a71d329846c47c08a406 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b913c14ad5725c68aa2fa5f494cd093c = $(`<div id="html_b913c14ad5725c68aa2fa5f494cd093c" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 930<br>Total Applicants: 762<br>Ratio Applicants/Vacancies: 8193.55</div>`)[0];
+                popup_c18197d46706a71d329846c47c08a406.setContent(html_b913c14ad5725c68aa2fa5f494cd093c);
+            
+        
+
+        circle_a1fc12f1750355907580f74676d5cf36.bindPopup(popup_c18197d46706a71d329846c47c08a406)
+        ;
+
+        
+    
+    
+            var circle_6bc356f6b59d8ed2e385bcea558fe8e1 = L.circle(
+                [-12.04845, -75.20177],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6133.333333333333, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_9c763483248cb1ae10466d2231a65f6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1528ef959661c84ee6b1cac98e876f81 = $(`<div id="html_1528ef959661c84ee6b1cac98e876f81" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 150<br>Total Applicants: 92<br>Ratio Applicants/Vacancies: 6133.33</div>`)[0];
+                popup_9c763483248cb1ae10466d2231a65f6e.setContent(html_1528ef959661c84ee6b1cac98e876f81);
+            
+        
+
+        circle_6bc356f6b59d8ed2e385bcea558fe8e1.bindPopup(popup_9c763483248cb1ae10466d2231a65f6e)
+        ;
+
+        
+    
+    
+            var circle_b72716882fd1dcbbe5d404372c1d2fbe = L.circle(
+                [-12.06796, -75.21005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8333.333333333334, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_68e08e6c63bcbfadc9e01b1cac65c49e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3762fb8b0d5f2abc01496212ff2df0d = $(`<div id="html_b3762fb8b0d5f2abc01496212ff2df0d" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 120<br>Total Applicants: 100<br>Ratio Applicants/Vacancies: 8333.33</div>`)[0];
+                popup_68e08e6c63bcbfadc9e01b1cac65c49e.setContent(html_b3762fb8b0d5f2abc01496212ff2df0d);
+            
+        
+
+        circle_b72716882fd1dcbbe5d404372c1d2fbe.bindPopup(popup_68e08e6c63bcbfadc9e01b1cac65c49e)
+        ;
+
+        
+    
+    
+            var circle_a33f130b6007e4e41c0f6c6e162f394a = L.circle(
+                [-12.0644, -75.21445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1900.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_0b03be195d90030466b31fbf549919ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98f62b70e5660d630679274c7da8772a = $(`<div id="html_98f62b70e5660d630679274c7da8772a" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 300<br>Total Applicants: 57<br>Ratio Applicants/Vacancies: 1900.00</div>`)[0];
+                popup_0b03be195d90030466b31fbf549919ee.setContent(html_98f62b70e5660d630679274c7da8772a);
+            
+        
+
+        circle_a33f130b6007e4e41c0f6c6e162f394a.bindPopup(popup_0b03be195d90030466b31fbf549919ee)
+        ;
+
+        
+    
+    
+            var circle_2db08473a2d65372944b48c85e39bc65 = L.circle(
+                [-12.05921, -75.22029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8035.714285714286, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_68e9ea4943ebb892a689093d4c1437a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d898631da2f16917ba5318ee0272b1b8 = $(`<div id="html_d898631da2f16917ba5318ee0272b1b8" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 560<br>Total Applicants: 450<br>Ratio Applicants/Vacancies: 8035.71</div>`)[0];
+                popup_68e9ea4943ebb892a689093d4c1437a8.setContent(html_d898631da2f16917ba5318ee0272b1b8);
+            
+        
+
+        circle_2db08473a2d65372944b48c85e39bc65.bindPopup(popup_68e9ea4943ebb892a689093d4c1437a8)
+        ;
+
+        
+    
+    
+            var circle_457804daa41e5f3e8b1b1e994ee7871a = L.circle(
+                [-12.06796, -75.21005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3866.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_3eb1f2ac06c746324378ee98245f7126 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_146b8fc38a1600958c7942acf0db0098 = $(`<div id="html_146b8fc38a1600958c7942acf0db0098" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 600<br>Total Applicants: 232<br>Ratio Applicants/Vacancies: 3866.67</div>`)[0];
+                popup_3eb1f2ac06c746324378ee98245f7126.setContent(html_146b8fc38a1600958c7942acf0db0098);
+            
+        
+
+        circle_457804daa41e5f3e8b1b1e994ee7871a.bindPopup(popup_3eb1f2ac06c746324378ee98245f7126)
+        ;
+
+        
+    
+    
+            var circle_65d4f6729bc7bd7f5503c9caf671f77e = L.circle(
+                [-12.06087, -75.21489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6111.111111111111, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_3c632a2a4485f63bf84962612a511aee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0abcfc982222d30bbfce1d9c635f010 = $(`<div id="html_a0abcfc982222d30bbfce1d9c635f010" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 180<br>Total Applicants: 110<br>Ratio Applicants/Vacancies: 6111.11</div>`)[0];
+                popup_3c632a2a4485f63bf84962612a511aee.setContent(html_a0abcfc982222d30bbfce1d9c635f010);
+            
+        
+
+        circle_65d4f6729bc7bd7f5503c9caf671f77e.bindPopup(popup_3c632a2a4485f63bf84962612a511aee)
+        ;
+
+        
+    
+    
+            var circle_b1d51a66aa9c2cc22a51d5dd53c357f5 = L.circle(
+                [-12.06304, -75.21519],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5111.11111111111, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_0c265b91143bebd94174148f3ba428bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbdb834401900edcdf1685d57c48b06a = $(`<div id="html_fbdb834401900edcdf1685d57c48b06a" style="width: 100.0%; height: 100.0%;"><strong>JUNIN</strong><br>Total Vacancies: 90<br>Total Applicants: 46<br>Ratio Applicants/Vacancies: 5111.11</div>`)[0];
+                popup_0c265b91143bebd94174148f3ba428bc.setContent(html_fbdb834401900edcdf1685d57c48b06a);
+            
+        
+
+        circle_b1d51a66aa9c2cc22a51d5dd53c357f5.bindPopup(popup_0c265b91143bebd94174148f3ba428bc)
+        ;
+
+        
+    
+    
+            var circle_5952d7727f30112f19d4e7eb30b21efd = L.circle(
+                [-7.6217, -78.05019],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9843.13725490196, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_5ca379db00b2f47dcb61b3d13c60f1c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c172609ec8c34fb95863a1e376c4d17 = $(`<div id="html_7c172609ec8c34fb95863a1e376c4d17" style="width: 100.0%; height: 100.0%;"><strong>CAJAMARCA</strong><br>Total Vacancies: 255<br>Total Applicants: 251<br>Ratio Applicants/Vacancies: 9843.14</div>`)[0];
+                popup_5ca379db00b2f47dcb61b3d13c60f1c5.setContent(html_7c172609ec8c34fb95863a1e376c4d17);
+            
+        
+
+        circle_5952d7727f30112f19d4e7eb30b21efd.bindPopup(popup_5ca379db00b2f47dcb61b3d13c60f1c5)
+        ;
+
+        
+    
+    
+            var circle_bae9065f29d3411225a5c029f6a6af48 = L.circle(
+                [-6.67954, -78.51915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6447.368421052632, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f89e2e424f4df7fc41d889241ffb943b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f817826a9be7185a913450ddc052b242 = $(`<div id="html_f817826a9be7185a913450ddc052b242" style="width: 100.0%; height: 100.0%;"><strong>CAJAMARCA</strong><br>Total Vacancies: 532<br>Total Applicants: 343<br>Ratio Applicants/Vacancies: 6447.37</div>`)[0];
+                popup_f89e2e424f4df7fc41d889241ffb943b.setContent(html_f817826a9be7185a913450ddc052b242);
+            
+        
+
+        circle_bae9065f29d3411225a5c029f6a6af48.bindPopup(popup_f89e2e424f4df7fc41d889241ffb943b)
+        ;
+
+        
+    
+    
+            var circle_984dd1138fa43bfcce0a707a6e6a7eeb = L.circle(
+                [-7.15737, -78.51537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7866.666666666666, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_d7d80084ad5bd54b5b0dbd1f8b777ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e38ba87c2aef1c0a9d63e4ac0b8255 = $(`<div id="html_f6e38ba87c2aef1c0a9d63e4ac0b8255" style="width: 100.0%; height: 100.0%;"><strong>CAJAMARCA</strong><br>Total Vacancies: 300<br>Total Applicants: 236<br>Ratio Applicants/Vacancies: 7866.67</div>`)[0];
+                popup_d7d80084ad5bd54b5b0dbd1f8b777ac6.setContent(html_f6e38ba87c2aef1c0a9d63e4ac0b8255);
+            
+        
+
+        circle_984dd1138fa43bfcce0a707a6e6a7eeb.bindPopup(popup_d7d80084ad5bd54b5b0dbd1f8b777ac6)
+        ;
+
+        
+    
+    
+            var circle_c5abbc3364e5415f8a1c1ea5ac060c79 = L.circle(
+                [-5.7088, -78.80783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6886.95652173913, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_2628572879a6240afcab5962a12a2cc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6990c786ecd6b53c279941461d529756 = $(`<div id="html_6990c786ecd6b53c279941461d529756" style="width: 100.0%; height: 100.0%;"><strong>CAJAMARCA</strong><br>Total Vacancies: 575<br>Total Applicants: 396<br>Ratio Applicants/Vacancies: 6886.96</div>`)[0];
+                popup_2628572879a6240afcab5962a12a2cc3.setContent(html_6990c786ecd6b53c279941461d529756);
+            
+        
+
+        circle_c5abbc3364e5415f8a1c1ea5ac060c79.bindPopup(popup_2628572879a6240afcab5962a12a2cc3)
+        ;
+
+        
+    
+    
+            var circle_ae7a0b605519330f7db4a8af5b32c2ec = L.circle(
+                [-10.15305, -77.15257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8666.666666666666, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_be0b890dabb20dc1417b1f51f54c16d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caef8b0878afc7c53444cf2ea84695ef = $(`<div id="html_caef8b0878afc7c53444cf2ea84695ef" style="width: 100.0%; height: 100.0%;"><strong>ANCASH</strong><br>Total Vacancies: 90<br>Total Applicants: 78<br>Ratio Applicants/Vacancies: 8666.67</div>`)[0];
+                popup_be0b890dabb20dc1417b1f51f54c16d0.setContent(html_caef8b0878afc7c53444cf2ea84695ef);
+            
+        
+
+        circle_ae7a0b605519330f7db4a8af5b32c2ec.bindPopup(popup_be0b890dabb20dc1417b1f51f54c16d0)
+        ;
+
+        
+    
+    
+            var circle_0927720a0c09b3edeae16fd73e69e22e = L.circle(
+                [-9.12415, -78.5139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9283.819628647216, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_a14aa5e5ba1759ddd6cffbf0c5641e8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e24827ae7888d5c728ada147224ad20 = $(`<div id="html_4e24827ae7888d5c728ada147224ad20" style="width: 100.0%; height: 100.0%;"><strong>ANCASH</strong><br>Total Vacancies: 377<br>Total Applicants: 350<br>Ratio Applicants/Vacancies: 9283.82</div>`)[0];
+                popup_a14aa5e5ba1759ddd6cffbf0c5641e8c.setContent(html_4e24827ae7888d5c728ada147224ad20);
+            
+        
+
+        circle_0927720a0c09b3edeae16fd73e69e22e.bindPopup(popup_a14aa5e5ba1759ddd6cffbf0c5641e8c)
+        ;
+
+        
+    
+    
+            var circle_a5e95148be578ac04664be409065ebaf = L.circle(
+                [-9.04599, -77.80868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7545.454545454545, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_32ba64f270cbc2f75cbc7153d509a783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b582158f62d58004745eb764df1812 = $(`<div id="html_87b582158f62d58004745eb764df1812" style="width: 100.0%; height: 100.0%;"><strong>ANCASH</strong><br>Total Vacancies: 220<br>Total Applicants: 166<br>Ratio Applicants/Vacancies: 7545.45</div>`)[0];
+                popup_32ba64f270cbc2f75cbc7153d509a783.setContent(html_87b582158f62d58004745eb764df1812);
+            
+        
+
+        circle_a5e95148be578ac04664be409065ebaf.bindPopup(popup_32ba64f270cbc2f75cbc7153d509a783)
+        ;
+
+        
+    
+    
+            var circle_267b02aeb4d77af370dd177afa9ea0a0 = L.circle(
+                [-9.16349, -77.36661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6307.692307692308, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_96725d8083cf8707918f67c6599a07cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2b7fec37e74c47fd9f5af32ad727d54 = $(`<div id="html_e2b7fec37e74c47fd9f5af32ad727d54" style="width: 100.0%; height: 100.0%;"><strong>ANCASH</strong><br>Total Vacancies: 260<br>Total Applicants: 164<br>Ratio Applicants/Vacancies: 6307.69</div>`)[0];
+                popup_96725d8083cf8707918f67c6599a07cb.setContent(html_e2b7fec37e74c47fd9f5af32ad727d54);
+            
+        
+
+        circle_267b02aeb4d77af370dd177afa9ea0a0.bindPopup(popup_96725d8083cf8707918f67c6599a07cb)
+        ;
+
+        
+    
+    
+            var circle_98f78097e605ade33d962739f097e08f = L.circle(
+                [-15.00902, -73.77972],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9928.57142857143, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_37fe8b356149961fc3e3e67533ad5318 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9fbeff798c08caea0a8788cc460fe56 = $(`<div id="html_a9fbeff798c08caea0a8788cc460fe56" style="width: 100.0%; height: 100.0%;"><strong>AYACUCHO</strong><br>Total Vacancies: 420<br>Total Applicants: 417<br>Ratio Applicants/Vacancies: 9928.57</div>`)[0];
+                popup_37fe8b356149961fc3e3e67533ad5318.setContent(html_a9fbeff798c08caea0a8788cc460fe56);
+            
+        
+
+        circle_98f78097e605ade33d962739f097e08f.bindPopup(popup_37fe8b356149961fc3e3e67533ad5318)
+        ;
+
+        
+    
+    
+            var circle_f56a7dc741287e116e2fbff4106be0f8 = L.circle(
+                [-13.1592, -74.22828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_9c01cf261b6658e02dd95c115cdfbbe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3824410fff4fa8013eef1658d8f5cfb7 = $(`<div id="html_3824410fff4fa8013eef1658d8f5cfb7" style="width: 100.0%; height: 100.0%;"><strong>AYACUCHO</strong><br>Total Vacancies: 60<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_9c01cf261b6658e02dd95c115cdfbbe0.setContent(html_3824410fff4fa8013eef1658d8f5cfb7);
+            
+        
+
+        circle_f56a7dc741287e116e2fbff4106be0f8.bindPopup(popup_9c01cf261b6658e02dd95c115cdfbbe0)
+        ;
+
+        
+    
+    
+            var circle_f0a035be92803550890715b5ecb4f9c3 = L.circle(
+                [-13.15878, -74.22737],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5116.883116883117, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_2caefbc58c022ca664ff8ed902d5331f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d99e68b00cd9fa62e782beed3a33f40 = $(`<div id="html_3d99e68b00cd9fa62e782beed3a33f40" style="width: 100.0%; height: 100.0%;"><strong>AYACUCHO</strong><br>Total Vacancies: 770<br>Total Applicants: 394<br>Ratio Applicants/Vacancies: 5116.88</div>`)[0];
+                popup_2caefbc58c022ca664ff8ed902d5331f.setContent(html_3d99e68b00cd9fa62e782beed3a33f40);
+            
+        
+
+        circle_f0a035be92803550890715b5ecb4f9c3.bindPopup(popup_2caefbc58c022ca664ff8ed902d5331f)
+        ;
+
+        
+    
+    
+            var circle_18988125e9c6cf2dc9d6e5558c865785 = L.circle(
+                [-6.6459, -79.7856],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8871.5953307393, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_350638918181832f6a63c4bd55625d06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c3303629b59365eb5e91250e91e350f = $(`<div id="html_3c3303629b59365eb5e91250e91e350f" style="width: 100.0%; height: 100.0%;"><strong>LAMBAYEQUE</strong><br>Total Vacancies: 257<br>Total Applicants: 228<br>Ratio Applicants/Vacancies: 8871.60</div>`)[0];
+                popup_350638918181832f6a63c4bd55625d06.setContent(html_3c3303629b59365eb5e91250e91e350f);
+            
+        
+
+        circle_18988125e9c6cf2dc9d6e5558c865785.bindPopup(popup_350638918181832f6a63c4bd55625d06)
+        ;
+
+        
+    
+    
+            var circle_544fd3fbec43971f0e15a6e5fe5fa4ee = L.circle(
+                [-6.7715, -79.83866],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4487.179487179487, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_9addb3ba233401fa5f850edef3eb0ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bb5dd390034b9a487b82020a35975db = $(`<div id="html_1bb5dd390034b9a487b82020a35975db" style="width: 100.0%; height: 100.0%;"><strong>LAMBAYEQUE</strong><br>Total Vacancies: 624<br>Total Applicants: 280<br>Ratio Applicants/Vacancies: 4487.18</div>`)[0];
+                popup_9addb3ba233401fa5f850edef3eb0ff8.setContent(html_1bb5dd390034b9a487b82020a35975db);
+            
+        
+
+        circle_544fd3fbec43971f0e15a6e5fe5fa4ee.bindPopup(popup_9addb3ba233401fa5f850edef3eb0ff8)
+        ;
+
+        
+    
+    
+            var circle_2c10785fbfe7b678ba289e9e10edd087 = L.circle(
+                [-6.77233, -79.83116],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7357.142857142858, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_343c5a1d1ce8a95ac6d21b9561b30d1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_415676605088d224ec864c2e492da28a = $(`<div id="html_415676605088d224ec864c2e492da28a" style="width: 100.0%; height: 100.0%;"><strong>LAMBAYEQUE</strong><br>Total Vacancies: 420<br>Total Applicants: 309<br>Ratio Applicants/Vacancies: 7357.14</div>`)[0];
+                popup_343c5a1d1ce8a95ac6d21b9561b30d1a.setContent(html_415676605088d224ec864c2e492da28a);
+            
+        
+
+        circle_2c10785fbfe7b678ba289e9e10edd087.bindPopup(popup_343c5a1d1ce8a95ac6d21b9561b30d1a)
+        ;
+
+        
+    
+    
+            var circle_d421b2e3266005362461eafb0bc2b857 = L.circle(
+                [-6.85507, -79.30732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3615.3846153846152, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_6ba90f0a0aae63b0e64c73b258b69ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c409566ff3f68ba41ada5101f06b90bb = $(`<div id="html_c409566ff3f68ba41ada5101f06b90bb" style="width: 100.0%; height: 100.0%;"><strong>LAMBAYEQUE</strong><br>Total Vacancies: 390<br>Total Applicants: 141<br>Ratio Applicants/Vacancies: 3615.38</div>`)[0];
+                popup_6ba90f0a0aae63b0e64c73b258b69ce3.setContent(html_c409566ff3f68ba41ada5101f06b90bb);
+            
+        
+
+        circle_d421b2e3266005362461eafb0bc2b857.bindPopup(popup_6ba90f0a0aae63b0e64c73b258b69ce3)
+        ;
+
+        
+    
+    
+            var circle_637f11ad8a166f04dcbb7ebf843aa70d = L.circle(
+                [-6.76945, -79.83166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5666.666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_22d3ecb8e6521a03fcd0e8291adf2491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2945b2489b7631eed3a3d73ebf008913 = $(`<div id="html_2945b2489b7631eed3a3d73ebf008913" style="width: 100.0%; height: 100.0%;"><strong>LAMBAYEQUE</strong><br>Total Vacancies: 90<br>Total Applicants: 51<br>Ratio Applicants/Vacancies: 5666.67</div>`)[0];
+                popup_22d3ecb8e6521a03fcd0e8291adf2491.setContent(html_2945b2489b7631eed3a3d73ebf008913);
+            
+        
+
+        circle_637f11ad8a166f04dcbb7ebf843aa70d.bindPopup(popup_22d3ecb8e6521a03fcd0e8291adf2491)
+        ;
+
+        
+    
+    
+            var circle_042150cc779068780da9ea14612334d0 = L.circle(
+                [-8.37618, -74.56951],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_e6ad0704f424940fa7b28bdccea73359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e3510cfe04267f50598a38e034a564f = $(`<div id="html_4e3510cfe04267f50598a38e034a564f" style="width: 100.0%; height: 100.0%;"><strong>UCAYALI</strong><br>Total Vacancies: 220<br>Total Applicants: 132<br>Ratio Applicants/Vacancies: 6000.00</div>`)[0];
+                popup_e6ad0704f424940fa7b28bdccea73359.setContent(html_4e3510cfe04267f50598a38e034a564f);
+            
+        
+
+        circle_042150cc779068780da9ea14612334d0.bindPopup(popup_e6ad0704f424940fa7b28bdccea73359)
+        ;
+
+        
+    
+    
+            var circle_760535ae17b5df7eb4032fad6ae156cc = L.circle(
+                [-3.74177, -73.25092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9205.607476635514, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_27e43e9944067692c65bcb7369a3de20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbfa613fe8f7e3ce70382923ea3aa88c = $(`<div id="html_bbfa613fe8f7e3ce70382923ea3aa88c" style="width: 100.0%; height: 100.0%;"><strong>LORETO</strong><br>Total Vacancies: 214<br>Total Applicants: 197<br>Ratio Applicants/Vacancies: 9205.61</div>`)[0];
+                popup_27e43e9944067692c65bcb7369a3de20.setContent(html_bbfa613fe8f7e3ce70382923ea3aa88c);
+            
+        
+
+        circle_760535ae17b5df7eb4032fad6ae156cc.bindPopup(popup_27e43e9944067692c65bcb7369a3de20)
+        ;
+
+        
+    
+    
+            var circle_885872164267f3cf3a358971dfdda597 = L.circle(
+                [-12.04935, -77.03284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1576.283441793203, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_b6bfc5fb236cff0c05643e0873e8d7f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32753cd21eee724c145408ed2eda0c49 = $(`<div id="html_32753cd21eee724c145408ed2eda0c49" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1383<br>Total Applicants: 218<br>Ratio Applicants/Vacancies: 1576.28</div>`)[0];
+                popup_b6bfc5fb236cff0c05643e0873e8d7f0.setContent(html_32753cd21eee724c145408ed2eda0c49);
+            
+        
+
+        circle_885872164267f3cf3a358971dfdda597.bindPopup(popup_b6bfc5fb236cff0c05643e0873e8d7f0)
+        ;
+
+        
+    
+    
+            var circle_5b3c07be0b1585c94b9ab2b7166327d8 = L.circle(
+                [-12.05871, -77.04596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6089.385474860335, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_5df833b68be55da8e74202001eda3aab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed30072ce90c79c1cd4aa2634757383b = $(`<div id="html_ed30072ce90c79c1cd4aa2634757383b" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 716<br>Total Applicants: 436<br>Ratio Applicants/Vacancies: 6089.39</div>`)[0];
+                popup_5df833b68be55da8e74202001eda3aab.setContent(html_ed30072ce90c79c1cd4aa2634757383b);
+            
+        
+
+        circle_5b3c07be0b1585c94b9ab2b7166327d8.bindPopup(popup_5df833b68be55da8e74202001eda3aab)
+        ;
+
+        
+    
+    
+            var circle_bd586b859ccf7c7459c78f159ae85709 = L.circle(
+                [-12.0653, -77.03665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1640.706126687435, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f79f4e3801bcd6a573b425d57c0bdef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13257b4c5818af1545256d42ff4e4bd1 = $(`<div id="html_13257b4c5818af1545256d42ff4e4bd1" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 963<br>Total Applicants: 158<br>Ratio Applicants/Vacancies: 1640.71</div>`)[0];
+                popup_f79f4e3801bcd6a573b425d57c0bdef5.setContent(html_13257b4c5818af1545256d42ff4e4bd1);
+            
+        
+
+        circle_bd586b859ccf7c7459c78f159ae85709.bindPopup(popup_f79f4e3801bcd6a573b425d57c0bdef5)
+        ;
+
+        
+    
+    
+            var circle_71916770d1162f70452007df9edb53af = L.circle(
+                [-12.07673, -77.0439],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9306.742640075974, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_9b36343b9d1e71495ce80bbe9b03a96d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d81b90cca1316ae0450df7b29c8bbf98 = $(`<div id="html_d81b90cca1316ae0450df7b29c8bbf98" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1053<br>Total Applicants: 980<br>Ratio Applicants/Vacancies: 9306.74</div>`)[0];
+                popup_9b36343b9d1e71495ce80bbe9b03a96d.setContent(html_d81b90cca1316ae0450df7b29c8bbf98);
+            
+        
+
+        circle_71916770d1162f70452007df9edb53af.bindPopup(popup_9b36343b9d1e71495ce80bbe9b03a96d)
+        ;
+
+        
+    
+    
+            var circle_c128bdcdd4af07fc1ac547722eeb2534 = L.circle(
+                [-12.07691, -77.03529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1985.4280510018216, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_a3d8e505f32cc6e11268205c0521cd11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3134306697e8f33a67627dfda26d0294 = $(`<div id="html_3134306697e8f33a67627dfda26d0294" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 549<br>Total Applicants: 109<br>Ratio Applicants/Vacancies: 1985.43</div>`)[0];
+                popup_a3d8e505f32cc6e11268205c0521cd11.setContent(html_3134306697e8f33a67627dfda26d0294);
+            
+        
+
+        circle_c128bdcdd4af07fc1ac547722eeb2534.bindPopup(popup_a3d8e505f32cc6e11268205c0521cd11)
+        ;
+
+        
+    
+    
+            var circle_b8dceae60c213a06fb1e86543b5868a3 = L.circle(
+                [-12.06415, -77.10044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5574.712643678161, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_bbf8941d00fac1cfcccd22697637b613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6022e74285d27bcfe4338dc4a02f9dc8 = $(`<div id="html_6022e74285d27bcfe4338dc4a02f9dc8" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1392<br>Total Applicants: 776<br>Ratio Applicants/Vacancies: 5574.71</div>`)[0];
+                popup_bbf8941d00fac1cfcccd22697637b613.setContent(html_6022e74285d27bcfe4338dc4a02f9dc8);
+            
+        
+
+        circle_b8dceae60c213a06fb1e86543b5868a3.bindPopup(popup_bbf8941d00fac1cfcccd22697637b613)
+        ;
+
+        
+    
+    
+            var circle_3e69b4dba4064f7fed50405ced83607a = L.circle(
+                [-12.09069, -77.03816],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 915.6626506024096, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_d6071fdaaed1fe27247b663fd099c988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2af0618ae676ab65fe4e083224cfd890 = $(`<div id="html_2af0618ae676ab65fe4e083224cfd890" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 830<br>Total Applicants: 76<br>Ratio Applicants/Vacancies: 915.66</div>`)[0];
+                popup_d6071fdaaed1fe27247b663fd099c988.setContent(html_2af0618ae676ab65fe4e083224cfd890);
+            
+        
+
+        circle_3e69b4dba4064f7fed50405ced83607a.bindPopup(popup_d6071fdaaed1fe27247b663fd099c988)
+        ;
+
+        
+    
+    
+            var circle_a8a5803cb08c453005f9b0c7e5cd5860 = L.circle(
+                [-11.97355, -77.00792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4916.420845624385, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_79b440759ac258dbfe5ef4f39235644d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_608086f2316d9ad70f6ee1889ef34798 = $(`<div id="html_608086f2316d9ad70f6ee1889ef34798" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1017<br>Total Applicants: 500<br>Ratio Applicants/Vacancies: 4916.42</div>`)[0];
+                popup_79b440759ac258dbfe5ef4f39235644d.setContent(html_608086f2316d9ad70f6ee1889ef34798);
+            
+        
+
+        circle_a8a5803cb08c453005f9b0c7e5cd5860.bindPopup(popup_79b440759ac258dbfe5ef4f39235644d)
+        ;
+
+        
+    
+    
+            var circle_4b420cf166ee97d50664f94ca7a6540d = L.circle(
+                [-11.92636, -77.05503],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3920.863309352518, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_9ce2ccddc6650f4648c06a6314759e72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e017019cca1607a600d478481fe42f8f = $(`<div id="html_e017019cca1607a600d478481fe42f8f" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1112<br>Total Applicants: 436<br>Ratio Applicants/Vacancies: 3920.86</div>`)[0];
+                popup_9ce2ccddc6650f4648c06a6314759e72.setContent(html_e017019cca1607a600d478481fe42f8f);
+            
+        
+
+        circle_4b420cf166ee97d50664f94ca7a6540d.bindPopup(popup_9ce2ccddc6650f4648c06a6314759e72)
+        ;
+
+        
+    
+    
+            var circle_934bd26c42ea3f5653acca609d653440 = L.circle(
+                [-11.95373, -77.05768],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5142.857142857142, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_d651f7b62ba5b8a412c58da5595b3073 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36af929e1d1e3637535a7cd8781eb521 = $(`<div id="html_36af929e1d1e3637535a7cd8781eb521" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 210<br>Total Applicants: 108<br>Ratio Applicants/Vacancies: 5142.86</div>`)[0];
+                popup_d651f7b62ba5b8a412c58da5595b3073.setContent(html_36af929e1d1e3637535a7cd8781eb521);
+            
+        
+
+        circle_934bd26c42ea3f5653acca609d653440.bindPopup(popup_d651f7b62ba5b8a412c58da5595b3073)
+        ;
+
+        
+    
+    
+            var circle_03393352a9b8c8294a893e6ff695ae6f = L.circle(
+                [-11.97857, -77.0763],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1827.485380116959, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_653ee9df8fdea5470ebaa20cc027be2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ff960291810b262b96bc5d57f03489 = $(`<div id="html_91ff960291810b262b96bc5d57f03489" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 684<br>Total Applicants: 125<br>Ratio Applicants/Vacancies: 1827.49</div>`)[0];
+                popup_653ee9df8fdea5470ebaa20cc027be2a.setContent(html_91ff960291810b262b96bc5d57f03489);
+            
+        
+
+        circle_03393352a9b8c8294a893e6ff695ae6f.bindPopup(popup_653ee9df8fdea5470ebaa20cc027be2a)
+        ;
+
+        
+    
+    
+            var circle_0b5a937f3f07644ae873eca1197e0e60 = L.circle(
+                [-12.0095, -77.00905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2583.3333333333335, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_18e97521c3ee95491d539a5fd6ce74f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be27e5424eb05048bc4184eabe14df3f = $(`<div id="html_be27e5424eb05048bc4184eabe14df3f" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 360<br>Total Applicants: 93<br>Ratio Applicants/Vacancies: 2583.33</div>`)[0];
+                popup_18e97521c3ee95491d539a5fd6ce74f4.setContent(html_be27e5424eb05048bc4184eabe14df3f);
+            
+        
+
+        circle_0b5a937f3f07644ae873eca1197e0e60.bindPopup(popup_18e97521c3ee95491d539a5fd6ce74f4)
+        ;
+
+        
+    
+    
+            var circle_a4ff32dd60288adfb6546b2f60944b5e = L.circle(
+                [-12.08973, -77.01833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_3f2bd1ad181ba48729834114ff63efbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3103d03c582e3dbd787c7a39b69f4008 = $(`<div id="html_3103d03c582e3dbd787c7a39b69f4008" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 120<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_3f2bd1ad181ba48729834114ff63efbe.setContent(html_3103d03c582e3dbd787c7a39b69f4008);
+            
+        
+
+        circle_a4ff32dd60288adfb6546b2f60944b5e.bindPopup(popup_3f2bd1ad181ba48729834114ff63efbe)
+        ;
+
+        
+    
+    
+            var circle_fe8f51d08402c616734f2501f21ec6ab = L.circle(
+                [-12.11111, -76.87489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6589.74358974359, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_cc4c2f6059fbf06c3334562188dcb37a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46a9ff5c630df89c569efcaf5192f287 = $(`<div id="html_46a9ff5c630df89c569efcaf5192f287" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 390<br>Total Applicants: 257<br>Ratio Applicants/Vacancies: 6589.74</div>`)[0];
+                popup_cc4c2f6059fbf06c3334562188dcb37a.setContent(html_46a9ff5c630df89c569efcaf5192f287);
+            
+        
+
+        circle_fe8f51d08402c616734f2501f21ec6ab.bindPopup(popup_cc4c2f6059fbf06c3334562188dcb37a)
+        ;
+
+        
+    
+    
+            var circle_a6ec9fc142b6a826f8fb1e4fb93b45d3 = L.circle(
+                [-12.09646, -76.77599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2300.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_0123bb903e4770add7272a18bc148292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_484b7580fe384cb15481d9034655526e = $(`<div id="html_484b7580fe384cb15481d9034655526e" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 300<br>Total Applicants: 69<br>Ratio Applicants/Vacancies: 2300.00</div>`)[0];
+                popup_0123bb903e4770add7272a18bc148292.setContent(html_484b7580fe384cb15481d9034655526e);
+            
+        
+
+        circle_a6ec9fc142b6a826f8fb1e4fb93b45d3.bindPopup(popup_0123bb903e4770add7272a18bc148292)
+        ;
+
+        
+    
+    
+            var circle_b280622b530e1bca75542d25bd1c465b = L.circle(
+                [-12.21321, -76.93709],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6424.116424116424, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_41da0dfb0112c706dd273864103ca21f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ccb98f6c557e0ab96727e93500dbde7 = $(`<div id="html_2ccb98f6c557e0ab96727e93500dbde7" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 481<br>Total Applicants: 309<br>Ratio Applicants/Vacancies: 6424.12</div>`)[0];
+                popup_41da0dfb0112c706dd273864103ca21f.setContent(html_2ccb98f6c557e0ab96727e93500dbde7);
+            
+        
+
+        circle_b280622b530e1bca75542d25bd1c465b.bindPopup(popup_41da0dfb0112c706dd273864103ca21f)
+        ;
+
+        
+    
+    
+            var circle_251aac03aef36ba6fb86178a11f89681 = L.circle(
+                [-12.21856, -76.93808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f09c1a7654c2a1c7e302f0798d8abc4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83b158d40afc508eeec4af95a3fe5e06 = $(`<div id="html_83b158d40afc508eeec4af95a3fe5e06" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 600<br>Total Applicants: 360<br>Ratio Applicants/Vacancies: 6000.00</div>`)[0];
+                popup_f09c1a7654c2a1c7e302f0798d8abc4d.setContent(html_83b158d40afc508eeec4af95a3fe5e06);
+            
+        
+
+        circle_251aac03aef36ba6fb86178a11f89681.bindPopup(popup_f09c1a7654c2a1c7e302f0798d8abc4d)
+        ;
+
+        
+    
+    
+            var circle_d27fa01d53d3ae35dc46d60dccbbe552 = L.circle(
+                [-12.05871, -77.04596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_cf22f90854a5227e220f7829e0e16a0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cea712cc122e7251630008460db5120 = $(`<div id="html_1cea712cc122e7251630008460db5120" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 60<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_cf22f90854a5227e220f7829e0e16a0c.setContent(html_1cea712cc122e7251630008460db5120);
+            
+        
+
+        circle_d27fa01d53d3ae35dc46d60dccbbe552.bindPopup(popup_cf22f90854a5227e220f7829e0e16a0c)
+        ;
+
+        
+    
+    
+            var circle_b17433c591b72daf8ff5497574fffd8a = L.circle(
+                [-12.01393, -77.07534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2471.9101123595506, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_bb2ab62043ba9d011892fff50996d33e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_140bafce96ed06a0691eeaad40fa0cef = $(`<div id="html_140bafce96ed06a0691eeaad40fa0cef" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1068<br>Total Applicants: 264<br>Ratio Applicants/Vacancies: 2471.91</div>`)[0];
+                popup_bb2ab62043ba9d011892fff50996d33e.setContent(html_140bafce96ed06a0691eeaad40fa0cef);
+            
+        
+
+        circle_b17433c591b72daf8ff5497574fffd8a.bindPopup(popup_bb2ab62043ba9d011892fff50996d33e)
+        ;
+
+        
+    
+    
+            var circle_b6fc9a540ce55a7f164cd97b088630a9 = L.circle(
+                [-11.86678, -77.07771],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6302.003081664098, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_33bc8bce0f36d1c052f878983b318ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd2791c621081d4dbe9b6612121ef1a2 = $(`<div id="html_fd2791c621081d4dbe9b6612121ef1a2" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 649<br>Total Applicants: 409<br>Ratio Applicants/Vacancies: 6302.00</div>`)[0];
+                popup_33bc8bce0f36d1c052f878983b318ea9.setContent(html_fd2791c621081d4dbe9b6612121ef1a2);
+            
+        
+
+        circle_b6fc9a540ce55a7f164cd97b088630a9.bindPopup(popup_33bc8bce0f36d1c052f878983b318ea9)
+        ;
+
+        
+    
+    
+            var circle_e854ba097cb70e2a9772b834d2ca661b = L.circle(
+                [-12.06794, -76.98795],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3825.396825396825, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_200c120bf9758f1becf87e48c66119bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57bfc5ac4d8ebae4c99aa6a8e605a9b3 = $(`<div id="html_57bfc5ac4d8ebae4c99aa6a8e605a9b3" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 630<br>Total Applicants: 241<br>Ratio Applicants/Vacancies: 3825.40</div>`)[0];
+                popup_200c120bf9758f1becf87e48c66119bc.setContent(html_57bfc5ac4d8ebae4c99aa6a8e605a9b3);
+            
+        
+
+        circle_e854ba097cb70e2a9772b834d2ca661b.bindPopup(popup_200c120bf9758f1becf87e48c66119bc)
+        ;
+
+        
+    
+    
+            var circle_c3a2aae52a1c5541aba726096936e9e0 = L.circle(
+                [-12.01667, -77.00468],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4400.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_b6aab6b6dbc36af2a80d46186c937e1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2de353cf8777f13f4e8ca39fb5611b5 = $(`<div id="html_c2de353cf8777f13f4e8ca39fb5611b5" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 750<br>Total Applicants: 330<br>Ratio Applicants/Vacancies: 4400.00</div>`)[0];
+                popup_b6aab6b6dbc36af2a80d46186c937e1e.setContent(html_c2de353cf8777f13f4e8ca39fb5611b5);
+            
+        
+
+        circle_c3a2aae52a1c5541aba726096936e9e0.bindPopup(popup_b6aab6b6dbc36af2a80d46186c937e1e)
+        ;
+
+        
+    
+    
+            var circle_2c3ec49137393e4345cf31a7047d6963 = L.circle(
+                [-13.07775, -76.38743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2980.392156862745, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_ee6a6dca1a611b6db984c9af1262d90d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66fa8b2e42baf773ce8d2bee37f35735 = $(`<div id="html_66fa8b2e42baf773ce8d2bee37f35735" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 255<br>Total Applicants: 76<br>Ratio Applicants/Vacancies: 2980.39</div>`)[0];
+                popup_ee6a6dca1a611b6db984c9af1262d90d.setContent(html_66fa8b2e42baf773ce8d2bee37f35735);
+            
+        
+
+        circle_2c3ec49137393e4345cf31a7047d6963.bindPopup(popup_ee6a6dca1a611b6db984c9af1262d90d)
+        ;
+
+        
+    
+    
+            var circle_4acab2739277e0063e16f8dc3524954a = L.circle(
+                [-12.65776, -76.63236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4397.163120567376, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_77efdaaebbcb2c05b477a0d144007077 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe310f4ec7b5f8c600531ce51aed8033 = $(`<div id="html_fe310f4ec7b5f8c600531ce51aed8033" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 282<br>Total Applicants: 124<br>Ratio Applicants/Vacancies: 4397.16</div>`)[0];
+                popup_77efdaaebbcb2c05b477a0d144007077.setContent(html_fe310f4ec7b5f8c600531ce51aed8033);
+            
+        
+
+        circle_4acab2739277e0063e16f8dc3524954a.bindPopup(popup_77efdaaebbcb2c05b477a0d144007077)
+        ;
+
+        
+    
+    
+            var circle_fe0272a76a10e261060d53939a22021e = L.circle(
+                [-11.49541, -77.20719],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7854.671280276817, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_6cd0c3dd3902961949afbf8f4531a0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3216c59e5fb99cb72bc7a96ea3b7d276 = $(`<div id="html_3216c59e5fb99cb72bc7a96ea3b7d276" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 289<br>Total Applicants: 227<br>Ratio Applicants/Vacancies: 7854.67</div>`)[0];
+                popup_6cd0c3dd3902961949afbf8f4531a0c0.setContent(html_3216c59e5fb99cb72bc7a96ea3b7d276);
+            
+        
+
+        circle_fe0272a76a10e261060d53939a22021e.bindPopup(popup_6cd0c3dd3902961949afbf8f4531a0c0)
+        ;
+
+        
+    
+    
+            var circle_69d27649b6882704e965e5f38cdbc46c = L.circle(
+                [-12.04174, -76.93053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_986bfdde1eeb8bca426abf29894ef702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edd34bc5aa5715906a30b200e8d4e8b0 = $(`<div id="html_edd34bc5aa5715906a30b200e8d4e8b0" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 560<br>Total Applicants: 336<br>Ratio Applicants/Vacancies: 6000.00</div>`)[0];
+                popup_986bfdde1eeb8bca426abf29894ef702.setContent(html_edd34bc5aa5715906a30b200e8d4e8b0);
+            
+        
+
+        circle_69d27649b6882704e965e5f38cdbc46c.bindPopup(popup_986bfdde1eeb8bca426abf29894ef702)
+        ;
+
+        
+    
+    
+            var circle_1f5e50c481418286844d6d1ee5257ea7 = L.circle(
+                [-12.02962, -77.00997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3166.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_6e69b82ac952bf4083a37c1ba581bc01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c09ee5e0bdc0274e5755a771e0118758 = $(`<div id="html_c09ee5e0bdc0274e5755a771e0118758" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 60<br>Total Applicants: 19<br>Ratio Applicants/Vacancies: 3166.67</div>`)[0];
+                popup_6e69b82ac952bf4083a37c1ba581bc01.setContent(html_c09ee5e0bdc0274e5755a771e0118758);
+            
+        
+
+        circle_1f5e50c481418286844d6d1ee5257ea7.bindPopup(popup_6e69b82ac952bf4083a37c1ba581bc01)
+        ;
+
+        
+    
+    
+            var circle_f0a8631a5fa76b0a10e225f7ae1d9f3b = L.circle(
+                [-13.07775, -76.38743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_d27a02f1b2cad30d9dcbf3015834ae12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ac90f2fa2bea3eb05367e73b50d9556 = $(`<div id="html_2ac90f2fa2bea3eb05367e73b50d9556" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 60<br>Total Applicants: 42<br>Ratio Applicants/Vacancies: 7000.00</div>`)[0];
+                popup_d27a02f1b2cad30d9dcbf3015834ae12.setContent(html_2ac90f2fa2bea3eb05367e73b50d9556);
+            
+        
+
+        circle_f0a8631a5fa76b0a10e225f7ae1d9f3b.bindPopup(popup_d27a02f1b2cad30d9dcbf3015834ae12)
+        ;
+
+        
+    
+    
+            var circle_a33704936315cad76b37fadbfd64dcf8 = L.circle(
+                [-12.11074, -76.97907],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1916.6666666666667, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_df4565d3837937a1ab3f117b5ab53dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a796ad0e338859e020a0f123eca7058 = $(`<div id="html_8a796ad0e338859e020a0f123eca7058" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 120<br>Total Applicants: 23<br>Ratio Applicants/Vacancies: 1916.67</div>`)[0];
+                popup_df4565d3837937a1ab3f117b5ab53dc9.setContent(html_8a796ad0e338859e020a0f123eca7058);
+            
+        
+
+        circle_a33704936315cad76b37fadbfd64dcf8.bindPopup(popup_df4565d3837937a1ab3f117b5ab53dc9)
+        ;
+
+        
+    
+    
+            var circle_49d707f7ad57e79fc3b67b402a0a86a1 = L.circle(
+                [-12.06367, -76.94851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3212.1212121212125, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_38cad3080b8c47cd90aa7c0536f65ab5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fdfed756abc998fdae829b4887a943c = $(`<div id="html_7fdfed756abc998fdae829b4887a943c" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 165<br>Total Applicants: 53<br>Ratio Applicants/Vacancies: 3212.12</div>`)[0];
+                popup_38cad3080b8c47cd90aa7c0536f65ab5.setContent(html_7fdfed756abc998fdae829b4887a943c);
+            
+        
+
+        circle_49d707f7ad57e79fc3b67b402a0a86a1.bindPopup(popup_38cad3080b8c47cd90aa7c0536f65ab5)
+        ;
+
+        
+    
+    
+            var circle_21823e2dcef7d9d11b5b22f58b8df7a7 = L.circle(
+                [-11.98931, -76.8194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5555.555555555556, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_e9856171404a714e8077bb2f048d74a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1df0c634767e42c8cb218626d3f58a7 = $(`<div id="html_a1df0c634767e42c8cb218626d3f58a7" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 90<br>Total Applicants: 50<br>Ratio Applicants/Vacancies: 5555.56</div>`)[0];
+                popup_e9856171404a714e8077bb2f048d74a5.setContent(html_a1df0c634767e42c8cb218626d3f58a7);
+            
+        
+
+        circle_21823e2dcef7d9d11b5b22f58b8df7a7.bindPopup(popup_e9856171404a714e8077bb2f048d74a5)
+        ;
+
+        
+    
+    
+            var circle_32f4947cded07ea02bc8aa39e5cc692e = L.circle(
+                [-12.15437, -76.97779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5920.6349206349205, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_0a16b12b720ce6e2a75cdc627d5f9651 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9957404201126f06b8a752be642fa7f = $(`<div id="html_d9957404201126f06b8a752be642fa7f" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 630<br>Total Applicants: 373<br>Ratio Applicants/Vacancies: 5920.63</div>`)[0];
+                popup_0a16b12b720ce6e2a75cdc627d5f9651.setContent(html_d9957404201126f06b8a752be642fa7f);
+            
+        
+
+        circle_32f4947cded07ea02bc8aa39e5cc692e.bindPopup(popup_0a16b12b720ce6e2a75cdc627d5f9651)
+        ;
+
+        
+    
+    
+            var circle_e077e8f2b84ea6283a99c16cb89c56e7 = L.circle(
+                [-12.10676, -77.03083],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3384.6153846153848, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_af87b7886f37e27b0b689152e43a3721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c868eb71b898395d06e629ef7a416e7 = $(`<div id="html_4c868eb71b898395d06e629ef7a416e7" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 130<br>Total Applicants: 44<br>Ratio Applicants/Vacancies: 3384.62</div>`)[0];
+                popup_af87b7886f37e27b0b689152e43a3721.setContent(html_4c868eb71b898395d06e629ef7a416e7);
+            
+        
+
+        circle_e077e8f2b84ea6283a99c16cb89c56e7.bindPopup(popup_af87b7886f37e27b0b689152e43a3721)
+        ;
+
+        
+    
+    
+            var circle_7427a71c1cde858b80afdf775da493af = L.circle(
+                [-12.16264, -76.94429],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3416.6666666666665, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_75799013972d8d053b6ab3f339ac6a9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2435e0d92f5a03f7cd746beef93d9b90 = $(`<div id="html_2435e0d92f5a03f7cd746beef93d9b90" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 120<br>Total Applicants: 41<br>Ratio Applicants/Vacancies: 3416.67</div>`)[0];
+                popup_75799013972d8d053b6ab3f339ac6a9a.setContent(html_2435e0d92f5a03f7cd746beef93d9b90);
+            
+        
+
+        circle_7427a71c1cde858b80afdf775da493af.bindPopup(popup_75799013972d8d053b6ab3f339ac6a9a)
+        ;
+
+        
+    
+    
+            var circle_53d0c34b60867df77cf01ae0fdbe07be = L.circle(
+                [-11.95714, -77.04984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_2d6b637f4c44d5daed11fd03536cad9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_915921856e46efb5da080103beed6a58 = $(`<div id="html_915921856e46efb5da080103beed6a58" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 60<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_2d6b637f4c44d5daed11fd03536cad9b.setContent(html_915921856e46efb5da080103beed6a58);
+            
+        
+
+        circle_53d0c34b60867df77cf01ae0fdbe07be.bindPopup(popup_2d6b637f4c44d5daed11fd03536cad9b)
+        ;
+
+        
+    
+    
+            var circle_63f7d1b30882eabeebc901736f41a8ab = L.circle(
+                [-12.02987, -77.05831],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1596.4240102171136, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f72366c506fba30a1ec73a43528627d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92b8d2c28c2d82209ab13ddfd203c128 = $(`<div id="html_92b8d2c28c2d82209ab13ddfd203c128" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 1566<br>Total Applicants: 250<br>Ratio Applicants/Vacancies: 1596.42</div>`)[0];
+                popup_f72366c506fba30a1ec73a43528627d3.setContent(html_92b8d2c28c2d82209ab13ddfd203c128);
+            
+        
+
+        circle_63f7d1b30882eabeebc901736f41a8ab.bindPopup(popup_f72366c506fba30a1ec73a43528627d3)
+        ;
+
+        
+    
+    
+            var circle_0d726a196490d589a44248f6e6ae2b92 = L.circle(
+                [-12.08215, -77.05295],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2605.633802816901, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_aef1162b86ba7879fc970afc6469a391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1912a4ef670e2dfc555ac9ff535602e = $(`<div id="html_b1912a4ef670e2dfc555ac9ff535602e" style="width: 100.0%; height: 100.0%;"><strong>LIMA</strong><br>Total Vacancies: 284<br>Total Applicants: 74<br>Ratio Applicants/Vacancies: 2605.63</div>`)[0];
+                popup_aef1162b86ba7879fc970afc6469a391.setContent(html_b1912a4ef670e2dfc555ac9ff535602e);
+            
+        
+
+        circle_0d726a196490d589a44248f6e6ae2b92.bindPopup(popup_aef1162b86ba7879fc970afc6469a391)
+        ;
+
+        
+    
+    
+            var circle_f6fb4c4e2aa4ba67f89d42417ed63e55 = L.circle(
+                [-7.9025, -78.5657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7021.857923497268, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_45f1853fe035532224994318b4ecabb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0991204759543e3ffa5ccf679af0da36 = $(`<div id="html_0991204759543e3ffa5ccf679af0da36" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 366<br>Total Applicants: 257<br>Ratio Applicants/Vacancies: 7021.86</div>`)[0];
+                popup_45f1853fe035532224994318b4ecabb6.setContent(html_0991204759543e3ffa5ccf679af0da36);
+            
+        
+
+        circle_f6fb4c4e2aa4ba67f89d42417ed63e55.bindPopup(popup_45f1853fe035532224994318b4ecabb6)
+        ;
+
+        
+    
+    
+            var circle_c466c201488dd4677a0cff0745d45240 = L.circle(
+                [-7.4216, -79.5064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8259.25925925926, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_5270ee36a1b1c63456cfd57de774f040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2601da493d7a796414ab29d1c35976cc = $(`<div id="html_2601da493d7a796414ab29d1c35976cc" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 270<br>Total Applicants: 223<br>Ratio Applicants/Vacancies: 8259.26</div>`)[0];
+                popup_5270ee36a1b1c63456cfd57de774f040.setContent(html_2601da493d7a796414ab29d1c35976cc);
+            
+        
+
+        circle_c466c201488dd4677a0cff0745d45240.bindPopup(popup_5270ee36a1b1c63456cfd57de774f040)
+        ;
+
+        
+    
+    
+            var circle_0efbb9e27d533dc4eb7a231db31cb23f = L.circle(
+                [-7.84955, -79.14462],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_1c51d61fc8bd2574c5564243429b4cad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f616c245387e5d53762a5d49f4153e28 = $(`<div id="html_f616c245387e5d53762a5d49f4153e28" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 80<br>Total Applicants: 48<br>Ratio Applicants/Vacancies: 6000.00</div>`)[0];
+                popup_1c51d61fc8bd2574c5564243429b4cad.setContent(html_f616c245387e5d53762a5d49f4153e28);
+            
+        
+
+        circle_0efbb9e27d533dc4eb7a231db31cb23f.bindPopup(popup_1c51d61fc8bd2574c5564243429b4cad)
+        ;
+
+        
+    
+    
+            var circle_9eb0b646499346679d7ba293cd0d0f10 = L.circle(
+                [-7.79007, -79.22205],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_17ecb64e1981eac7d1f8e2366cfc999a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03470adcc88077d8819a1fec1f52956d = $(`<div id="html_03470adcc88077d8819a1fec1f52956d" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 110<br>Total Applicants: 22<br>Ratio Applicants/Vacancies: 2000.00</div>`)[0];
+                popup_17ecb64e1981eac7d1f8e2366cfc999a.setContent(html_03470adcc88077d8819a1fec1f52956d);
+            
+        
+
+        circle_9eb0b646499346679d7ba293cd0d0f10.bindPopup(popup_17ecb64e1981eac7d1f8e2366cfc999a)
+        ;
+
+        
+    
+    
+            var circle_9788cb76d4eb7117bfeb063c80121a66 = L.circle(
+                [-8.14315, -78.17375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9666.666666666666, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_3226a0cf93f27254b112e70ea9b1491b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f385eab3f2efe7fa65a2965941b89524 = $(`<div id="html_f385eab3f2efe7fa65a2965941b89524" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 150<br>Total Applicants: 145<br>Ratio Applicants/Vacancies: 9666.67</div>`)[0];
+                popup_3226a0cf93f27254b112e70ea9b1491b.setContent(html_f385eab3f2efe7fa65a2965941b89524);
+            
+        
+
+        circle_9788cb76d4eb7117bfeb063c80121a66.bindPopup(popup_3226a0cf93f27254b112e70ea9b1491b)
+        ;
+
+        
+    
+    
+            var circle_4fa2f260e2e65b0e32f7654d911b338f = L.circle(
+                [-7.90226, -78.56625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3557.6923076923076, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_7e30ed06289ac4bf2ba3066e19e06492 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8a610324f3db34016dac61ca9fc844c = $(`<div id="html_f8a610324f3db34016dac61ca9fc844c" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 208<br>Total Applicants: 74<br>Ratio Applicants/Vacancies: 3557.69</div>`)[0];
+                popup_7e30ed06289ac4bf2ba3066e19e06492.setContent(html_f8a610324f3db34016dac61ca9fc844c);
+            
+        
+
+        circle_4fa2f260e2e65b0e32f7654d911b338f.bindPopup(popup_7e30ed06289ac4bf2ba3066e19e06492)
+        ;
+
+        
+    
+    
+            var circle_572f8cd34fd5e0591fc00f62a8cb424c = L.circle(
+                [-8.11665, -79.02465],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6844.444444444444, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_f9cee589bc16a0a73b22bf0b9edc61df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e390d4c00064b2b4b561bce5a2077175 = $(`<div id="html_e390d4c00064b2b4b561bce5a2077175" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 450<br>Total Applicants: 308<br>Ratio Applicants/Vacancies: 6844.44</div>`)[0];
+                popup_f9cee589bc16a0a73b22bf0b9edc61df.setContent(html_e390d4c00064b2b4b561bce5a2077175);
+            
+        
+
+        circle_572f8cd34fd5e0591fc00f62a8cb424c.bindPopup(popup_f9cee589bc16a0a73b22bf0b9edc61df)
+        ;
+
+        
+    
+    
+            var circle_c9ddc1261d0bfb3b24263a8ef32c970e = L.circle(
+                [-8.11863, -79.02393],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_565e2dbd276c036d4337b8684cb9748c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e78bf0d7de6353060333aacb388e6be8 = $(`<div id="html_e78bf0d7de6353060333aacb388e6be8" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 240<br>Total Applicants: 96<br>Ratio Applicants/Vacancies: 4000.00</div>`)[0];
+                popup_565e2dbd276c036d4337b8684cb9748c.setContent(html_e78bf0d7de6353060333aacb388e6be8);
+            
+        
+
+        circle_c9ddc1261d0bfb3b24263a8ef32c970e.bindPopup(popup_565e2dbd276c036d4337b8684cb9748c)
+        ;
+
+        
+    
+    
+            var circle_b0363a509bb1f1a668e1b2ed6343de86 = L.circle(
+                [-8.10377, -79.03546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_733fca7ffd18a20642a2b43e3eba9710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85ebb2a08b1dc689eb09677b90467f33 = $(`<div id="html_85ebb2a08b1dc689eb09677b90467f33" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 200<br>Total Applicants: 0<br>Ratio Applicants/Vacancies: 0.00</div>`)[0];
+                popup_733fca7ffd18a20642a2b43e3eba9710.setContent(html_85ebb2a08b1dc689eb09677b90467f33);
+            
+        
+
+        circle_b0363a509bb1f1a668e1b2ed6343de86.bindPopup(popup_733fca7ffd18a20642a2b43e3eba9710)
+        ;
+
+        
+    
+    
+            var circle_dc5ea09cfbf41c996e457018303d0eff = L.circle(
+                [-8.11176, -79.02869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2654.320987654321, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_33edae93bca40e077bbaaaf1b39282ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91d0273c99274ed923a90965f48b0cda = $(`<div id="html_91d0273c99274ed923a90965f48b0cda" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 162<br>Total Applicants: 43<br>Ratio Applicants/Vacancies: 2654.32</div>`)[0];
+                popup_33edae93bca40e077bbaaaf1b39282ad.setContent(html_91d0273c99274ed923a90965f48b0cda);
+            
+        
+
+        circle_dc5ea09cfbf41c996e457018303d0eff.bindPopup(popup_33edae93bca40e077bbaaaf1b39282ad)
+        ;
+
+        
+    
+    
+            var circle_bf5ed059b4a32f076723bcec2a2d9c6a = L.circle(
+                [-8.1157, -79.02005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3902.702702702703, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_e015f358f3e8ce82e4e97f367a7f1057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95dd5535decc741275d9250d610035d6 = $(`<div id="html_95dd5535decc741275d9250d610035d6" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 925<br>Total Applicants: 361<br>Ratio Applicants/Vacancies: 3902.70</div>`)[0];
+                popup_e015f358f3e8ce82e4e97f367a7f1057.setContent(html_95dd5535decc741275d9250d610035d6);
+            
+        
+
+        circle_bf5ed059b4a32f076723bcec2a2d9c6a.bindPopup(popup_e015f358f3e8ce82e4e97f367a7f1057)
+        ;
+
+        
+    
+    
+            var circle_85c214d6cad33eecae37ca758bd34292 = L.circle(
+                [-8.11176, -79.02869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5062.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_99a1f493f40d1521df45dc1847c091a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30edd7daeaaeb328479329e6ee7d4e49 = $(`<div id="html_30edd7daeaaeb328479329e6ee7d4e49" style="width: 100.0%; height: 100.0%;"><strong>LA LIBERTAD</strong><br>Total Vacancies: 320<br>Total Applicants: 162<br>Ratio Applicants/Vacancies: 5062.50</div>`)[0];
+                popup_99a1f493f40d1521df45dc1847c091a7.setContent(html_30edd7daeaaeb328479329e6ee7d4e49);
+            
+        
+
+        circle_85c214d6cad33eecae37ca758bd34292.bindPopup(popup_99a1f493f40d1521df45dc1847c091a7)
+        ;
+
+        
+    
+    
+            var circle_bea4ce952d5fe63c842185d173a6a2b6 = L.circle(
+                [-16.60199, -72.70256],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6477.272727272727, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_e496872cf02240035cdc737591d46f63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_437995c7a6316cc7bd083bd0a9d0dbce = $(`<div id="html_437995c7a6316cc7bd083bd0a9d0dbce" style="width: 100.0%; height: 100.0%;"><strong>AREQUIPA</strong><br>Total Vacancies: 440<br>Total Applicants: 285<br>Ratio Applicants/Vacancies: 6477.27</div>`)[0];
+                popup_e496872cf02240035cdc737591d46f63.setContent(html_437995c7a6316cc7bd083bd0a9d0dbce);
+            
+        
+
+        circle_bea4ce952d5fe63c842185d173a6a2b6.bindPopup(popup_e496872cf02240035cdc737591d46f63)
+        ;
+
+        
+    
+    
+            var circle_86991e0f113560b70ce2387163b9bcdf = L.circle(
+                [-16.39935, -71.52288],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3854.389721627409, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_1b7d88cf14430e7dd5dd2ee309c1e422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e439419defd65a09db41d74852c4fec = $(`<div id="html_0e439419defd65a09db41d74852c4fec" style="width: 100.0%; height: 100.0%;"><strong>AREQUIPA</strong><br>Total Vacancies: 467<br>Total Applicants: 180<br>Ratio Applicants/Vacancies: 3854.39</div>`)[0];
+                popup_1b7d88cf14430e7dd5dd2ee309c1e422.setContent(html_0e439419defd65a09db41d74852c4fec);
+            
+        
+
+        circle_86991e0f113560b70ce2387163b9bcdf.bindPopup(popup_1b7d88cf14430e7dd5dd2ee309c1e422)
+        ;
+
+        
+    
+    
+            var circle_7eb63a8bd5a8d4503e6c6f65c3623821 = L.circle(
+                [-15.77308, -73.36253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8444.444444444445, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_5cf35da52b4086e9bf2100b88fd6482c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_457e3614993d0c593fbd9ba6d983f27a = $(`<div id="html_457e3614993d0c593fbd9ba6d983f27a" style="width: 100.0%; height: 100.0%;"><strong>AREQUIPA</strong><br>Total Vacancies: 90<br>Total Applicants: 76<br>Ratio Applicants/Vacancies: 8444.44</div>`)[0];
+                popup_5cf35da52b4086e9bf2100b88fd6482c.setContent(html_457e3614993d0c593fbd9ba6d983f27a);
+            
+        
+
+        circle_7eb63a8bd5a8d4503e6c6f65c3623821.bindPopup(popup_5cf35da52b4086e9bf2100b88fd6482c)
+        ;
+
+        
+    
+    
+            var circle_906cefd9e3d0ef301b612a4c5fee0f69 = L.circle(
+                [-16.4097, -71.53386],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4556.962025316456, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_48cba0f4e814b1f6f57b196988fdd7f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61d8168f50b57dc1a362c251eb8743a1 = $(`<div id="html_61d8168f50b57dc1a362c251eb8743a1" style="width: 100.0%; height: 100.0%;"><strong>AREQUIPA</strong><br>Total Vacancies: 395<br>Total Applicants: 180<br>Ratio Applicants/Vacancies: 4556.96</div>`)[0];
+                popup_48cba0f4e814b1f6f57b196988fdd7f1.setContent(html_61d8168f50b57dc1a362c251eb8743a1);
+            
+        
+
+        circle_906cefd9e3d0ef301b612a4c5fee0f69.bindPopup(popup_48cba0f4e814b1f6f57b196988fdd7f1)
+        ;
+
+        
+    
+    
+            var circle_e91f9a558a4ad8d6a066a79115998eb1 = L.circle(
+                [-16.40434, -71.53947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6380.952380952381, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_53058aef955b9f90f14beae48e7c4e21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e871090cc4c5e59c5226eeef5b97c536 = $(`<div id="html_e871090cc4c5e59c5226eeef5b97c536" style="width: 100.0%; height: 100.0%;"><strong>AREQUIPA</strong><br>Total Vacancies: 210<br>Total Applicants: 134<br>Ratio Applicants/Vacancies: 6380.95</div>`)[0];
+                popup_53058aef955b9f90f14beae48e7c4e21.setContent(html_e871090cc4c5e59c5226eeef5b97c536);
+            
+        
+
+        circle_e91f9a558a4ad8d6a066a79115998eb1.bindPopup(popup_53058aef955b9f90f14beae48e7c4e21)
+        ;
+
+        
+    
+    
+            var circle_8cd2ae7d7a848d8718f770f60cc822dc = L.circle(
+                [-16.07656, -72.49262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4873.949579831933, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_45eb9d67b4a0b7a0a55439cb8049b02d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3487a9ba2a83655b6aca8cde5a79f10 = $(`<div id="html_d3487a9ba2a83655b6aca8cde5a79f10" style="width: 100.0%; height: 100.0%;"><strong>AREQUIPA</strong><br>Total Vacancies: 238<br>Total Applicants: 116<br>Ratio Applicants/Vacancies: 4873.95</div>`)[0];
+                popup_45eb9d67b4a0b7a0a55439cb8049b02d.setContent(html_d3487a9ba2a83655b6aca8cde5a79f10);
+            
+        
+
+        circle_8cd2ae7d7a848d8718f770f60cc822dc.bindPopup(popup_45eb9d67b4a0b7a0a55439cb8049b02d)
+        ;
+
+        
+    
+    
+            var circle_8df66e98f89e246f1477c9413ca2ed78 = L.circle(
+                [-12.07409, -77.16323],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5937.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74e1c7aabdc6b07c9ebf5ffb67296871);
+        
+    
+        var popup_ae2866069d55137bc7bfc31c8882f102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b43c1397b469d6372eb232867b9b1fb = $(`<div id="html_3b43c1397b469d6372eb232867b9b1fb" style="width: 100.0%; height: 100.0%;"><strong>CALLAO</strong><br>Total Vacancies: 480<br>Total Applicants: 285<br>Ratio Applicants/Vacancies: 5937.50</div>`)[0];
+                popup_ae2866069d55137bc7bfc31c8882f102.setContent(html_3b43c1397b469d6372eb232867b9b1fb);
+            
+        
+
+        circle_8df66e98f89e246f1477c9413ca2ed78.bindPopup(popup_ae2866069d55137bc7bfc31c8882f102)
+        ;
+
+        
+    
+    
+            feature_group_74e1c7aabdc6b07c9ebf5ffb67296871.addTo(map_e1b8fedadd3e2eb964f0cedd8fb48494);
+        
+    
+            var layer_control_5a37efb16fd400846cfe644ef2512d9e_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8ac454ecb9f8f1f909e9020625c0aa4b,
+                },
+                overlays :  {
+                    "Applicant Surplus" : feature_group_9e03c69fbc0f3646d4abb5b2a275a823,
+                    "Applicant Deficit" : feature_group_74e1c7aabdc6b07c9ebf5ffb67296871,
+                },
+            };
+            let layer_control_5a37efb16fd400846cfe644ef2512d9e = L.control.layers(
+                layer_control_5a37efb16fd400846cfe644ef2512d9e_layers.base_layers,
+                layer_control_5a37efb16fd400846cfe644ef2512d9e_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_e1b8fedadd3e2eb964f0cedd8fb48494);
+
+        
+</script>
+</html>
