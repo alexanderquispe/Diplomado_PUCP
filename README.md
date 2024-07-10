@@ -99,14 +99,110 @@ This course will not have a mandatory bibliography. Python is a widely supported
 
 ## XI. Groups - Second Part
 
-| Group1                             | Group2                                  | Group3                              | Group4                             | Group5                          | Group6                           | Group7                             |
-| ---------------------------------- | --------------------------------------- | ----------------------------------- | ---------------------------------- | ------------------------------- | -------------------------------- | ---------------------------------- |
-| REYNA NIEVA, GINO SALVATTORE       | ZUÑIGA ROMERO, ADRIANA VIOLETA          | FLORES GOICOCHEA, DANIELA SOFIA     | REMUZGO MELENDEZ, CARMEN ELIZABETH | QUISPE PAUCAR, ANGIE CRISTINA   | SÁNCHEZ PRIETO, FERNANDO ALONSO  | DIAZ GONZALES, EMMANUEL            |
-| ARISTA APARI, SERGHI GIANFRANCO    | PLASENCIA CUSTODIO, CLAUDIA JIMENA      | QUISPE MACAVILCA, LUIS CLAUDIO      | BENITES GARNIQUE, JOSUE MARCIAL    | MONTJOY PITA, DANIEL GERAY      | FLOREZ OKUMURA, LEONARDO ANTONIO | ALARCON GUTIERREZ, EDUARDO BASILIO |
-| CORDOVA GAMBOA, ANA PAOLA          | ECHEVARRIA CARHUANCHO, FRANCISCO ANDRES | DELGADO DIAZ, DIEGO GONZALO         | SUAREZ PATILONGO, MICHAEL SALVADOR | VISURRAGA RODIL, JOEL ANDRE     | MOLLA LEON, WALTER               | ABURTO CAMACLLANQUI, ELÍAS         |
-| GAVILAN CASTAÑEDA, MAYRA ALEXANDRA | VERA ROMAN, JOSSELYNE ANTUANE           | RAMIREZ DE LA CRUZ, KELLY GUADALUPE | SILVA ZARATE, CECILIA ISAI         | RIVAS MADUEÑO, MAURICIO RICARDO | CAJAS FALCÓN, ALONDRA NICOLE     | SANTANDER ALVA, DANIELA            |
-| RIVAS SU, JUAN DIEGO               | HUAMAN GARCIA, YANELL VALERYN           | ZAPATA ROJAS, ALVARO DANTE          | TORREJON MAGUIÑA, CLAUDIA FIORELLA | CALDERON NEYRA, JOSE DANIEL     | PANDO PILCO, MARTIN DE JESUS     |
-
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Group 1</th>
+      <th>Group 2</th>
+      <th>Group 3</th>
+      <th>Group 4</th>
+      <th>Group 5</th>
+      <th>Group 6</th>
+      <th>Group 7</th>
+      <th>Group 8</th>
+      <th>Group 9</th>
+      <th>Group 10</th>
+      <th>Group 11</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>MAX LENIN CHIPANI LIMA</td>
+      <td>GIANFRANCO RAÚL ROMERO SUCAPUCA</td>
+      <td>FÁTIMA KATHERINE TRUJILLO QUIÑE</td>
+      <td>PAOLA CRISTINA ARANDA FLORES</td>
+      <td>DIEGO IGNACIO HUAROTO CASAS</td>
+      <td>MICAELA GUTIERREZ NINAQUISPE</td>
+      <td>CESAR JULINHO GARCIA RIOS</td>
+      <td>ELISA VICTORIA VIVAR GIL</td>
+      <td>EDUARDO ALONSO CASTRO GUTIERREZ</td>
+      <td>KARLA JACKELINE CHAUCA BONILLA</td>
+      <td>KAREN ESTHER SALAZAR SANDOVAL</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ANDRES ALEXANDER VILLACORTA BARRERA</td>
+      <td>LUIS FELIPE ACOSTA ZAVALETA</td>
+      <td>VÍCTOR MANUEL RAICO ARCE</td>
+      <td>ANDREA YOEMA PEZO NUÑEZ</td>
+      <td>ROXANA PATRICIA ARAUCO ALIAGA</td>
+      <td>MANUEL ANTONIO GIL SOTO PISCO</td>
+      <td>RUTH MARINA CHAVEZ PACHECO</td>
+      <td>FERNANDO MIGUEL MENDOZA CANAL</td>
+      <td>JULIAN BRUCE ZAVALA CALLOAPAZA</td>
+      <td>ALEJANDRO MOSQUERA OSPINA</td>
+      <td>LUIS ARTURO CAMARENA SUASNABAR</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>JOSE MARIA MIGUEL LOYOLA ROMERO</td>
+      <td>VICTORIA REGINA OLIVERA GARCIA</td>
+      <td>MAYTE JULIA CIRIACO RUIZ</td>
+      <td>VANIA CAROLINA ASPILCUETA SEREY</td>
+      <td>LUIS FERNANDO EGUSQUIZA PORTILLO</td>
+      <td>NATALIA ELENA FIGUEROA CASAS</td>
+      <td>CAMILA LUCIANA NAHUERO MONTOYA</td>
+      <td>MICHEL JOSUE COTRINA CERDAN</td>
+      <td>ARMANDO ALEXANDER SICHA ALVARADO</td>
+      <td>MAURICIO ALEJANDRO FLORES JIMENEZ</td>
+      <td>REYNALDO ABRAHAM PADILLA MILLA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ESTEFANNY MIRIAN GIL MAMANI</td>
+      <td>RENATO ANDRE RIVERA VIVES</td>
+      <td>SHASKA IMA SUMAC EMPERATRIZ GUEVARA RODAS</td>
+      <td>ALEJANDRA NORA NAVARRO VELIZ</td>
+      <td>LEIDY GRETA GONGORA RUIZ</td>
+      <td>EDUARDO NICOLÁS RAMÍREZ LEZAMETA</td>
+      <td>RAUL EMERSON AMAO GUERRA</td>
+      <td>LUCIA INES BASAGOITIA VIDAL</td>
+      <td>WILMAN PAOLO GUTIERREZ CHOCHOCA</td>
+      <td>ALEXSANDER GERARDO GIL GUZMAN</td>
+      <td>CLAUDIA CORDOVA YAMAUCHI</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>VANESSA ALESSANDRA AZAÑEDO GAMARRA</td>
+      <td>GISELLA VELDA SALMÓN SALAZAR</td>
+      <td>ALEXANDER LAVILLA RUIZ</td>
+      <td>JESUS EDUARDO GAMBOA UNSIHUAY</td>
+      <td>SAMUEL JOSUE RIVERO MEZA</td>
+      <td>JAVIER ISAAC FLORES ROQUE</td>
+      <td>JENNY YUPANQUI SANTIAGO</td>
+      <td>JORGE TUANAMA ALVAREZ</td>
+      <td>ANDREA PAMELA SALAZAR ZAPATA</td>
+      <td>ARMANDO ANDRE ORE REYES</td>
+      <td>ROY LUIS ROJAS PARDO</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>ADRIANA PATRICIA SIERRA POMAR</td>
+      <td>ANAHI ZULY CRUZ ASTO</td>
+    </tr>
+  </tbody>
+</table>
 
 ## X. Website
 
