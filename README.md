@@ -43,11 +43,11 @@ The evaluation will consist of 5 projects. The minimum grade will be deleted.
 
 |N°| Project | Weighting on Final Grade|Date|due
 |---|---|---|---|---
-|1|Assignment  1|20%|01/13/2024| 01/20/2024
-|2|Assignment  2|20%|01/20/2024| 01/27/2024
-|3|Assignment  3|20%|01/27/2024| 02/03/2024
-|4|Assignment  4|20%|02/03/2024| 02/10/2024
-|5|Assignment  5|20%|02/10/2024| 02/17/2024
+|1|Assignment  1|20%|13/08/2024| 20/07/2024
+|2|Assignment  2|20%|20/08/2024| 03/08/2024
+|3|Assignment  3|20%|03/08/2024| 10/08/2024
+|4|Assignment  4|20%|10/08/2024| 17/08/2024
+<!-- |5|Assignment  5|20%|02/10/2024| 02/17/2024 -->
 
 ## VIII. Compulsory Bibliography
 This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
@@ -56,19 +56,21 @@ This course will not have a mandatory bibliography. Python is a widely supported
 ## Introduction to Python
 
 
-<!-- |Week|Date|Day|Schedule|Topic|Subtopic
+|Week|Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---|---
-|1|11/18/2024|Saturday|14:00-17:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
-|2|11/25/2024|Saturday|14:00-17:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>
-|3|12/02/2024|Saturday|14:00-17:00| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
-|4|12/09/2024|Saturday|14:00-17:00 | If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>    
-|5|12/16/2024|Saturday|14:00-17:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>    
-|6|12/23/2024|Saturday|14:00-17:00| Classes II | <ul>  <li> Private variables </li>   <li> Python Inheritance </li>   <li>Exceptions</li>   </ul>  -->
+|1|10/07/2024|Wednesday|19:00-22:00| Github | <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> </ul>   
+|2|13/07/2024|Saturday|12:00-13:30| PD | 
+|3|17/07/2024|Wednesday|19:00-22:00| Basic Objects |  <ul>  <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li>  <li>Pandas</li> </ul>
+|4|20/07/2024|Saturday|12:00-13:30 | PD | 
+|5|31/07/2024|Wednesday|19:00-22:00| If and Loops | <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li>  </ul>     
+|6|03/08/2024|Saturday|12:00-13:30| PD | 
+|7|07/08/2024|Wednesday|19:00-22:00| Functions and Classes I| <ul>  <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li>  </ul>   
+|8|10/08/2024|Saturday|12:00-13:30| PD | 
 
 
 
 ## Intermediate Python Course
-
+<!-- 
 ### Week 4
 |Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---
@@ -86,7 +88,7 @@ This course will not have a mandatory bibliography. Python is a widely supported
 |8/1/2024|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
 |8/1/2024|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> 
 
-
+ -->
 
   
 
