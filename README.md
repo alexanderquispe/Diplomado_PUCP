@@ -100,111 +100,13 @@ This course will not have a mandatory bibliography. Python is a widely supported
 3. VanderPlas, J. (2016). Python Data Science Handbook. O'Reilly Media. ISBN: 9781491912058
 
 ## XI. Groups - Second Part
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Group 1</th>
-      <th>Group 2</th>
-      <th>Group 3</th>
-      <th>Group 4</th>
-      <th>Group 5</th>
-      <th>Group 6</th>
-      <th>Group 7</th>
-      <th>Group 8</th>
-      <th>Group 9</th>
-      <th>Group 10</th>
-      <th>Group 11</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>MAX LENIN CHIPANI LIMA</td>
-      <td>GIANFRANCO RAÚL ROMERO SUCAPUCA</td>
-      <td>FÁTIMA KATHERINE TRUJILLO QUIÑE</td>
-      <td>PAOLA CRISTINA ARANDA FLORES</td>
-      <td>DIEGO IGNACIO HUAROTO CASAS</td>
-      <td>MICAELA GUTIERREZ NINAQUISPE</td>
-      <td>CESAR JULINHO GARCIA RIOS</td>
-      <td>ELISA VICTORIA VIVAR GIL</td>
-      <td>EDUARDO ALONSO CASTRO GUTIERREZ</td>
-      <td>KARLA JACKELINE CHAUCA BONILLA</td>
-      <td>KAREN ESTHER SALAZAR SANDOVAL</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>ANDRES ALEXANDER VILLACORTA BARRERA</td>
-      <td>LUIS FELIPE ACOSTA ZAVALETA</td>
-      <td>VÍCTOR MANUEL RAICO ARCE</td>
-      <td>ANDREA YOEMA PEZO NUÑEZ</td>
-      <td>ROXANA PATRICIA ARAUCO ALIAGA</td>
-      <td>MANUEL ANTONIO GIL SOTO PISCO</td>
-      <td>RUTH MARINA CHAVEZ PACHECO</td>
-      <td>FERNANDO MIGUEL MENDOZA CANAL</td>
-      <td>JULIAN BRUCE ZAVALA CALLOAPAZA</td>
-      <td>ALEJANDRO MOSQUERA OSPINA</td>
-      <td>LUIS ARTURO CAMARENA SUASNABAR</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>JOSE MARIA MIGUEL LOYOLA ROMERO</td>
-      <td>VICTORIA REGINA OLIVERA GARCIA</td>
-      <td>MAYTE JULIA CIRIACO RUIZ</td>
-      <td>VANIA CAROLINA ASPILCUETA SEREY</td>
-      <td>LUIS FERNANDO EGUSQUIZA PORTILLO</td>
-      <td>NATALIA ELENA FIGUEROA CASAS</td>
-      <td>CAMILA LUCIANA NAHUERO MONTOYA</td>
-      <td>MICHEL JOSUE COTRINA CERDAN</td>
-      <td>ARMANDO ALEXANDER SICHA ALVARADO</td>
-      <td>MAURICIO ALEJANDRO FLORES JIMENEZ</td>
-      <td>REYNALDO ABRAHAM PADILLA MILLA</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>ESTEFANNY MIRIAN GIL MAMANI</td>
-      <td>RENATO ANDRE RIVERA VIVES</td>
-      <td>SHASKA IMA SUMAC EMPERATRIZ GUEVARA RODAS</td>
-      <td>ALEJANDRA NORA NAVARRO VELIZ</td>
-      <td>LEIDY GRETA GONGORA RUIZ</td>
-      <td>EDUARDO NICOLÁS RAMÍREZ LEZAMETA</td>
-      <td>RAUL EMERSON AMAO GUERRA</td>
-      <td>LUCIA INES BASAGOITIA VIDAL</td>
-      <td>WILMAN PAOLO GUTIERREZ CHOCHOCA</td>
-      <td>ALEXSANDER GERARDO GIL GUZMAN</td>
-      <td>CLAUDIA CORDOVA YAMAUCHI</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>VANESSA ALESSANDRA AZAÑEDO GAMARRA</td>
-      <td>GISELLA VELDA SALMÓN SALAZAR</td>
-      <td>ALEXANDER LAVILLA RUIZ</td>
-      <td>JESUS EDUARDO GAMBOA UNSIHUAY</td>
-      <td>SAMUEL JOSUE RIVERO MEZA</td>
-      <td>JAVIER ISAAC FLORES ROQUE</td>
-      <td>JENNY YUPANQUI SANTIAGO</td>
-      <td>JORGE TUANAMA ALVAREZ</td>
-      <td>ANDREA PAMELA SALAZAR ZAPATA</td>
-      <td>ARMANDO ANDRE ORE REYES</td>
-      <td>ROY LUIS ROJAS PARDO</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>ADRIANA PATRICIA SIERRA POMAR</td>
-      <td>ANAHI ZULY CRUZ ASTO</td>
-    </tr>
-  </tbody>
-</table>
+| Group 1                          | Group 2                        | Group 3                            | Group 4                             | Group 5                         | Group 6                              | Group 7                        |
+|:---------------------------------|:-------------------------------|:-----------------------------------|:------------------------------------|:--------------------------------|:-------------------------------------|:-------------------------------|
+| CAMARENA SUASNABAR, LUIS ARTURO  | AMAO GUERRA, RAUL EMERSON      | FLORES JIMENEZ, MAURICIO ALEJANDRO | GONGORA RUIZ, LEIDY GRETA           | NAVARRO VELIZ, ALEJANDRA NORA   | GIL GUZMAN, ALEXSANDER GERARDO       | MENDOZA CANAL, FERNANDO MIGUEL |
+| SALAZAR SANDOVAL, KAREN ESTHER   | CHAVEZ PACHECO, RUTH MARINA    | TRUJILLO QUIÑE, FÁTIMA KATHERINE   | AZAÑEDO GAMARRA, VANESSA ALESSANDRA | OBREGON HUAMAN, DIANA EDITH     | SALMÓN SALAZAR, GISELLA VELDA        | PEZO NUÑEZ, ANDREA YOEMA       |
+| CHIPANI LIMA, MAX LENIN          | ACOSTA ZAVALETA, LUIS FELIPE   | ASPILCUETA SEREY, VANIA CAROLINA   | RAICO ARCE, VÍCTOR MANUEL           | VIVAR GIL, ELISA VICTORIA       | CIRIACO RUIZ, MAYTE JULIA            | COTRINA CERDAN, MICHEL JOSUE   |
+| GAMBOA UNSIHUAY, JESUS EDUARDO   | SOTO PISCO, MANUEL ANTONIO GIL | PADILLA MILLA, REYNALDO ABRAHAM    | HUAROTO CASAS, DIEGO IGNACIO        | SIERRA POMAR, ADRIANA PATRICIA  | ARAUCO ALIAGA, ROXANA PATRICIA       | GIL MAMANI, ESTEFANNY MIRIAN   |
+| GUTIERREZ CHOCHOCA, WILMAN PAOLO | MOSQUERA OSPINA, ALEJANDRO     | CORDOVA YAMAUCHI, CLAUDIA          | RIVERA VIVES, RENATO ANDRE          | CHAUCA BONILLA, KARLA JACKELINE | VILLACORTA BARRERA, ANDRES ALEXANDER | ORE REYES, ARMANDO ANDRE       |
 
 ## X. Website
 
