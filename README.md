@@ -70,25 +70,32 @@ This course will not have a mandatory bibliography. Python is a widely supported
 
 
 ## Intermediate Python Course
-<!-- 
-### Week 4
-|Date|Day|Schedule|Topic|Subtopic
-|---|---|---|---|---
-|01/13/2024|Saturday|14:00-17:00| WebScraping| <ul>  <li> Selenium </ul> 
-
 
 ### Week 5
-|Date|Day|Schedule|Topic|Subtopic
-|---|---|---|---|---
-|18/12/2021|Saturday|14:00-17:00| Geocoding| <ul>  <li> Googlemaps </ul> 
+|Week|Date|Day|Schedule|Topic|Subtopic
+|5|14/08/2024|Wednesday|19:00-22:00|  WebScraping| <ul>  <li> Selenium </ul> 
+|5|17/08/2024|Friday|08:30-:10:00| Geocoding| <ul>  <li> Google Maps </ul> 
+|5|17/08/2024|Saturday|12:00-13:30| PD | 
+
+### Week 6
+|Week|Date|Day|Schedule|Topic|Subtopic
+|6|21/08/2024|Wednesday|19:00-22:00|  WebScraping| <ul>  <li> Selenium </ul> 
+|6|24/08/2024|Friday|08:30-:10:00| API| <ul>  <li> Google API </ul> 
+|6|24/08/2024|Saturday|12:00-13:30| PD | 
 
  ### Week 6
+<!-- 
+|Week|Date|Day|Schedule|Topic|Subtopic
+|7|21/08/2024|Wednesday|19:00-22:00|  WebScraping| <ul>  <li> Selenium </ul> 
+|7|24/08/2024|Friday|08:30-:10:00| API| <ul>  <li> Google API </ul> 
+|7|24/08/2024|Saturday|12:00-13:30| PD | 
+
 |Date|Day|Schedule|Topic|Subtopic
 |---|---|---|---|---
 |8/1/2024|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> Google Directions API <li> Twiter API</ul> 
 |8/1/2024|Saturday|14:00-17:00| Calculate Distances, Scraping twiter| <ul>  <li> A/B testing <li> Causal ML</ul> 
-
  -->
+
 
   
 
