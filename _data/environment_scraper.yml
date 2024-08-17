@@ -9,7 +9,7 @@ channels:
 # Dependencies
 dependencies:
   - python>=3.8
-  - selenium
+  - selenium==4.23.1
   - beautifulsoup4
   - requests
   - webdriver-manager
