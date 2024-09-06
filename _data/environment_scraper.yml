@@ -1,0 +1,52 @@
+# Conda environment name
+name: selenium_env
+
+# Channels for package download
+channels:
+  - defaults
+  - conda-forge
+
+# Dependencies
+dependencies:
+  - python>=3.8
+  - selenium==4.23.1
+  - beautifulsoup4
+  - requests
+  - webdriver-manager
+  - lxml
+  - html5lib
+  - pandas
+
+# Instructions:
+# 1. Save this file as 'environment.yml'.
+# 2. In the terminal, navigate to the directory where the file is saved.
+# 3. Run: conda env create -f environment.yml
+# 4. Activate the environment: conda activate selenium_env
+
+# Check available environments: conda info --envs
+# Activate/Deactivate an environment: conda activate / conda deactivate
+# Remove an environment: conda env remove -n environment_name
+
+# Note: Webdriver_manager automates driver management for Selenium.
+
+# Example usage of Selenium:
+# from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.chrome.options import Options
+# from webdriver_manager.chrome import ChromeDriverManager
+
+# # Set up Chrome options (optional)
+# chrome_options = Options()
+# chrome_options.add_argument("--headless")  # Run headless (optional)
+
+# # Create a WebDriver instance
+# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
+# # Open a webpage
+# driver.get("https://example.com")
+
+# # Print the title of the webpage
+# print(driver.title)
+
+# # Close the browser
+# driver.quit()
