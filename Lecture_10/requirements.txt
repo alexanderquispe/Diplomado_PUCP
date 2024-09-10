@@ -1,0 +1,9 @@
+geopandas==0.14.0
+shapely==2.0.1
+fiona==1.9.4
+pyproj==3.6.0
+rtree==1.0.1
+matplotlib==3.7.3
+pandas==2.1.0
+numpy==1.26.0
+jupyterlab==4.0.5
