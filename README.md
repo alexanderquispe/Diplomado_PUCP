@@ -6,7 +6,8 @@
 - **Instructor:** Alexander Quispe Rojas  
   - **Email:** alexander.quispe@pucp.edu.pe  
 - **Teaching Assistant:** Michael Encalada  
-  - **Email:** m.encaladac@pucp.edu.pe  
+  - **Email:** m.encaladac@pucp.edu.pe
+  - ** Office Hours:** Saturdays 2:00-4:00pm.
 
 ---
 
@@ -42,30 +43,6 @@ By the end of this course, students will be able to:
 7. Pandas  
 
 ---
-
-## Methodology
-Classes will be given synchronously using Zoom. In exploring the use of Python for data analysis, the use of databases for the social sciences will be emphasized.
-
----
-
-## 📝 Assessment
-The evaluation will consist of a final project at the end of the course.  
-
-| No. | Assessment Type | Weight (%) | Due Date |
-|-----|----------------|------------|----------|
-| 1   | Assignment 1   | 33.3%      | August 24 |
-| 2   | Assignment 2   | 33.3%      | August 31 |
-| 3   | Assignment 3   | 33.3%      | September 7 |
-
-> More details about the final project will be provided during the first week of classes.
-
----
-
-## 📖 Required Bibliography
-This course will not have mandatory textbooks. Python is a widely supported language with extensive documentation and a large community that helps each other through Stack Overflow and other forums. Therefore, the **class notes** will be the main reference material.
-
----
-
 ## 📅 Course Schedule
 
 | Block | Topic/Content |
@@ -85,8 +62,39 @@ This course will not have mandatory textbooks. Python is a widely supported lang
 
 ---
 
-##  Compulsory Bibliography
-This course will not have a mandatory bibliography. Python is a widely supported language with extensive documentation and a very large community that supports each other through [Stack Overflow](https://stackoverflow.com/) and other forums. For this reason, the class notes will be the primary reference material of the course.
+## Methodology
+Classes will be given synchronously using Zoom. In exploring the use of Python for data analysis, the use of databases for the social sciences will be emphasized.
+
+---
+
+## 📝 Assessment
+The evaluation will consist of a final project at the end of the course.  
+
+| No. | Assessment Type | Weight (%) | Due Date |
+|-----|----------------|------------|----------|
+| 1   | Assignment 1   | 33.3%      | August 24 |
+| 2   | Assignment 2   | 33.3%      | August 31 |
+| 3   | Assignment 3   | 33.3%      | September 7 |
+
+> More details about the final project will be provided during the first week of classes.
+
+---
+
+# 🎯 Participantes in Groups
+
+| G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 | G9 | G10 | G11 | G12 |
+|----|----|----|----|----|----|----|----|----|-----|-----|-----|
+| JIMENEZ BUENO, JORGE MAXIMILIANO | RIVERA ZUBIETA, MIRZHA BRIZETH | RUIZ ALCA, VALERIA SOPHIA | DELGADO HUAYHUA, JAKELINE | SAURINO GRANDE, VIVIAN STEPHANE | MOLINA LEÓN, NICOLE CAMILA | CATALÁN YAURI, ANALY JAZMIN | PACHECO QUISPE, WILMAN RICARDO | VILLENA ESPINOZA, PEDRO GONZALO | MAGNO FABIAN, EDUARDO | LINARES HERRERA, DURGA VALENTINA | BERETTA VIDAL, PIERO ALESSANDRO |
+| DUFFO CHAPILLIQUEN, NADIA ABIGAIL | CAVERO RIVERA, EDUARDO DAVID | ESPINOZA PALO, ALFREDO BENIZAR | AUSEJO UBILLUS, SANTIAGO ERNESTO | QUISPITUPÁ ROMANI, ESTEBAN | MACEDO VILLEGAS, RICARDO ANTONIO | MORENO GOMEZ, LIZETH ESTEFANIA | MAMANI CONDORI, MARGARITA | VILLACORTA MONTOYA, BRUNO ALONSO | TALANCHA LUNA, ROSSY OFELIA | RAMOS VARGAS, LUIS FERNANDO | DAVILA VASQUEZ, MARIA PAULA |
+| QUISPE CUBA, RICHAR | ZAVALA CASTILLO, ARIANNA NICKOLE | PEZO NUNEZ PEZO NUNEZ, ARMANDO ANTONIO | CONTRERAS VALENZUELA, ROMEL SERGIO | LEÓN HUAMÁN, MARÍA LESLY | CESPEDES ESPINOZA, LUIS RICARDO | MARTINEZ VELARDE, AZUCENA MIRIAM | ALMENARA ESPINO, DIEGO ALONSO | RODAS CIENFUEGOS, ULISES ALEXANDER | VILLANUEVA HINOJOSA, ANIBAL DANIEL | LA HOZ SANCHEZ, KARLO ANDRE | APAZA MANTILLA, AMANDA VALERY |
+| ARELLANO MORAN, GRABIEL | VASQUEZ CIEZA, ANEL ROMINA | ZUTA CHAVEZ, FREDDY | CASTILLO CASTREJON, KAREN MORELL | MONTALVO BACA, SUSAN SARI | SANCHEZ RODRIGUEZ, SARITA MANUELA | CHAVEZ LAZO, ANDREA SOFIA | CONTRERAS VERGARA, LUIS GUILLERMO | PECHO PUMA, ROSSANA KELY | GAMARRA MENDOZA, MILAGROS GEORGINA | NARCISO GONZÁLEZ, ALFREDO ROBERTO | BENATE MENDOZA, PIERO FELIX |
+|    |    |    |    |    |    |    |    |    |     |     | RAMIREZ ZAPATA, IVAN ANDRES |
+
+---
+
+
+## 📖 Required Bibliography
+This course will not have mandatory textbooks. Python is a widely supported language with extensive documentation and a large community that helps each other through Stack Overflow and other forums. Therefore, the **class notes** will be the main reference material.
   
 ---
 
@@ -113,5 +121,3 @@ Templates
 
 ---
 
-## Office Hours
-Michael: Saturdays 2:00-4:00pm. 
