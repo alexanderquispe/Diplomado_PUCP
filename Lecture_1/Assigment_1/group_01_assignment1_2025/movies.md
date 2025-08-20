@@ -1,7 +1,7 @@
 # Part 1 – Git Workflow (Branch → Pull Request → Merge)
 
 ## Group members
-  - 1
+  - Jorge Jimenez Bueno
   - 2
   - Richar Quispe Cuba
   - Nadia Duffó
@@ -21,6 +21,11 @@
 **Synopsis:**
 > In A Beautiful Mind (2001), the life of brilliant mathematician John Nash takes a turn as he rises to fame with his groundbreaking work in game theory. However, his world begins to blur when he struggles with paranoid schizophrenia. The film portrays his battle between genius and illness, and how love and perseverance guide him toward hope and redemption.
 
-### Movie 3:
+### Movie 3: Tenet  
+**Year:** *2020*  
+
+**Synopsis:**  
+> In Tenet (2020), a secret agent known as the Protagonist is drawn into a covert mission to stop a world-ending threat. He discovers the concept of "time inversion," where people and objects can move backward through time. Facing shifting alliances and complex timelines, he must confront a powerful villain whose plan could erase the future. The film is a high-stakes blend of espionage and time-bending science.  
+
 
 ### Movie 4:
