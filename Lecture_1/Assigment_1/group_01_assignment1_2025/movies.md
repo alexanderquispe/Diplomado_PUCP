@@ -14,5 +14,3 @@
 **Synopsis:**
 > A group of young friends in Edinburgh navigate the highs and lows of heroin addiction, chasing escape and pleasure while facing the harsh realities of life, friendship, and self-destruction.  
 
-### Movie 2:
-
