@@ -1,2 +1,8 @@
 ## **Trabajar en el main directamente y el branch** 
-> El **main** es la rama principal y es parte del repositorio; sin embargo, un **branch** es una rama es una línea independiente separado del main y no altera el repositorio.
+> El **main** es la rama principal y es parte del repositorio; sin embargo, un **branch** es una rama es una línea independiente
+separado del main y no altera el repositorio.
+> Al hacer cambios directamente en el main, cada commit afecta a la base del código; por otro lado, con los brach puede 
+crearse nuevas funcionalidades, corregir errores sin alterar el versión principal. 
+> Trabajar directamente en el main representa muchos riesgos: los errores o funciones pueden poner en riesgo el proyecto; 
+se dificulta la revisión, aprobación de los cambios y se pueden generar conflicto de código. 
+En contraposición, el branc es versátil y mantiene estable el proyecto; facilita la revisión de código, se reducen los conflictos y errores; permite varias tareas en simultáneo.
