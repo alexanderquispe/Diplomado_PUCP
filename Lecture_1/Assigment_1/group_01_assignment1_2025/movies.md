@@ -2,7 +2,7 @@
 
 ## Group members
   - Jorge Jimenez Bueno
-  - 2
+  - Grabiel Arellano Morán
   - Richar Quispe Cuba
   - Nadia Duffó
 
