@@ -6,7 +6,7 @@ Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado 
 - Posteriormente, a través de la herramienta de **Pull request** podemos incluir nuestros cambios en el documento principal/original.
 
 > ## Movie 1: Los Juegos del Hambre (2012)
-> Sinopsis: En un futuro distópico, los 12 distritos de Panem deben enviar anualmente a un chico y una chica, conocidos como tributos, a participar en un evento televisado hasta la muerte llamado "Los Juegos del Hambre". La historia sigue a Katniss Everdeen, quien se ofrece como voluntaria en lugar de su hermana menor para luchar por su supervivencia.
+> Sinopsis: En un futuro distópico, los 12 distritos de Panem deben enviar anualmente a un chico y una chica, conocidos como tributos, a participar en un evento televisado hasta la muerte llamado "Los Juegos del Hambre". La historia sigue a Katniss Everdeen, quien se ofrece como voluntaria para luchar por su supervivencia.
 >> _"Y que la suerte esté siempre de su lado"_
 
 
