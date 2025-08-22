@@ -7,6 +7,7 @@
 5.	Confirmamos el merg.
 6.	Para cerciorarnos de los cambios y visualizarlo vamos a Code.
 7.	Finalmente, seleccionamos Main y visualizamos todos los aportes de colaboradores.
+8. Enviar el Pull Request (PR) para su revisión.
  
 ¿Cómo resolver conflictos en el proceso del trabajo colaborativo? De existir conflictos en el proceso, el sistema nos arroja el siguiente mensaje:
 1.	GitHub nos muestra dónde están los conflictos. En el ejemplo de clase fueron Movies y Actors.
@@ -16,5 +17,7 @@
 5.	Ahora, confirmamos el merge
 6.	Como penúltimo paso seleccionamos Code.
 7.	Finalmente, el mainbranch está completo.
+8. Enviar el Pull Request (PR) para su revisión.
+ 
  
 
