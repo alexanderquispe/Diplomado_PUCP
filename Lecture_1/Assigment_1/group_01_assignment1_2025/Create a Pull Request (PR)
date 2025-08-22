@@ -9,7 +9,7 @@
 7.	Finalmente, seleccionamos Main y visualizamos todos los aportes de colaboradores.
 8. Enviar el Pull Request (PR) para su revisión.
  
-¿Cómo resolver conflictos en el proceso del trabajo colaborativo? De existir conflictos en el proceso, el sistema nos arroja el siguiente mensaje:
+¿Cómo resolver conflictos en el proceso del trabajo colaborativo? De existir conflictos en el proceso, el sistema nos arroja el siguiente mensaje: Resolve conflicts.
 1.	GitHub nos muestra dónde están los conflictos. En el ejemplo de clase fueron Movies y Actors.
 2.	Los conflictos se originan por varios motivos, pero deben ser solucionados por el director del equipo. Es conflictos se corrigen de manera manual. Así por ejemplo, si alguno de ellos no es el correcto se elimina, pero si los dos están bien se eliminan manualmente los signos (igual, mayor y menor). 
 3.	A continuación, marcamos como resuelto.
