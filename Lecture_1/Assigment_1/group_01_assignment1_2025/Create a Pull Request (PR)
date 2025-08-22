@@ -1,5 +1,4 @@
-> Para el trabajo colaborativo efectivo debemos crear o generar las ramas (branch) con la finalidad que todos los integrantes del grupo puedan reaizar sus tareas 
-asignadas sin contratiempos y a cargo de un supervisor que al final da la confrmidad y consolida el trabajo grupal.
+Para el trabajo colaborativo efectivo debemos crear o generar las ramas (branch) con la finalidad que todos los integrantes del grupo puedan reaizar sus tareas asignadas sin contratiempos y a cargo de un supervisor que al final da la confrmidad y consolida el trabajo grupal.
 Después de haber delegados las distintas tareas a los colaborados a través de los Branch (ramas) debemos de incluirlas en el Main (o la rama troncal del proyecto). Para ello debemos seguir los siguientes pasos:
 1.	Asumimos que se ha han creado varios Branches que deseamos unir al Main
 2.	Seleccionamos el Branch de nuestro interés. Hacemos clic en los tres puntos y seleccionamos New pull request.
