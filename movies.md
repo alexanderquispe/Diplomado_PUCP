@@ -1,8 +1,8 @@
 # Favorite movies 
 Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado este *branch* y no lo haremos en el __main__ para trabajar a nuestro ritmo, independientemente de otros equipos y sin rescribir el documento original de la clase.
 
-- En proyectos colaborativos se aconseja trabajar así porque nos aseguramos de trabajar sin afectar el trabajo a otras personas y podemos hacer seguimiento de nuestros cambios como miembros de un mismo branch.
-- Además, podemos trabajar simultáneamente junto con equipos de otros branchs.
+- En proyectos colaborativos se aconseja trabajar de esta manera porque nos aseguramos de trabajar sin modificar el trabajo de otras personas y podemos hacer seguimiento de nuestros cambios como miembros de un mismo branch.
+- Además, podemos trabajar simultáneamente junto con equipos de otros branchs, por ejemplo, para un mismo proyecto.
 - Posteriormente, a través de la herramienta de **Pull request** podemos incluir nuestros cambios en el documento principal/original.
 
 > ## Movie 1: Los Juegos del Hambre (2012)
