@@ -1,3 +1,5 @@
+# Sci-Fi Movies
+
 ### **Movie 1: Dune (2021)**
 
 **Synopsis:** *Paul Atreides’ family is betrayed after taking control of the desert planet Arrakis, home to the valuable spice. Forced into exile, Paul begins to fulfill his destiny alongside the native Fremen.* 
@@ -10,3 +12,4 @@
 ### **Movie 3: F1 The Movie (2025)**
 
 **Synopis:** *The retired driver Sonny Hayes returns to racing to save a struggling team and mentor rookie Joshua Pearce, ultimately finding redemption on the track.*
+
