@@ -11,7 +11,7 @@ Valeria Ruiz, Bruno Villacorta, Wilman Pacheco
 **Synopsis:**
 >Orgullo y prejuicio cuenta la historia de Elizabeth Bennet, una joven que, entre prejuicios y malentendidos, descubre el verdadero significado del amor junto al señor Darcy.
 
-### Movie 2:Pingüinos de papá (2011)
+### Movie 2: Pingüinos de papá (2011)
 **Synopsis:**
 >Pingüinos de papá trata de un hombre serio cuya vida da un giro divertido cuando seis pingüinos lo obligan a acercarse más a su familia.
 
