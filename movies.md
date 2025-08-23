@@ -1,5 +1,5 @@
 # Favorite movies 
-Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado este *branch* y no lo haremos en el __main__ para trabajar a nuestro ritmo, independientemente de otros equipos y sin rescribir el documento original de la clase.
+Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado este *branch* y no lo haremos en el __main__ para trabajar a nuestro ritmo, independientemente de otros equipos y sin rescribir el documento original de la clase. (Actividades 1,2 y 3).
 
 - En proyectos colaborativos se aconseja trabajar de esta manera porque nos aseguramos de trabajar sin modificar el trabajo de otras personas y podemos hacer seguimiento de nuestros cambios como miembros de un mismo branch.
 - Además, podemos trabajar simultáneamente junto con equipos de otros branchs, por ejemplo, para un mismo proyecto.
@@ -18,3 +18,6 @@ Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado 
 >## Movie 3: Una esposa de mentiras (2011)
 > Sinopsis: Un cirujano plástico soltero y sin compromiso le pide a su asistente que finja ser su esposa a punto de divorciarse para poder cortejar a la mujer de sus sueños. Una mentira lleva a otra, y pronto se ven envueltos en un viaje a Hawái que cambiará sus vidas.
 >> _"Tú eres lo único real en mi vida"_
+
+Actividad 4:
+The repository maintainer del grupo será ---
