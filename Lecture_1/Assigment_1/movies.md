@@ -15,7 +15,7 @@ Valeria Ruiz, Bruno Villacorta, Wilman Pacheco
 **Synopsis:**
 >Pingüinos de papá trata de un hombre serio cuya vida da un giro divertido cuando seis pingüinos lo obligan a acercarse más a su familia.
 
-### Movie 3: Legalmente rubia (2001)
+### Movie 3: Legalmente rubia 1 (2001)
 **Synopsis:**
 >Elle Woods logra ingresar a Harvard y, con perseverancia y dedicación, demuestra que puede romper prejuicios y destacar en el mundo del derecho.
 
