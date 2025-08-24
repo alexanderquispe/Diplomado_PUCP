@@ -5,5 +5,6 @@ While the main branch is the primary timeline or the main universe, a new branch
 ## 1.2 Create a branch 
 Group eleven has created a branch called group_11_assignment1_2025.
 We also have created a folder at the following path: r”..\GitHub\Diplomado_PUCP\Lecture_1\Assigment_1\group_11_assignment1_2025
-This folder contains two documents for our assignment: a .txt file and a .ipynb file.
+This folder contains two documents for our assignment: a .md file and a .ipynb file.
 ## 1.3 Movies
+
