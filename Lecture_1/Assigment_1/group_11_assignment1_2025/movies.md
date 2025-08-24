@@ -15,6 +15,7 @@ In June 1974, judiciary agent Benjamín Espósito investigates the rape and murd
 ### 1.3.2 Mullholand DR. (2001)
 ***SINOPSIS***
 Before the credits begin, a dreamlike jitterbugging scene is shown and ends with a girl (Naomi Watts), initially flanked by an elderly couple, stepping forward to take applause; a bed containing a sleeper is shown. A dark-haired woman (Laura Helena Harring) escapes her own murder, surviving a car accident on Mulholland Drive.
-
+### 1.3.3 Weapons. (2025)
+A child narrator explains that on a Wednesday two years prior, in the town of Maybrook, Pennsylvania, seventeen children from teacher Justine Gandy's third-grade class suddenly ran from their homes at 2:17 a.m. and disappeared. Only one student, Alex Lilly, remained.
 
 
