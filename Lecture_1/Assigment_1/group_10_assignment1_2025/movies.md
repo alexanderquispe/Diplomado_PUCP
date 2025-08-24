@@ -13,3 +13,10 @@ Nick Fury y S.H.I.E.L.D. deberán lograr que los Vengadores trabajen en equipo p
 
 ## STAR WARS: YEAR: 2005
 
+
+
+
+## Sobre trabajar en main:
+Trabajar directamente en main significa modificar la versión oficial del proyecto. Esto es riesgoso porque cualquier error o trabajo incompleto puede dañar la base principal de código que usan todos.
+En cambio, trabajar en una rama (branch) significa crear una copia separada donde se pueden desarrollar y probar los cambios de forma segura antes de unirlos a main.
+Se recomienda usar ramas en proyectos colaborativos porque evitan conflictos al permitir que cada integrante trabaje de manera independiente. Además, protegen la rama principal de errores o avances incompletos, pues permite la revisión y aprobación de los cambios antes de integrarlos al proyecto.
