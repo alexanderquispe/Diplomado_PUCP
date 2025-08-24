@@ -12,8 +12,9 @@ This folder contains two documents for our assignment: a .md file and a .ipynb f
 ### 1.3.1 El Secreto de Sus Ojos (2009)
 ***SINOPSIS***
 In June 1974, judiciary agent Benjamín Espósito investigates the rape and murder of Liliana Colotto de Morales. Espósito promises her husband, Ricardo, that he will find the killer and ensure a life sentence. Espósito is assisted by his alcoholic partner Pablo Sandoval and the new department chief, Irene Menéndez-Hastings. 
-### 1.3.1 Mullholand DR. (2001)
+### 1.3.2 Mullholand DR. (2001)
 ***SINOPSIS***
+Before the credits begin, a dreamlike jitterbugging scene is shown and ends with a girl (Naomi Watts), initially flanked by an elderly couple, stepping forward to take applause; a bed containing a sleeper is shown. A dark-haired woman (Laura Helena Harring) escapes her own murder, surviving a car accident on Mulholland Drive.
 
 
 
