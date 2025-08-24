@@ -19,7 +19,8 @@ Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado 
 > Sinopsis: Un cirujano plástico soltero y sin compromiso le pide a su asistente que finja ser su esposa a punto de divorciarse para poder cortejar a la mujer de sus sueños. Una mentira lleva a otra, y pronto se ven envueltos en un viaje a Hawái que cambiará sus vidas.
 >> _"Tú eres lo único real en mi vida"_
 
-Actividad 4:
+
+# Actividad 4:
 The repository maintainer del grupo será Andrea Chávez.
 
 Un _revisor_ puede rechazar un Pull Request (PR) por diversas razones, entre las cuales:
