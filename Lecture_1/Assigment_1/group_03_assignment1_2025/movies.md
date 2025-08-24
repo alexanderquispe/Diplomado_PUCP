@@ -1,6 +1,9 @@
 # Part 1 – Git Workflow (Branch → Pull Request → Merge)
 ## Group members: 
-Valeria Ruiz, Bruno Villacorta, Wilman Pacheco
+Valeria Ruiz
+Alfredo Espinoza
+Armando Pezo
+Freddy Zuta
 
 ## 1. Explain the difference between working on a branch and working directly on main. Why is it recommended to always use branches in collaborative projects?
 
