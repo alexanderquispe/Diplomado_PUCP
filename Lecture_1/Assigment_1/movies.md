@@ -43,3 +43,17 @@ The film weaves themes of trauma, addiction, and supernatural control into a hau
 **Movie 3:** *Memory Call (1990)*
 ___
 - **Synopsis:** *A dissatisfied construction worker buys a fabricated Mars vacation experience from the Memory Call company, only to uncover a hidden past as a secret agent and trigger a deadly conspiracy. His journey to recover his true identity plunges him into a brutal interplanetary struggle against the tyrannical Martian governor—and leaves audiences questioning whether it’s all real or implanted.*
+
+## Ulises' favorite movies
+
+**Movie 1:** *The Godfather (1972)*
+___
+- **Synopsis:** *In 1940s New York, the Corleone family, led by Don Vito Corleone, balances power, loyalty, and violence within the Mafia world. After an assassination attempt on his father, Michael Corleone, once reluctant, gradually embraces the family business. The film explores power, betrayal, and the transformation of Michael into the new Godfather.*
+
+**Movie 2:** *lista de schindler (1993)*
+___
+- **Synopsis:** *It unfolds in a quiet suburban town when 17 children mysteriously vanish from the same classroom overnight—only one remains—triggering a fractured, multi-perspective hunt uncovering a sinister witch, enchanted rituals, and deep communal grief. The film weaves themes of trauma, addiction, and supernatural control into a haunting and emotionally charged mystery.*
+
+**Movie 3:** *Wiñaypacha (2017)*
+___
+- **Synopsis:** *In the Peruvian highlands, elderly couple Willka and Phaxsi live in isolation at over 5,000 meters above sea level. Facing extreme cold, scarcity, and abandonment by their son who migrated to the city, they endure with dignity and deep connection to nature. The film reflects loneliness, resilience, and Andean worldview.*
