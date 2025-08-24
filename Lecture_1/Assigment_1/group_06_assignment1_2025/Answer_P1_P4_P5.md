@@ -2,9 +2,28 @@
 
 
 
-**Answer:** Trabajar en el main significa modificar directamente la versión principal del proyecto, lo que puede poner en riesgo el código principal si se introducen errores (mas aún en trabajos colaborativos). En cambio, trabajar en una branch permite desarrollar nuevas funciones o corregir errores de forma aislada al código principal, sin afectar el proyecto antes de que los cambios sean validados. En proyectos colaborativos se recomienda usar branches porque ayudan a evitar afectar la versión principal del proyecto con errores, permiten que varias personas trabajen diferentes tareas en paralelo y facilitan la revisión antes de integrar los cambios.
+**Answer:** 
 
 
+
+Trabajar en el main significa modificar directamente la versión principal del proyecto, lo que puede poner en riesgo el código principal si se introducen errores (mas aún en trabajos colaborativos). En cambio, trabajar en una branch permite desarrollar nuevas funciones o corregir errores de forma aislada al código principal, sin afectar el proyecto antes de que los cambios sean validados. En proyectos colaborativos se recomienda usar branches porque ayudan a evitar afectar la versión principal del proyecto con errores, permiten que varias personas trabajen diferentes tareas en paralelo y facilitan la revisión antes de integrar los cambios.
+
+
+
+**3. Make a commit with the following message: Added my favorite movies. Write down the corresponding Git command.**
+
+**Choose one group member to act as the repository maintainer.**
+
+
+
+Git command: 
+
+* git add Lecture\_1/Assigment\_1/group\_06\_assignment1\_2025/movies.md
+* git commit -m "#1700 Added my favourite movies"
+
+
+
+Repository maintainer: Nicole Molina
 
 
 
