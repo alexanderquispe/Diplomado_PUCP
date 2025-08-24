@@ -20,4 +20,14 @@ Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado 
 >> _"Tú eres lo único real en mi vida"_
 
 Actividad 4:
-The repository maintainer del grupo será Andrea Chávez
+The repository maintainer del grupo será Andrea Chávez.
+
+Un _revisor_ puede rechazar un Pull Request (PR) por diversas razones, entre las cuales:
+
+1. Conflictos de código, cuando los cambios propuestos entran en conflicto con modificaciones recientes en el branch, así, se rechaza el PR para evitar sobrescribir o perder avances realizados por otras personas.
+
+2. Errores de formato o estilo en el que el código no cumple con lo establecido por el proyecto. También puede ser porque el código no se ejecuta correctamente debido a errores en el código.
+
+3. Hay incumplimiento de requisitos que no se ajusta a lo solicitado en el issue porque no responde a lo esperado o porque no está completo.
+
+Cabe resaltar que el rechazo de un PR **no es definitivo**. Una vez corregidos los problemas señalados, el solicitante puede actualizar y volver a enviar el PR para una nueva revisión.
