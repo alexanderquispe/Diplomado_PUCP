@@ -28,3 +28,18 @@ ___
 **Movie 3:** *Pinocchio (Guillermo del Toro, 2022)*
 ___
 - **Synopsis:** *In fascist Italy, a grieving woodcarver’s wish brings a wooden boy to life; his rebellious spirit challenges authority and leads him through dark, tender adventures about identity, loss, and what it means to be human.*
+
+## Rossana's favorite movies
+
+**Movie 1:** *Big Short (2015)*
+___
+- **Synopsis:** *The story goes around four groups of investors, in different situations, that find a great scenary of investment in an unexpected context for real state credit in usa (2008 crack) and the way they take advantage of it to make a fortune*
+
+**Movie 2:** *Weapons*
+___
+- **Synopsis:** *It unfolds in a quiet suburban town when 17 children mysteriously vanish from the same classroom overnight—only one remains—triggering a fractured, multi-perspective hunt uncovering a sinister witch, enchanted rituals, and deep communal grief.
+The film weaves themes of trauma, addiction, and supernatural control into a haunting and emotionally charged mystery.*
+
+**Movie 3:** *Memory Call (1990)*
+___
+- **Synopsis:** *A dissatisfied construction worker buys a fabricated Mars vacation experience from the Memory Call company, only to uncover a hidden past as a secret agent and trigger a deadly conspiracy. His journey to recover his true identity plunges him into a brutal interplanetary struggle against the tyrannical Martian governor—and leaves audiences questioning whether it’s all real or implanted.*
