@@ -32,3 +32,4 @@ Un _revisor_ puede rechazar un Pull Request (PR) por diversas razones, entre las
 3. Hay incumplimiento de requisitos que no se ajusta a lo solicitado en el issue porque no responde a lo esperado o porque no está completo.
 
 Cabe resaltar que el rechazo de un PR **no es definitivo**. Una vez corregidos los problemas señalados, el solicitante puede actualizar y volver a enviar el PR para una nueva revisión.
+
