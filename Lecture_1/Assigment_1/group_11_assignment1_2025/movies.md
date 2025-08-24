@@ -30,3 +30,14 @@ Chihiro, a young girl, stumbles into a mysterious world of spirits after her par
 ### 1.3.6 City of God (2002)
 ***SINOPSIS***
 Set in Rio de Janeiro’s favelas, the film follows two boys who take divergent paths amid violence and poverty. One dreams of becoming a photographer; the other embraces a life of crime. A raw, gripping story of survival and ambition in a lawless world.
+
+# Luis Ramos
+### 1.3.7 The Shawshank Redemption (1994)
+***SINOPSIS***
+Andrew Dufresne is an innocent man who is accused of murdering his wife. After being sentenced to life imprisonment, he is sent to Shawshank Prison in Maine. Over the years, Andrew manages to earn the trust of the prison warden and the respect of the other inmates, especially Red, the head of the prison's criminal organization.
+### 1.3.8 Braveheart (1995)
+***SINOPSIS***
+The epic adventures of William Wallace, a Scottish rebel fighting for independence against the power of England in the Middle Ages. His legendary character and epic love story made him a hero.
+### 1.3.9 Forrest Gump (1994)
+***SINOPSIS***
+Sitting on a bench in Savannah, Georgia, Forrest Gump waits for the bus. While it takes its time arriving, the young man recounts his life to the people sitting with him. Although he suffers from a slight mental disability, this does not prevent him from doing wonderful things. Without fully understanding what is happening around him, Forrest takes part in the most important events in the history of the United States.
