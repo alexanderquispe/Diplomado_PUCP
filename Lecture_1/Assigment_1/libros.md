@@ -11,3 +11,4 @@ Reseña: Narra la lucha de las comunidades campesinas andinas contra las compañ
 ## Título: Los ríos profundos 
 Autor: José María Arguedas</p>
 Reseña: Retrata la vida en los Andes a través de Ernesto, un niño que experimenta la violencia y la ternura de un país marcado por las desigualdades. Arguedas combina el castellano con expresiones quechuas, logrando un lenguaje poético que refleja la cosmovisión indígena y la riqueza cultural del Perú.
+
