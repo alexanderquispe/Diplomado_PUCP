@@ -1,10 +1,8 @@
 # GRUPO 10
 ## MOVIES
 
-
-
 ## Titanic 
-## Relesae year: (1997)
+## Año de lanzamiento: (1997)
 ### **Sinopsis:** Una joven aristócrata se enamora de un artista pobre a bordo del desafortunado RMS Titanic, dando inicio a un romance trágico en medio del hundimiento del barco.
 
 # The Avengers
