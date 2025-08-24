@@ -1,6 +1,5 @@
 # Part 1 – Git Workflow (Branch → Pull Request → Merge)
 ## Group members: 
-
 Valeria Ruiz
 Alfredo Espinoza
 Armando Pezo
