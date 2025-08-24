@@ -1,0 +1,714 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "349a1fef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Parte 2A: Data Types & List/Tuple"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1fd6fc7b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 1) Declarar variables int, float, string, bool\n",
+    "edad = 25                 # int\n",
+    "altura = 1.78             # float\n",
+    "nombre = \"Freddy\"         # string\n",
+    "es_estudiante = True      # bool"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "db040029",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tipos de variables:\n",
+      "<class 'int'> <class 'float'> <class 'str'> <class 'bool'> \n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 2) Imprimir type() de cada una\n",
+    "print(\"Tipos de variables:\")\n",
+    "print(type(edad), type(altura), type(nombre), type(es_estudiante), \"\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8e214161",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Lista inicial: [25, 1.78, 'Freddy', True]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 3) Crear una lista con los elementos pedidos (puedes mezclar tipos)\n",
+    "mi_lista = [edad, altura, nombre, es_estudiante]\n",
+    "print(\"Lista inicial:\", mi_lista)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f9045962",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Primer elemento: 25\n",
+      "Último elemento: True \n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 4) Acceder al primer y último elemento\n",
+    "print(\"Primer elemento:\", mi_lista[0])   # índice 0\n",
+    "print(\"Último elemento:\", mi_lista[-1], \"\\n\")  # índice negativo"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "406b4900",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Después de append('Python'): [25, 1.78, 'Freddy', True, 'Python']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 5) Añadir un string a la lista\n",
+    "mi_lista.append(\"Python\")\n",
+    "print(\"Después de append('Python'):\", mi_lista)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e1a8b0d3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Después de remove(True): [25, 1.78, 'Freddy', 'Python'] \n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 6) Remover el booleano (True) de la lista\n",
+    "# remove() elimina la primera aparición del valor dado\n",
+    "mi_lista.remove(True)\n",
+    "print(\"Después de remove(True):\", mi_lista, \"\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f45b4d35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tupla: ('dato_texto', False, (10, 20, 30))\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 7) Definir un tuple con: string, boolean, y una tuple numérica\n",
+    "tupla_numerica = (10, 20, 30)\n",
+    "mi_tupla = (\"dato_texto\", False, tupla_numerica)\n",
+    "print(\"Tupla:\", mi_tupla)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9c7f939e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "Demostración de inmutabilidad:\n",
+      "No se puede modificar una tupla. Error capturado: 'tuple' object does not support item assignment\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 8) Explicar inmutabilidad y demostrar error:\n",
+    "# Las tuplas son INMUTABLES: no puedes reasignar, añadir o borrar elementos.\n",
+    "# Intento de modificar un elemento -> TypeError\n",
+    "try:\n",
+    "    mi_tupla[0] = \"otro_texto\"   # Esto debe fallar\n",
+    "except TypeError as e:\n",
+    "    print(\"\\nDemostración de inmutabilidad:\")\n",
+    "    print(\"No se puede modificar una tupla. Error capturado:\", e)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9f938c77",
+   "metadata": {},
+   "source": [
+    "# Función que recibe un diccionario de películas"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "bb00d491",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['The movie Orgullo y prejuicio belongs to the Romance/Drama genre and was released in 2005.',\n",
+       " 'The movie Pingüinos de papá belongs to the Comedia/Familiar genre and was released in 2011.',\n",
+       " 'The movie Legalmente rubia belongs to the Comedia genre and was released in 2001.']"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def movie_summary(movies):\n",
+    "    summaries = []\n",
+    "    for title, info in movies.items():\n",
+    "        sentence = f\"The movie {title} belongs to the {info['genre']} genre and was released in {info['year']}.\"\n",
+    "        summaries.append(sentence)\n",
+    "    return summaries\n",
+    "\n",
+    "# Diccionario con las películas del grupo\n",
+    "movies = {\n",
+    "    \"Orgullo y prejuicio\": {\"year\": 2005, \"genre\": \"Romance/Drama\"},\n",
+    "    \"Pingüinos de papá\": {\"year\": 2011, \"genre\": \"Comedia/Familiar\"},\n",
+    "    \"Legalmente rubia\": {\"year\": 2001, \"genre\": \"Comedia\"}\n",
+    "}\n",
+    "\n",
+    "# Probar la función\n",
+    "movie_summary(movies)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ba6380cc",
+   "metadata": {},
+   "source": [
+    "# Función que recibe un diccionario de películas"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "36086cb9",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Matriz generada:\n",
+      " [[71 92 19 80]\n",
+      " [ 9 93 47 21]\n",
+      " [77 93 12 73]\n",
+      " [18 61 84 94]]\n",
+      "\n",
+      "Media por columna: [43.75 84.75 40.5  67.  ]\n",
+      "\n",
+      "Suma de la diagonal principal: 270\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "import numpy as np\n",
+    "\n",
+    "# Generar matriz 4x4 con enteros aleatorios entre 1 y 100\n",
+    "matrix = np.random.randint(1, 101, size=(4,4))\n",
+    "print(\"Matriz generada:\\n\", matrix)\n",
+    "\n",
+    "# Calcular la media por columna\n",
+    "mean_per_column = np.mean(matrix, axis=0)\n",
+    "print(\"\\nMedia por columna:\", mean_per_column)\n",
+    "\n",
+    "# Calcular la suma de la diagonal principal\n",
+    "sum_diagonal = np.trace(matrix)\n",
+    "print(\"\\nSuma de la diagonal principal:\", sum_diagonal)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "68eb52e7-6c9c-469c-8233-12d9fdad4ddf",
+   "metadata": {},
+   "source": [
+    "# Part 3 - Panda Series"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "00ced6fc-ba92-4fef-8d26-687181e93d41",
+   "metadata": {},
+   "source": [
+    "## Creating the Panda series"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "f546cfd5-2ace-41b9-845a-1d2cd2e44e5e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "58492406-ebf3-485a-9f7f-5c792a7fa429",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[15, 17, 20, 11, 13, 18, 19]"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "grades = [15, 17, 20, 11, 13, 18, 19]\n",
+    "grades"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "64e3d33e-b261-41c6-b9ad-2cacccbb3fa5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Ana', 'Jorge', 'Valeria', 'Pedro', 'Santiago', 'Juan', 'Esteban']"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "names = [\"Ana\", \"Jorge\", \"Valeria\", \"Pedro\", \"Santiago\", \"Juan\", \"Esteban\"]\n",
+    "names"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "a30060bb-0393-4e9d-b924-382703c4d8c7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Ana         15\n",
+       "Jorge       17\n",
+       "Valeria     20\n",
+       "Pedro       11\n",
+       "Santiago    13\n",
+       "Juan        18\n",
+       "Esteban     19\n",
+       "dtype: int64"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "studentgrades = pd.Series(grades, index = names)\n",
+    "studentgrades"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "03836668-66c1-47d9-84cd-92130d664916",
+   "metadata": {},
+   "source": [
+    "### Now I will calculate the average grade from the Panda series."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "4636cee0-858b-45ec-97ca-a682e638190a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Ana         15\n",
+       "Jorge       17\n",
+       "Valeria     20\n",
+       "Pedro       11\n",
+       "Santiago    13\n",
+       "Juan        18\n",
+       "Esteban     19\n",
+       "dtype: int64"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "studentgrades"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "ea530a7d-1ae7-4d90-b20f-c394bf037404",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "np.float64(16.142857142857142)"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "avg = studentgrades.mean()\n",
+    "avg"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "99d70a60-0f72-45be-b5b8-ddf826a378df",
+   "metadata": {},
+   "source": [
+    "### The average grade is 16.142857142857142"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "f0aa5802-8542-46f3-9f12-34a3edd75ba0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Valeria'"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "highestgr = studentgrades.idxmax()\n",
+    "highestgr"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "636e3c45-e9d8-4d21-a188-59cdb4dd5b96",
+   "metadata": {},
+   "source": [
+    "### The student with the highest grade is Valeria."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "4912892d-6596-4e78-9fcc-d3aabeb1f1ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Pedro'"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lowestgr = studentgrades.idxmin()\n",
+    "lowestgr"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "91f7ad04-c9ef-4d2d-a919-61fef332884f",
+   "metadata": {},
+   "source": [
+    "### The student with the lowest grade is Pedro."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bc6944d8-93bc-4fb9-b32d-69fd5bfbbeb2",
+   "metadata": {},
+   "source": [
+    "### Now I will create a dictionary of countries and capitals."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "7ab728cd-3a1a-46d5-94d6-d0b6ed17606e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'Indonesia': 'Jakarta',\n",
+       " 'Argentina': 'Buenos Aires',\n",
+       " 'Canada': 'Ottawa',\n",
+       " 'Iraq': 'Baghdad',\n",
+       " 'China': 'Beijing',\n",
+       " 'Chile': 'Santiago',\n",
+       " 'Ethiopia': 'Addis Adaba',\n",
+       " 'France': 'Paris'}"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "co_dic = {\"Indonesia\": \"Jakarta\",\n",
+    "          \"Argentina\": \"Buenos Aires\",\n",
+    "          \"Canada\": \"Ottawa\",\n",
+    "          \"Iraq\": \"Baghdad\",\n",
+    "          \"China\": \"Beijing\",\n",
+    "          \"Chile\": \"Santiago\",\n",
+    "          \"Ethiopia\": \"Addis Adaba\",\n",
+    "          \"France\": \"Paris\"}\n",
+    "co_dic"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "59cb9c9a-4f54-46fa-9203-32d358ef829d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Indonesia         Jakarta\n",
+       "Argentina    Buenos Aires\n",
+       "Canada             Ottawa\n",
+       "Iraq              Baghdad\n",
+       "China             Beijing\n",
+       "Chile            Santiago\n",
+       "Ethiopia      Addis Adaba\n",
+       "France              Paris\n",
+       "dtype: object"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "count = pd.Series(co_dic)\n",
+    "count"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0965ce61-2bb9-4b0f-bbe1-def87658d440",
+   "metadata": {},
+   "source": [
+    "I will display only those whose capitals have more than six letters."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "66e270ad-af89-4c29-8532-55de4240677e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Indonesia         Jakarta\n",
+       "Argentina    Buenos Aires\n",
+       "Iraq              Baghdad\n",
+       "China             Beijing\n",
+       "Chile            Santiago\n",
+       "Ethiopia      Addis Adaba\n",
+       "dtype: object"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "count[count.str.len() > 6]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ceda2f09-d41e-4627-8bae-6b90745ac0e6",
+   "metadata": {},
+   "source": [
+    "### I will create a Series with several strings and convert all its elements to uppercase"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "77d28146-86c0-4b60-84d0-9c71a8654af0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0      first\n",
+       "1     second\n",
+       "2      third\n",
+       "3     fourth\n",
+       "4      fifth\n",
+       "5      sixth\n",
+       "6    seventh\n",
+       "7     eighth\n",
+       "8      ninth\n",
+       "9      tenth\n",
+       "dtype: object"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "series = pd.Series([\"first\",\"second\",\"third\",\"fourth\",\"fifth\",\"sixth\",\"seventh\",\"eighth\",\"ninth\",\"tenth\"])\n",
+    "series"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "4212ccbb-22fd-4ae7-bf52-91e331a8d57a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "series=series.apply(str.upper)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "998ca03f-c150-420f-8dec-396a917905cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0      FIRST\n",
+       "1     SECOND\n",
+       "2      THIRD\n",
+       "3     FOURTH\n",
+       "4      FIFTH\n",
+       "5      SIXTH\n",
+       "6    SEVENTH\n",
+       "7     EIGHTH\n",
+       "8      NINTH\n",
+       "9      TENTH\n",
+       "dtype: object"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "series"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
