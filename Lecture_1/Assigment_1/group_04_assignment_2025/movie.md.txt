@@ -1,0 +1,11 @@
+
+# Películas favoritas
+
+## 1. Inception (2010)  
+*Sinopsis:* Un ladrón entra en los sueños de las personas para robar secretos, pero recibe la misión de implantar una idea en la mente de alguien.
+
+## 2. Singin' in the Rain (1952)  
+*Sinopsis:* En el Hollywood de los años 20, un actor de cine mudo enfrenta la transición al cine sonoro mientras vive una historia de amor y música.
+
+## 3. Interstellar (2014)  
+*Sinopsis:* Un grupo de astronautas viaja a través de un agujero de gusano para encontrar un nuevo planeta habitable y asegurar el futuro de la humanidad.
