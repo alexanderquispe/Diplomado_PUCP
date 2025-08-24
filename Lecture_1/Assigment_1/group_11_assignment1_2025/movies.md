@@ -20,4 +20,13 @@ Before the credits begin, a dreamlike jitterbugging scene is shown and ends with
 A child narrator explains that on a Wednesday two years prior, in the town of Maybrook, Pennsylvania, seventeen children from teacher Justine Gandy's third-grade class suddenly ran from their homes at 2:17 a.m. and disappeared. Only one student, Alex Lilly, remained.
 
 
-
+# Valentina Linares 
+### 1.3.4 Coraline (2009)
+***SINOPSIS***
+Coraline discovers a secret door in her new home leading to an alternate world where everything seems perfect. But the dream turns sinister when her “Other Mother” wants to keep her forever. She must use her courage and wit to escape and save her family.
+### 1.3.5 Spirited Away (2001)
+***SINOPSIS***
+Chihiro, a young girl, stumbles into a mysterious world of spirits after her parents are transformed into pigs. Trapped in a magical bathhouse, she must work and adapt to survive. Her journey becomes a test of bravery, identity, and compassion.
+### 1.3.6 City of God (2002)
+***SINOPSIS***
+Set in Rio de Janeiro’s favelas, the film follows two boys who take divergent paths amid violence and poverty. One dreams of becoming a photographer; the other embraces a life of crime. A raw, gripping story of survival and ambition in a lawless world.
