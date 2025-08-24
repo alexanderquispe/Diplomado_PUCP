@@ -41,3 +41,17 @@ The epic adventures of William Wallace, a Scottish rebel fighting for independen
 ### 1.3.9 Forrest Gump (1994)
 ***SINOPSIS***
 Sitting on a bench in Savannah, Georgia, Forrest Gump waits for the bus. While it takes its time arriving, the young man recounts his life to the people sitting with him. Although he suffers from a slight mental disability, this does not prevent him from doing wonderful things. Without fully understanding what is happening around him, Forrest takes part in the most important events in the history of the United States.
+
+# Alfredo Narciso
+
+### 1.3.10 Contact (1997)
+***SINOPSIS***
+Dr Ellie, a radio astronomer, discovers the existence of intelligent aliens through radio signals. She and a group of fellow scientists decipher the instructions that they send to build a machine.
+
+### 1.3.11 Alien (1986)
+***SINOPSIS***
+Ellen Ripley is sent back to the planet LV-426 to establish contact with a terraforming colony. Once there, she encounters the Alien Queen and her offspring and has to fight them to survive.
+
+### 1.3.12. Le placard (The closet) (2001)
+***SINOPSIS***
+An accountant, with the help of his friend, spreads a rumour about him being a homosexual to avoid getting sacked. What follows are hilarious misunderstandings and squeamish situations.
