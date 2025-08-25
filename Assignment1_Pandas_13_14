@@ -1,0 +1,44 @@
+# 13. Create a Series from a dictionary of countries and their capitals.
+# Filter and display only those countries whose capital has more than 6 letters.
+
+import pandas as pd
+
+# Diccionario de países y capitales
+countries = {
+    "Perú": "Lima",
+    "Argentina": "Buenos Aires",
+    "Chile": "Santiago",
+    "Colombia": "Bogotá",
+    "México": "Ciudad de México",
+    "Brazil": "Brasília",
+    "Ecuador": "Quito",
+    "Bolivia": "La Paz",
+    "Paraguay": "Asunción",
+    "Uruguay": "Montevideo"
+}
+
+# Crear una Series
+series = pd.Series(countries)
+
+# Filtrar solo las capitales con más de 6 letras
+Cap_6_letras = series[series.str.len() > 6]
+
+print("\nPaíses sudamericanos con capitales de más de 6 letras:")
+print(Cap_6_letras)
+
+# 14. Create a Series containing several strings and convert all its elements 
+# to uppercase using the .apply(str.upper) method.
+
+import pandas as pd
+
+# Crear una Series con cadenas de texto
+series = pd.Series(["trabajo", "comisión", "reporte", "informe", "viáticos", "alojamiento", "gestión"])
+
+print("Series de cadenas de texto:")
+print(series)
+
+# Convertir todos los elementos a mayúsculas usando .apply(str.upper)
+series_mayus = series.apply(str.upper)
+
+print("\nSeries en mayúsculas:")
+print(series_mayus)
