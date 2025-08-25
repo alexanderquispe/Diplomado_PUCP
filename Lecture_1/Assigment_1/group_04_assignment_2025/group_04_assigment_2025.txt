@@ -1,0 +1,7 @@
+## Explain the difference between working on a branch and working directly on main. Why is it recommended to always use branches in collaborative projects? 
+
+Trabajar en el main branch significa que los cambios afectan directamente al proyecto real, esto puede generar confusion. En cambio, trabajar en un branch es como crear un mundo paralelo donde tienes acceso a todos los archivos, pero no se hacen cambios en el mundo real. Tras revisar los cambios del branch se puede mover al main.
+
+## Create a Pull Request (PR) on GitHub to merge the group branch into main. Explain in which cases a reviewer might reject the PR (e.g., code conflicts, formatting errors, failure to follow instructions, etc.).
+
+Un PR puede ser rechazado si hay conflictos con los codigos, error en el formato o que no sigan las instrucciones 
