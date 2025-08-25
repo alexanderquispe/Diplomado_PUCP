@@ -47,7 +47,7 @@ Sitting on a bench in Savannah, Georgia, Forrest Gump waits for the bus. While i
 Dr Ellie, a radio astronomer, discovers the existence of intelligent aliens through radio signals. She and a group of fellow scientists decipher the instructions that they send to build a machine.
 ### 1.3.11 Alien (1986)
 ***SINOPSIS***
-Ellen Ripley is sent back to the planet LV-426 to establish contact with a terraforming colony. Once there, she encounters the Alien Queen and her offspring and has to fight them to survive.
+Ellen Ripley is sent back to the planet LV-426 in order to establish contact with a terraforming colony. Once there, she encounters the Alien Queen and her offspring and has to fight them to survive.
 ### 1.3.12. Le placard (The closet) (2001)
 ***SINOPSIS***
 An accountant, with the help of his friend, spreads a rumour about him being a homosexual to avoid getting sacked. What follows are hilarious misunderstandings and squeamish situations.
