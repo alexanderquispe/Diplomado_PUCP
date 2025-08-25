@@ -9,6 +9,9 @@
 Trabajar en el main significa modificar directamente la versión principal del proyecto, lo que puede poner en riesgo el código principal si se introducen errores (mas aún en trabajos colaborativos). En cambio, trabajar en una branch permite desarrollar nuevas funciones o corregir errores de forma aislada al código principal, sin afectar el proyecto antes de que los cambios sean validados. En proyectos colaborativos se recomienda usar branches porque ayudan a evitar afectar la versión principal del proyecto con errores, permiten que varias personas trabajen diferentes tareas en paralelo y facilitan la revisión antes de integrar los cambios.
 
 
+Working on main means directly modifying the main version of the project, wich can put the main code at risk if bugs are introduced (even more so in collaborative projects). Working on a branch, on the other hand, allows you to develop new features oor fix bugs in isolation from the main code, without affecting the project before the changes are validated. In collaborative projects, using branches is recommended because they help avoid affecting the main version of the project with bugs, allow multiple people to work on different tasks in parallel, and facilitate review before integrating changes.
+
+
 
 **3. Make a commit with the following message: Added my favorite movies. Write down the corresponding Git command.**
 
@@ -31,7 +34,8 @@ Repository maintainer: Nicole Molina
 
 
 
-**Answer:** Un Pull Request se utiliza para proponer cambios desde una branch hacia main, pero un revisor puede rechazarlo en los siguientes casos:
+**Answer:** 
+Un Pull Request se utiliza para proponer cambios desde una branch hacia main, pero un revisor puede rechazarlo en los siguientes casos:
 
 
 
@@ -52,3 +56,27 @@ Repository maintainer: Nicole Molina
 
 
 * Incumplimiento de instrucciones del proyecto: el revisor rechaza el PR porque no se documentaron los cambios, no se incluyeron pruebas o no se respetaron las convenciones de trabajo, lo que afecta el orden y la trazabilidad del proyecto.
+
+
+
+A Pull Request is used to propose changes from a branch to main, but a reviewer can reject it in the following cases:
+
+
+
+* Code conflicts: The reviewer rejects the PR because the branch's changes conflict with existing changes in main, preventing GitHub from automatically merging the changes and, consequently, potentially creating errors in the project.
+
+
+
+* Bugs or errors: The reviewer rejects the PR because the new code breaks existing functionality or contains bugs, which would jeopardize the stability of the main project.
+
+
+
+* Formatting or style issues: The reviewer rejects the PR because it doesn't follow the project's style guidelines (e.g., variable names), which affects consistency and makes the code difficult to maintain.
+
+
+
+* Incomplete implementation: The reviewer rejects the PR because the functionality or fix is ​​unfinished or doesn't meet requirements, and main should receive only completed code.
+
+
+
+* Failure to comply with project instructions: The reviewer rejects the PR because changes were not documented, tests were not included, or work conventions were not respected, which affects the order and traceability of the project.
