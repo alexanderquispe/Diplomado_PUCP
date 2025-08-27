@@ -1,0 +1,56 @@
+Pregunta 9:
+def resumen_peliculas(peliculas):
+    resumenes = []
+    for titulo, detalles in peliculas.items():
+        oracion = f"La película {titulo} pertenece al género {detalles['genre']} y fue estrenada en {detalles['year']}."
+        resumenes.append(oracion)
+    return resumenes
+
+# Ejemplo de uso:
+peliculas = {
+    "Inception": {"year": 2010, "genre": "Ciencia Ficción"},
+    "Parasite": {"year": 2019, "genre": "Drama"},
+    "Whiplash": {"year": 2014, "genre": "Drama"}
+}
+
+print(resumen_peliculas(peliculas))
+
+['La película Inception pertenece al género Ciencia Ficción y fue estrenada en 2010.', 'La película Parasite pertenece al género Drama y fue estrenada en 2019.', 'La película Whiplash pertenece al género Drama y fue estrenada en 2014.']
+
+Pregunta 10:
+
+import numpy as np
+
+# empezamos con la matriz aleatoria
+matrix = np.random.randint(1, 101, size=(4, 4))
+print("Matriz generada:\n", matrix)
+
+# primero calculamos la media por columnadef resumen_peliculas(peliculas):
+    resumenes = []
+    for titulo, detalles in peliculas.items():
+        oracion = f"La película {titulo} pertenece al género {detalles['genre']} y fue estrenada en {detalles['year']}."
+        resumenes.append(oracion)
+    return resumenes
+
+# Ejemplo de uso:
+peliculas = {
+    "Inception": {"year": 2010, "genre": "Ciencia Ficción"},
+    "Parasite": {"year": 2019, "genre": "Drama"},
+    "Whiplash": {"year": 2014, "genre": "Drama"}
+}
+
+print(resumen_peliculas(peliculas))
+mean_per_column = np.mean(matrix, axis=0)
+print("Media por columna:", mean_per_column)
+
+# luego la suma de la diagonal principal
+sum_diagonal = np.trace(matrix)
+print("Suma de la diagonal principal:", sum_diagonal)
+
+Matriz generada:
+ [[ 57  72  74  59]
+ [ 32  88  36  95]
+ [ 20  12  31 100]
+ [ 60  95  85  66]]
+Media por columna: [42.25 66.75 56.5  80.  ]
+Suma de la diagonal principal: 242
