@@ -1,0 +1,12 @@
+# 1. Diferencia entre trabajar en rama vs. main
+## Al trabajar en main, todos los cambios se hacen directamente en la rama principal del proyecto. Los cambios son inmediatos y afectan la versión oficial del proyecto, por lo que hay mayor riesgo de introducir errores o código no funcional
+## Ademaás, dificulta la colaboración simultánea entre varios desarrolladores.
+
+# 2. Trabajar en una rama:
+## En un rama, se crea una copia independiente del código para trabajar. Los cambios se aíslan hasta que estén listos para ser integrados y permite trabajar en características específicas sin afectar el código principal
+## Facilita la revisión y pruebas antes de la integración
+
+# 3. ¿Por qué usar ramas en proyectos colaborativos?
+## Hay más aislamiento ya que cada desarrollador puede trabajar independientemente sin interferir con otros
+## El código principal (main) se mantiene estable y permite revisar cambios antes de integrarlos
+## Por último, facilita el seguimiento de características específicas, abordar issues, y es fácil deshacer cambios.
