@@ -21,7 +21,7 @@ Compartiremos las tres películas favoritas del equipo. Para ello, hemos creado 
 
 
 # Actividad 4:
-The repository maintainer del grupo será Andrea Chávez.
+The repository maintainer del grupo será Lizeth Moreno.
 
 Un _revisor_ puede rechazar un Pull Request (PR) por diversas razones, entre las cuales:
 
