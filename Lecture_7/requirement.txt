@@ -1,0 +1,15 @@
+# Core dependency
+selenium==4.23.1   # or latest stable release
+
+# For managing webdrivers automatically
+webdriver-manager==4.0.2
+
+# (Optional) If you plan to parse HTML after fetching it
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# (Optional) For handling data storage
+pandas==2.2.2
+
+# (Optional) For handling environment variables securely
+python-dotenv==1.0.1
