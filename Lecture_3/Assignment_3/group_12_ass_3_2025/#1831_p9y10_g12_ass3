@@ -1,0 +1,44 @@
+#Pregunta 9:
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print(f"Marca: {self.brand}, Modelo: {self.model}, Año: {self.year}")
+
+# Creamos dos objetos al azar
+car1 = Car("Toyota", "Corolla", 2020)
+car2 = Car("Honda", "Civic", 2022)
+
+# Usamos el método
+car1.display_info()
+car2.display_info()
+
+Marca: Toyota, Modelo: Corolla, Año: 2020
+Marca: Honda, Modelo: Civic, Año: 2022
+
+#Pregunta 10: usamos _init_ y self
+
+class Student:
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+    def is_passed(self):
+        if self.grade >= 11:
+            return "Passed"
+        else:
+            return "Failed"
+
+# Ejemplo
+student1 = Student("Ana", 20, 15)
+student2 = Student("Luis", 19, 9)
+
+print(student1.name, student1.is_passed())
+print(student2.name, student2.is_passed())
+
+Ana Passed
+Luis Failed
