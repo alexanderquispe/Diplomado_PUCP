@@ -1,0 +1,20 @@
+# Core GeoPandas and its dependencies
+geopandas==0.14.3
+pandas>=1.3.0,<2.0.0
+shapely>=2.0.0
+fiona>=1.8
+pyproj>=3.3.0
+rtree>=1.0
+matplotlib>=3.5
+mapclassify>=2.5.0
+
+# Optional: for reading/writing GeoPackage or other raster/vector formats
+gdal>=3.4.0
+
+# Optional: for interactive plotting (tile maps, basemaps)
+contextily>=1.3.0
+
+# Jupyter support (for notebooks)
+notebook>=7.0
+jupyterlab>=3.0
+ipykernel>=6.0
