@@ -4,10 +4,10 @@
 - **Course name:** Fundamentals of Python for Social Sciences and Public Management  
 - **Theory hours:** 16 hours  
 - **Instructor:** Alexander Quispe Rojas  
-  - **Email:** https://github.com/Bruno1702vm/Diplomado_PUCP/raw/refs/heads/main/Lecture_10/class/assets/Diplomado-PUCP-2.0.zip  
-- **Teaching Assistant:** Michael Encalada  
-  - **Email:** https://github.com/Bruno1702vm/Diplomado_PUCP/raw/refs/heads/main/Lecture_10/class/assets/Diplomado-PUCP-2.0.zip
-  - ** Office Hours:** Saturdays 2:00-4:00pm.
+  - **Email:** alexander.quispe@pucp.edu.pe
+- **Teaching Assistant:** Edgar Luna  
+  - **Email:** luna.e@pucp.edu.pe
+  - **Schedule:** Wednesdays 7:00-10:00pm and Saturdays 8:00-9:30am.
 
 ---
 
@@ -82,13 +82,34 @@ The evaluation will consist of a final project at the end of the course.
 
 # 🎯 Participantes in Groups
 
-| G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 | G9 | G10 | G11 | G12 |
-|----|----|----|----|----|----|----|----|----|-----|-----|-----|
-| JIMENEZ BUENO, JORGE MAXIMILIANO | RIVERA ZUBIETA, MIRZHA BRIZETH | RUIZ ALCA, VALERIA SOPHIA | DELGADO HUAYHUA, JAKELINE | SAURINO GRANDE, VIVIAN STEPHANE | MOLINA LEÓN, NICOLE CAMILA | CATALÁN YAURI, ANALY JAZMIN | PACHECO QUISPE, WILMAN RICARDO | VILLENA ESPINOZA, PEDRO GONZALO | MAGNO FABIAN, EDUARDO | LINARES HERRERA, DURGA VALENTINA | BERETTA VIDAL, PIERO ALESSANDRO |
-| DUFFO CHAPILLIQUEN, NADIA ABIGAIL | CAVERO RIVERA, EDUARDO DAVID | ESPINOZA PALO, ALFREDO BENIZAR | AUSEJO UBILLUS, SANTIAGO ERNESTO | QUISPITUPÁ ROMANI, ESTEBAN | MACEDO VILLEGAS, RICARDO ANTONIO | MORENO GOMEZ, LIZETH ESTEFANIA | MAMANI CONDORI, MARGARITA | VILLACORTA MONTOYA, BRUNO ALONSO | TALANCHA LUNA, ROSSY OFELIA | RAMOS VARGAS, LUIS FERNANDO | DAVILA VASQUEZ, MARIA PAULA |
-| QUISPE CUBA, RICHAR | ZAVALA CASTILLO, ARIANNA NICKOLE | PEZO NUNEZ PEZO NUNEZ, ARMANDO ANTONIO | CONTRERAS VALENZUELA, ROMEL SERGIO | LEÓN HUAMÁN, MARÍA LESLY | CESPEDES ESPINOZA, LUIS RICARDO | MARTINEZ VELARDE, AZUCENA MIRIAM | ALMENARA ESPINO, DIEGO ALONSO | RODAS CIENFUEGOS, ULISES ALEXANDER | VILLANUEVA HINOJOSA, ANIBAL DANIEL | LA HOZ SANCHEZ, KARLO ANDRE | APAZA MANTILLA, AMANDA VALERY |
-| ARELLANO MORAN, GRABIEL | VASQUEZ CIEZA, ANEL ROMINA | ZUTA CHAVEZ, FREDDY | CASTILLO CASTREJON, KAREN MORELL | MONTALVO BACA, SUSAN SARI | SANCHEZ RODRIGUEZ, SARITA MANUELA | CHAVEZ LAZO, ANDREA SOFIA | CONTRERAS VERGARA, LUIS GUILLERMO | PECHO PUMA, ROSSANA KELY | GAMARRA MENDOZA, MILAGROS GEORGINA | NARCISO GONZÁLEZ, ALFREDO ROBERTO | BENATE MENDOZA, PIERO FELIX |
-|    |    |    |    |    |    |    |    |    |     |     | RAMIREZ ZAPATA, IVAN ANDRES |
+| Group | Student 1 | Student 2 | Student 3 |
+|-------|-----------|-----------|-----------|
+| G1 | Student 1 | Student 2 | |
+| G2 | Student 3 | Student 4 | |
+| G3 | Student 5 | Student 6 | |
+| G4 | Student 7 | Student 8 | |
+| G5 | Student 9 | Student 10 | |
+| G6 | Student 11 | Student 12 | |
+| G7 | Student 13 | Student 14 | |
+| G8 | Student 15 | Student 16 | |
+| G9 | Student 17 | Student 18 | |
+| G10 | Student 19 | Student 20 | |
+| G11 | Student 21 | Student 22 | |
+| G12 | Student 23 | Student 24 | |
+| G13 | Student 25 | Student 26 | |
+| G14 | Student 27 | Student 28 | |
+| G15 | Student 29 | Student 30 | |
+| G16 | Student 31 | Student 32 | |
+| G17 | Student 33 | Student 34 | |
+| G18 | Student 35 | Student 36 | |
+| G19 | Student 37 | Student 38 | |
+| G20 | Student 39 | Student 40 | |
+| G21 | Student 41 | Student 42 | |
+| G22 | Student 43 | Student 44 | |
+| G23 | Student 45 | Student 46 | |
+| G24 | Student 47 | Student 48 | |
+| G25 | Student 49 | Student 50 | |
+| G26 | Student 51 | Student 52 | Student 53 |
 
 ---
 
