@@ -72,9 +72,9 @@ The evaluation will consist of a final project at the end of the course.
 
 | No. | Assessment Type | Weight (%) | Due Date |
 |-----|----------------|------------|----------|
-| 1   | Assignment 1   | 33.3%      | August 24 |
-| 2   | Assignment 2   | 33.3%      | August 31 |
-| 3   | Assignment 3   | 33.3%      | September 7 |
+| 1   | Assignment 1   | 33.3%      | TBD |
+| 2   | Assignment 2   | 33.3%      | TBD |
+| 3   | Assignment 3   | 33.3%      | TBD |
 
 > More details about the final project will be provided during the first week of classes.
 
