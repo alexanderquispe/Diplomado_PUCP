@@ -1,2 +1,33 @@
-anaconda_projects/
-**/*.db
+# Datos: no se versionan, se descargan con scripts/fetch_data.py
+data/
+
+# Entornos
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Salidas locales
+*.html
+!sessions/**/assets/*.html
+output/
+_output/
+
+# Salidas regenerables de los notebooks (se crean al correr las celdas)
+sessions/03-pandas/dengue_limpio.csv
+sessions/03-pandas/reporte_dengue.xlsx
+sessions/05-apis-e-ia/reclamos_clasificados.csv

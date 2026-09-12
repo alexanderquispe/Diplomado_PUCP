@@ -1,144 +1,114 @@
-# Fundamentals of Python for Social Sciences and Public Management
+# Fundamentos de Python para Ciencias Sociales y Gestión Pública
 
-## 📌 General Information
-- **Course name:** Fundamentals of Python for Social Sciences and Public Management  
-- **Theory hours:** 16 hours  
-- **Instructor:** Alexander Quispe Rojas  
-  - **Email:** alexander.quispe@pucp.edu.pe
-- **Teaching Assistant:** Edgar Luna  
-  - **Email:** luna.e@pucp.edu.pe
-  - **Schedule:** Wednesdays 7:00-10:00pm and Saturdays 8:00-9:30am.
+**Diplomado PUCP · 2026**
 
----
-
-## 📖 Course Overview
-This course covers the essential elements for developing programming skills with Python, with a focus on incorporating Python as a toolkit for quantitative research in the social sciences. The course emphasizes data handling and lays the foundation for training students in data science.  
-
-Students will learn basic programming concepts such as data structures, defining functions, and working with essential data analysis libraries, especially **NumPy** and **Pandas**.
+| | |
+|---|---|
+| **Docente** | Alexander Quispe Rojas — alexander.quispe@pucp.edu.pe |
+| **Jefe de práctica** | Edgar Luna — luna.e@pucp.edu.pe |
+| **Horas** | 16 |
+| **Horario** | Miércoles 7:00–10:00 pm · Sábados 8:00–9:30 am |
 
 ---
 
-## 🎯 Course Description
-This course is designed for students and professionals in the social sciences with no prior experience in programming languages, or those who have just started using statistical software such as Stata and are interested in working with data through code.  
+## De qué se trata
 
-The main goal is to prepare students for the job market by providing a highly demanded skill that serves as preparation for an entry-level position or internship involving data science.
+El curso recorre un solo camino: **leer datos → extraer datos → visualizarlos**.
 
----
+No es un curso de programación. Es un curso de trabajo con datos, donde el
+código es el medio. Se trabaja de principio a fin sobre un caso real —el dengue
+en el Perú y la capacidad de respuesta del sistema de salud— y cada sesión
+agrega una pieza al mismo producto final.
 
-## 🎓 Learning Outcomes
-By the end of this course, students will be able to:
-- Interact with Python through **Jupyter Notebooks** and use **Markdown** effectively.
-- Write code to perform common data analysis tasks.
-- Work autonomously with Python tools for data science in their research and professional roles.
-
----
-
-## 📚 Course Content
-1. Introduction to Python 3.x and Markdown  
-2. GitHub  
-3. Basic Data Types  
-4. Lists  
-5. Dictionaries  
-6. NumPy  
-7. Pandas  
-
----
-## 📅 Course Schedule
-
-| Block | Topic/Content |
-|-------|---------------|
-| I     | Introduction to the course and to Python 3.x as a data science tool |
-| I     | Installing GitHub Desktop, GitHub workflow |
-| I     | Installing Python and Jupyter Notebook, how to install packages |
-| I     | Writing in Markdown |
-| II    | Basic Data Types: Variables, expressions, operators, write your first program |
-| II    | Lists: List operations, list attributes |
-| II    | Dictionaries |
-| III   | Introduction to NumPy |
-| III   | Mathematical operations in NumPy |
-| IV    | Pandas (I): Most common operations in data analysis |
-| IV    | Pandas (II): Most common operations in data analysis |
-| IV    | Pandas (III): Most common operations in data analysis |
+Los notebooks son cortos y aplicados: se corren en clase línea por línea, sin
+teoría suelta. La práctica ocurre en las tareas, donde el uso de agentes de
+código está permitido.
 
 ---
 
-## Methodology
-Classes will be given synchronously using Zoom. In exploring the use of Python for data analysis, the use of databases for the social sciences will be emphasized.
+## Montar el entorno
+
+```bash
+uv sync                    # base
+uv run jupyter lab
+```
+
+Cada sesión instala solo lo que necesita:
+
+```bash
+uv sync --group scraping    # sesión 4
+uv sync --group ia          # sesión 5
+uv sync --group mapas       # sesión 7
+uv sync --group dashboard   # sesión 8
+```
+
+Las versiones exactas están fijadas en `uv.lock`. No hace falta activar nada:
+`uv run` se encarga.
+
+## Datos
+
+No se versionan. Se descargan desde Hugging Face:
+
+```bash
+uv run python scripts/fetch_data.py              # todo
+uv run python scripts/fetch_data.py 03-pandas    # solo una sesión
+```
 
 ---
 
-## 📝 Assessment
-The evaluation will consist of a final project at the end of the course.  
+## Sesiones
 
-| No. | Assessment Type | Weight (%) | Due Date |
-|-----|----------------|------------|----------|
-| 1   | Assignment 1   | 33.3%      | TBD |
-| 2   | Assignment 2   | 33.3%      | TBD |
-| 3   | Assignment 3   | 33.3%      | TBD |
+| # | Fecha | h | Tema | Grupo |
+|---|---|---|---|---|
+| 01 | mié 9 set | 3 | [Git y GitHub](sessions/01-github) | — |
+| 02 | sáb 12 set | 1.5 | [Fundamentos de Python](sessions/02-fundamentos-python) | — |
+| 03 | mié 16 set | 3 | [Pandas de principio a fin](sessions/03-pandas) | — |
+| 04 | sáb 19 set | 1.5 | [De la web al DataFrame](sessions/04-scraping) | `scraping` |
+| 05 | mié 23 set | 2 | [APIs, y una API que entiende texto](sessions/05-apis-e-ia) | `ia` |
+| 06 | sáb 26 set | 1.5 | [Gráficos que se entienden](sessions/06-visualizacion) | — |
+| 07 | mié 30 set | 2 | [Mapas del Perú](sessions/07-mapas) | `mapas` |
+| 08 | sáb 3 oct | 1.5 | [Del notebook a una página pública](sessions/08-dashboard) | `dashboard` |
 
-> More details about the final project will be provided during the first week of classes.
-
----
-
-# 🎯 Participantes in Groups
-
-| Group | Student 1 | Student 2 | Student 3 |
-|-------|-----------|-----------|-----------|
-| G1 | Student 1 | Student 2 | |
-| G2 | Student 3 | Student 4 | |
-| G3 | Student 5 | Student 6 | |
-| G4 | Student 7 | Student 8 | |
-| G5 | Student 9 | Student 10 | |
-| G6 | Student 11 | Student 12 | |
-| G7 | Student 13 | Student 14 | |
-| G8 | Student 15 | Student 16 | |
-| G9 | Student 17 | Student 18 | |
-| G10 | Student 19 | Student 20 | |
-| G11 | Student 21 | Student 22 | |
-| G12 | Student 23 | Student 24 | |
-| G13 | Student 25 | Student 26 | |
-| G14 | Student 27 | Student 28 | |
-| G15 | Student 29 | Student 30 | |
-| G16 | Student 31 | Student 32 | |
-| G17 | Student 33 | Student 34 | |
-| G18 | Student 35 | Student 36 | |
-| G19 | Student 37 | Student 38 | |
-| G20 | Student 39 | Student 40 | |
-| G21 | Student 41 | Student 42 | |
-| G22 | Student 43 | Student 44 | |
-| G23 | Student 45 | Student 46 | |
-| G24 | Student 47 | Student 48 | |
-| G25 | Student 49 | Student 50 | |
-| G26 | Student 51 | Student 52 | Student 53 |
+Las sesiones 3 a 8 encadenan hacia el mismo producto: quien va al día llega a
+la sesión 8 con el dashboard casi armado.
 
 ---
 
+## Evaluación
 
-## 📖 Required Bibliography
-This course will not have mandatory textbooks. Python is a widely supported language with extensive documentation and a large community that helps each other through Stack Overflow and other forums. Therefore, the **class notes** will be the main reference material.
-  
----
+| # | Tarea | Se deja | Vence | Peso |
+|---|---|---|---|---|
+| 1 | [Pandas](assignments/tarea-1-pandas.md) | 16 set | 22 set | 33.3% |
+| 2 | [Extraer datos](assignments/tarea-2-extraccion.md) | 23 set | 29 set | 33.3% |
+| 3 | [Dashboard](assignments/tarea-3-dashboard.md) | 30 set | 13 oct | 33.3% |
 
-## Complementary Bibliography
-1. Matthes, E. (2016). Python crash course: A hands – on, project-based introduction to programming (2nd ed.). No Starch Press. ISBN: 9781593279288
+### Sobre el uso de agentes de código
 
-2. McKinney, W. (2013). Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media. ISBN: 9789351100065
+**Está permitido y es parte del método.** Claude Code, Copilot, ChatGPT: úsalos.
 
-3. VanderPlas, J. (2016). Python Data Science Handbook. O'Reilly Media. ISBN: 9781491912058
+Lo que no se acepta es entregar código que no sabes explicar. Por eso cada
+respuesta lleva debajo una celda de texto explicando **qué hace ese código y
+por qué**. Sin esa celda, la pregunta no se califica.
 
----
-
-##  Website
-
-Video tutorials
-
-1. https://github.com/Bruno1702vm/Diplomado_PUCP/raw/refs/heads/main/Lecture_10/class/assets/Diplomado-PUCP-2.0.zip
-2. https://github.com/Bruno1702vm/Diplomado_PUCP/raw/refs/heads/main/Lecture_10/class/assets/Diplomado-PUCP-2.0.zip
-
-Templates
-
-1. https://github.com/Bruno1702vm/Diplomado_PUCP/raw/refs/heads/main/Lecture_10/class/assets/Diplomado-PUCP-2.0.zip
-2. https://github.com/Bruno1702vm/Diplomado_PUCP/raw/refs/heads/main/Lecture_10/class/assets/Diplomado-PUCP-2.0.zip
+No es un obstáculo burocrático: en el trabajo real, quien firma un informe
+responde por sus números.
 
 ---
 
+## Estructura del repositorio
+
+```
+.
+├── sessions/          una carpeta por clase: notebook + README
+├── assignments/       enunciados de las tareas
+├── scripts/           fetch_data.py
+├── data/              datasets (no versionados, se descargan)
+└── archive/           material de años anteriores
+    ├── lectures-legacy/       notebooks 2022-2025
+    └── entregas-2022-2025/    trabajos de participantes
+```
+
+## Continúa en
+
+**Python Intermedio** (7 al 31 de octubre): scraping con Selenium, RAG y
+embeddings, MCP, agentes y despliegue.
