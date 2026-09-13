@@ -72,7 +72,7 @@ The evaluation will consist of a final project at the end of the course.
 
 | No. | Assessment Type | Weight (%) | Due Date |
 |-----|----------------|------------|----------|
-| 1   | Assignment 1   | 33.3%      | September 19, 2026, 11:59 p.m. |
+| 1   | Assignment 1   | 33.3%      | September 20, 2026, 11:59 p.m. |
 | 2   | Assignment 2   | 33.3%      | TBD |
 | 3   | Assignment 3   | 33.3%      | TBD |
 
