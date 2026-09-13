@@ -72,7 +72,7 @@ The evaluation will consist of a final project at the end of the course.
 
 | No. | Assessment Type | Weight (%) | Due Date |
 |-----|----------------|------------|----------|
-| 1   | Assignment 1   | 33.3%      | TBD |
+| 1   | Assignment 1   | 33.3%      | September 13, 2026, 11:59 p.m. |
 | 2   | Assignment 2   | 33.3%      | TBD |
 | 3   | Assignment 3   | 33.3%      | TBD |
 
@@ -82,34 +82,21 @@ The evaluation will consist of a final project at the end of the course.
 
 # 🎯 Participantes in Groups
 
-| Group | Student 1 | Student 2 | Student 3 |
-|-------|-----------|-----------|-----------|
-| G1 | Student 1 | Student 2 | |
-| G2 | Student 3 | Student 4 | |
-| G3 | Student 5 | Student 6 | |
-| G4 | Student 7 | Student 8 | |
-| G5 | Student 9 | Student 10 | |
-| G6 | Student 11 | Student 12 | |
-| G7 | Student 13 | Student 14 | |
-| G8 | Student 15 | Student 16 | |
-| G9 | Student 17 | Student 18 | |
-| G10 | Student 19 | Student 20 | |
-| G11 | Student 21 | Student 22 | |
-| G12 | Student 23 | Student 24 | |
-| G13 | Student 25 | Student 26 | |
-| G14 | Student 27 | Student 28 | |
-| G15 | Student 29 | Student 30 | |
-| G16 | Student 31 | Student 32 | |
-| G17 | Student 33 | Student 34 | |
-| G18 | Student 35 | Student 36 | |
-| G19 | Student 37 | Student 38 | |
-| G20 | Student 39 | Student 40 | |
-| G21 | Student 41 | Student 42 | |
-| G22 | Student 43 | Student 44 | |
-| G23 | Student 45 | Student 46 | |
-| G24 | Student 47 | Student 48 | |
-| G25 | Student 49 | Student 50 | |
-| G26 | Student 51 | Student 52 | Student 53 |
+| Group | Student 1 | Student 2 | Student 3 | Student 4 | Student 5 |
+|-------|-----------|-----------|-----------|-----------|-----------|
+| G1 | Pierre Emerson Calderon Rivera | Fiorella del Rocio Becerril Mercado | Fabricio Luna Palacios | Luis Gabriel Guevara Vega | |
+| G2 | Renato Christian Gates Rojas | Rodrigo Andres Norabuena Mascaraqui | Ana Karen Zamalloa Lima | Ina Lizbeth Huaman Malpartida | |
+| G3 | Gabriela Sthefany Pozo Bornás | Josselin Andrea Yauri Condor | Isabella Albarran Chavez | Diego Enrique Sime Rendon | |
+| G4 | Erika Jeaneth Mamani Paasaca | Valeria Alejandra Vicente Vasquez | Diana Adriana Garces Garcia | Maryorit Valeria Morales Gomez | |
+| G5 | Victor Guardia Fiestas | Oscar Andres Chavez Inocente | Alvaro Ruben Carhuamaca Remigio | Oscar Nicolas Romero Asparrin | |
+| G6 | Zulema Denisse Pumacahua Huatangari | Frank Pinares Gutierrez | Josue Alonso Soria Vasquez | Jonatan Carlo Amaya Mory | |
+| G7 | Karen Macedo Pineda | Vilma Barrios Torre | Mirian de la Cruz Condori | Hideki Diego Harada Oyakawa | |
+| G8 | Sandy Patricia Martinez Jara | Noelia Fernanda Leon Ruiz | Melina Rozas Acurio | Andrea Luciana Calderon Abanto | |
+| G9 | Victor Eduardo Roman Lazarte | Amanda Valery Gomez Flores | Roddy Edison Huarhua Rojas | Jhanela Luz Carhuaz Fuster | |
+| G10 | Estefanny Diana Mejía Lazo | Nicolas Silva Andujar | Luz María Supo Zapata | Marco Antonio Andrés Virú Lucas | |
+| G11 | Ivette Carolina Mamani Flores | Luz Eliana Camacho Cardenas | Alessandra Valeria Murga Rimac | Flavia Romero Piedra | |
+| G12 | Claudia Andrea Perez Pardo | Ximena Alejandra Pinillos Zegarra | Greicy Dana Rodriguez Coronel | Alexander German Ramos Choque | |
+| G13 | Cristian Moises Wong Pagan | Jose Pablo Navarro Nateros | Lory Rosario Acosta Carbajal | Lucia Alejandra Pulido Tarrillo | Fiorella Vanessa Ampuero Cherrez |
 
 ---
 
