@@ -1,6 +1,6 @@
 # Tarea 1 · Pandas
 
-**Se deja:** miércoles 16 de setiembre · **Vence:** lunes 22 de setiembre, 11:59 pm
+**Se deja:** miércoles 16 de setiembre · **Vence:** domingo 20 de setiembre, 11:59 pm
 **Peso:** 33.3%
 
 ## Qué se entrega

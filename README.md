@@ -78,7 +78,7 @@ la sesión 8 con el dashboard casi armado.
 
 | # | Tarea | Se deja | Vence | Peso |
 |---|---|---|---|---|
-| 1 | [Pandas](assignments/tarea-1-pandas.md) | 16 set | 22 set | 33.3% |
+| 1 | [Pandas](assignments/tarea-1-pandas.md) | 16 set | **20 set, 11:59 pm** | 33.3% |
 | 2 | [Extraer datos](assignments/tarea-2-extraccion.md) | 23 set | 29 set | 33.3% |
 | 3 | [Dashboard](assignments/tarea-3-dashboard.md) | 30 set | 13 oct | 33.3% |
 
@@ -92,6 +92,26 @@ por qué**. Sin esa celda, la pregunta no se califica.
 
 No es un obstáculo burocrático: en el trabajo real, quien firma un informe
 responde por sus números.
+
+---
+
+## Participantes
+
+| Grupo | Integrante 1 | Integrante 2 | Integrante 3 | Integrante 4 | Integrante 5 |
+|-------|-----------|-----------|-----------|-----------|-----------|
+| G1 | Pierre Emerson Calderon Rivera | Fiorella del Rocio Becerril Mercado | Fabricio Luna Palacios | Luis Gabriel Guevara Vega | |
+| G2 | Renato Christian Gates Rojas | Rodrigo Andres Norabuena Mascaraqui | Ana Karen Zamalloa Lima | Ina Lizbeth Huaman Malpartida | |
+| G3 | Gabriela Sthefany Pozo Bornás | Josselin Andrea Yauri Condor | Isabella Albarran Chavez | Diego Enrique Sime Rendon | |
+| G4 | Erika Jeaneth Mamani Paasaca | Valeria Alejandra Vicente Vasquez | Diana Adriana Garces Garcia | Maryorit Valeria Morales Gomez | |
+| G5 | Victor Guardia Fiestas | Oscar Andres Chavez Inocente | Alvaro Ruben Carhuamaca Remigio | Oscar Nicolas Romero Asparrin | |
+| G6 | Zulema Denisse Pumacahua Huatangari | Frank Pinares Gutierrez | Josue Alonso Soria Vasquez | Jonatan Carlo Amaya Mory | |
+| G7 | Karen Macedo Pineda | Vilma Barrios Torre | Mirian de la Cruz Condori | Hideki Diego Harada Oyakawa | |
+| G8 | Sandy Patricia Martinez Jara | Noelia Fernanda Leon Ruiz | Melina Rozas Acurio | Andrea Luciana Calderon Abanto | |
+| G9 | Victor Eduardo Roman Lazarte | Amanda Valery Gomez Flores | Roddy Edison Huarhua Rojas | Jhanela Luz Carhuaz Fuster | |
+| G10 | Estefanny Diana Mejía Lazo | Nicolas Silva Andujar | Luz María Supo Zapata | Marco Antonio Andrés Virú Lucas | |
+| G11 | Ivette Carolina Mamani Flores | Luz Eliana Camacho Cardenas | Alessandra Valeria Murga Rimac | Flavia Romero Piedra | |
+| G12 | Claudia Andrea Perez Pardo | Ximena Alejandra Pinillos Zegarra | Greicy Dana Rodriguez Coronel | Alexander German Ramos Choque | |
+| G13 | Cristian Moises Wong Pagan | Jose Pablo Navarro Nateros | Lory Rosario Acosta Carbajal | Lucia Alejandra Pulido Tarrillo | Fiorella Vanessa Ampuero Cherrez |
 
 ---
 
