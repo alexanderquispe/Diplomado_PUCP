@@ -83,7 +83,7 @@ la sesión 8 con el dashboard casi armado.
 
 | # | Tarea | Se deja | Vence | Peso |
 |---|---|---|---|---|
-| 1 | [Pandas](assignments/tarea-1-pandas.md) | 16 set | **20 set, 11:59 pm** | 33.3% |
+| 1 | [Lists, Tuples, Dictionaries, and NumPy](https://github.com/alexanderquispe/Diplomado_PUCP/issues/1878) | 12 set | **20 set, 11:59 pm** | 33.3% |
 | 2 | [Extraer datos](assignments/tarea-2-extraccion.md) | 23 set | 29 set | 33.3% |
 | 3 | [Dashboard](assignments/tarea-3-dashboard.md) | 30 set | 13 oct | 33.3% |
 
