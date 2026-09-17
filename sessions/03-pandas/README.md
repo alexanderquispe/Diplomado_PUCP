@@ -25,6 +25,13 @@ Cierra todo pandas en una sesión. Se parte en dos notebooks con una pausa al me
 
 ## Datos
 
+Vienen con el repositorio, en `data/03-pandas/`. **No hay que descargar nada.**
+
+- `dengue_distritos.csv` — casos de dengue por distrito y semana, 2015-2021 (MINSA)
+- `establecimientos_salud.csv` — registro nacional de establecimientos (RENAES)
+
+Si se borran por accidente:
+
 ```bash
 uv run python scripts/fetch_data.py 03-pandas
 ```

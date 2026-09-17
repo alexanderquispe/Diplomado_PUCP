@@ -47,12 +47,17 @@ Las versiones exactas están fijadas en `uv.lock`. No hace falta activar nada:
 
 ## Datos
 
-No se versionan. Se descargan desde Hugging Face:
+**Los datos de la sesión 3 ya vienen en el repositorio** (`data/03-pandas/`): al
+clonar, el notebook de pandas corre sin ningún paso previo.
+
+El resto se descarga desde Hugging Face:
 
 ```bash
 uv run python scripts/fetch_data.py              # todo
-uv run python scripts/fetch_data.py 03-pandas    # solo una sesión
+uv run python scripts/fetch_data.py 07-mapas     # solo una sesión
 ```
+
+> Si alguna vez borras `data/` por accidente, ese mismo comando la reconstruye.
 
 ---
 

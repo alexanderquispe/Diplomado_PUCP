@@ -1,5 +1,11 @@
 # Datos: no se versionan, se descargan con scripts/fetch_data.py
-data/
+data/*
+
+# Excepción: los datos de la sesión 3 sí van en el repo, para que el notebook
+# de pandas corra apenas se clona, sin pasos previos.
+!data/03-pandas/
+data/03-pandas/*
+!data/03-pandas/*.csv
 
 # Entornos
 .venv/
