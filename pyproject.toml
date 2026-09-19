@@ -16,6 +16,8 @@ dependencies = [
   "plotly>=5.24",
   "nbformat>=5.10",
   "huggingface-hub>=0.26",
+  # pip no lo usa uv, pero deja que funcione `%pip install` dentro de un notebook
+  "pip>=25",
 ]
 
 # Extras por tema. Instalar solo el que toca:  uv sync --group mapas
