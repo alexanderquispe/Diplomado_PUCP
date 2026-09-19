@@ -37,3 +37,6 @@ _output/
 sessions/03-pandas/dengue_limpio.csv
 sessions/03-pandas/reporte_dengue.xlsx
 sessions/05-apis-e-ia/reclamos_clasificados.csv
+
+# Temporales de Excel (aparecen al abrir un .xlsx)
+~$*
