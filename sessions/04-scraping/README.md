@@ -4,13 +4,25 @@
 
 ## Entorno
 
+Con `uv` (lo que usa el resto del curso):
+
 ```bash
 uv sync --group scraping
 uv run jupyter lab
 ```
 
-Para el notebook de Selenium hace falta tener **Google Chrome instalado**.
-El driver lo gestiona Selenium solo, no hay que descargar nada.
+Con Anaconda, `pip` o cualquier otro entorno:
+
+```bash
+pip install -r requirements.txt
+```
+
+El notebook de Selenium también trae una celda `%pip install` al inicio, por si
+lo abres en un entorno suelto (Colab, Anaconda base) y no quieres instalar nada
+desde la terminal.
+
+**Requisito:** tener **Google Chrome instalado**. El driver lo descarga y
+actualiza Selenium solo — no hay que bajar `chromedriver` a mano.
 
 ## Contenido
 

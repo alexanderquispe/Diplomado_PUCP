@@ -1,0 +1,28 @@
+# Sesión 04 · Web scraping
+#
+# Instalar con:
+#     pip install -r requirements.txt
+#
+# Estas son las versiones exactas con las que se ejecutaron y verificaron los
+# dos notebooks de la sesión. Si usas uv, no hace falta este archivo:
+#     uv sync --group scraping
+
+# --- Extracción -------------------------------------------------------------
+selenium==4.49.0            # controlar un navegador real (páginas con JavaScript)
+beautifulsoup4==4.15.0      # leer el HTML a mano
+lxml==6.1.3                 # motor rápido para BeautifulSoup y read_html
+html5lib==1.1               # motor alternativo, tolera HTML mal formado
+requests==2.34.2            # pedir páginas sin navegador
+
+# --- Manejo de datos --------------------------------------------------------
+pandas==2.3.3               # read_html y el DataFrame final
+openpyxl==3.1.5             # exportar a Excel
+
+# --- Notebook ---------------------------------------------------------------
+jupyterlab>=4
+ipykernel>=6.29
+
+# Nota sobre el driver de Chrome:
+# Desde Selenium 4.6 el driver se descarga y actualiza solo. NO hace falta
+# instalar chromedriver a mano ni usar webdriver-manager. Solo se necesita
+# tener Google Chrome instalado en la computadora.
