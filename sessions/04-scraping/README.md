@@ -54,6 +54,30 @@ presenciales y solo 1 remota**.)
 
 **Genera:** `empleos_bumeran.csv`, `empleos_comparacion.csv`
 
+### `04_selenium_paso_a_paso.ipynb` — la versión lenta
+
+El notebook anterior extrae 60 ofertas en una celda: muestra el resultado, pero
+va rápido. Este hace lo contrario — **saca un dato a la vez** y muestra qué
+devuelve cada instrucción, hasta armar la función al final.
+
+Mismo sitio, mismo objetivo, otro ritmo. Sirve para la parte de la clase en que
+hay que entender *cómo* se extrae, no solo *que* se extrae.
+
+Recorrido: `find_element` frente a `find_elements` · las formas de `By` ·
+qué es un WebElement · radiografía de una tarjeta · sacar el puesto, la fecha,
+la empresa, la ubicación, la modalidad y el enlace **uno por uno** · armar el
+diccionario a mano · repetirlo con la segunda tarjeta · y recién entonces la
+función y el bucle.
+
+**El momento importante:** los `<h3>` parecen estar siempre en el mismo orden,
+pero 7 de 20 tarjetas traen uno extra con la calificación de la empresa, así que
+`h3[2]` unas veces es la ubicación y otras un `3.1`. El notebook lo descubre
+comparando seis tarjetas y enseña la regla: **buscar por contenido cuando la
+posición puede moverse**. Un índice equivocado no da error — guarda el dato
+incorrecto en silencio.
+
+Abre el navegador **visible** por defecto.
+
 > Los resultados cambian cada vez que se corre: son avisos de empleo reales,
 > publicados hoy. Eso es parte de la gracia — y la razón por la que el notebook
 > insiste en guardar apenas se extrae.
