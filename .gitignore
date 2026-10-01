@@ -1,11 +1,8 @@
-# Datos: no se versionan, se descargan con scripts/fetch_data.py
-data/*
-
-# Excepción: los datos de la sesión 3 sí van en el repo, para que el notebook
-# de pandas corra apenas se clona, sin pasos previos.
-!data/03-pandas/
-data/03-pandas/*
-!data/03-pandas/*.csv
+# Datos: van en el repo, para que los notebooks corran apenas se clona, sin
+# pasos previos. Solo se excluye lo que deja scripts/fetch_data.py al
+# descargarlos de Hugging Face: su caché y sus reglas de LFS.
+data/.cache/
+data/.gitattributes
 
 # Entornos
 .venv/
