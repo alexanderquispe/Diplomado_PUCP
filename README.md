@@ -85,7 +85,7 @@ la sesión 8 con el dashboard casi armado.
 |---|---|---|---|---|
 | 1 | [Lists, Tuples, Dictionaries, and NumPy](https://github.com/alexanderquispe/Diplomado_PUCP/issues/1878) | 12 set | **20 set, 11:59 pm** | 33.3% |
 | 2 | [Scraping, APIs y cruce por ubigeo](https://github.com/alexanderquispe/Diplomado_PUCP/issues/1881) | 24 set | **4 oct, 11:59 pm** | 33.3% |
-| 3 | Dashboard | 4 oct | 11 oct | 33.3% |
+| 3 | [Visualización, mapas y dashboard](https://github.com/alexanderquispe/Diplomado_PUCP/issues/1883) | 4 oct | **11 oct, 11:59 pm** | 33.3% |
 
 ### Sobre el uso de agentes de código
 
