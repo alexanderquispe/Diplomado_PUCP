@@ -4,6 +4,8 @@ Correr en local:
     uv run streamlit run app.py
 """
 
+from pathlib import Path
+
 import geopandas as gpd
 import pandas as pd
 import plotly.express as px
@@ -12,14 +14,20 @@ import streamlit as st
 # ---------------------------------------------------------------- configuracion
 st.set_page_config(page_title="Dengue en el Perú", page_icon="🦟", layout="wide")
 
+# La carpeta donde vive este archivo. Los datos se buscan aquí, y no "donde
+# sea que se haya lanzado la app": en tu computadora la corres desde esta
+# carpeta, pero Streamlit Cloud la corre desde la raíz del repositorio, y ahí
+# una ruta suelta como "datos.csv" no existe.
+CARPETA = Path(__file__).parent
+
 
 # ------------------------------------------------------------------ carga datos
 # @st.cache_data guarda el resultado: sin esto, el archivo se lee otra vez
 # cada vez que alguien mueve un filtro y la app va lentísima.
 @st.cache_data
 def cargar():
-    datos = pd.read_csv("datos.csv", dtype={"ubigeo": str})
-    formas = gpd.read_file("distritos.geojson")
+    datos = pd.read_csv(CARPETA / "datos.csv", dtype={"ubigeo": str})
+    formas = gpd.read_file(CARPETA / "distritos.geojson")
     return datos, formas
 
 
