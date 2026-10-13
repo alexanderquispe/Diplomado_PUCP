@@ -35,5 +35,23 @@ sessions/03-pandas/dengue_limpio.csv
 sessions/03-pandas/reporte_dengue.xlsx
 sessions/05-apis-e-ia/reclamos_clasificados.csv
 
+# Python Intermedio (sesiones 07-raster a 12): lo que se descarga o se genera
+# al correr los notebooks. Un modelo afinado pesa mas de 1 GB y GitHub rechaza
+# cualquier archivo de mas de 100 MB.
+sessions/07-raster/**/*.tif
+sessions/07-raster/**/*.shp
+sessions/07-raster/**/*.dbf
+sessions/07-raster/**/*.shx
+sessions/07-raster/**/*.prj
+sessions/07-raster/**/*.cpg
+sessions/07-raster/**/*.sbn
+sessions/07-raster/**/*.sbx
+sessions/07-raster/lab/climate_risk_by_district.csv
+sessions/09-huggingface-finetuning/**/ModernBERT-*/
+sessions/**/checkpoint-*/
+sessions/**/chroma_storage/
+sessions/**/chroma_clinical/
+sessions/**/*.wav
+
 # Temporales de Excel (aparecen al abrir un .xlsx)
 ~$*

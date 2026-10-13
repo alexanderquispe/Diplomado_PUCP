@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "datosabiertos": {
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["${workspaceFolder}/mcp_datosabiertos_server.py"]
+    }
+  }
+}

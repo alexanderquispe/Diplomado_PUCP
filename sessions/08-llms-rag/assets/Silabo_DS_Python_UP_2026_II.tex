@@ -1,0 +1,239 @@
+\documentclass[11pt]{article}
+
+% ---- Encoding & language ----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern}
+
+% ---- Layout ----
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{parskip}
+
+% ---- Tables ----
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{array}
+\renewcommand{\arraystretch}{1.18}
+
+% ---- Lists ----
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=1.4em}
+
+% ---- Sections & links ----
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.6em}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{ragged2e}
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries S\'ILABO 2026-II}\\[0.4em]
+{\large Data Science con Python}\\[0.2em]
+{\normalsize Universidad del Pac\'ifico --- Departamento de Econom\'ia}
+\end{center}
+
+\vspace{0.6em}
+
+%================================================================
+\section{Informaci\'on General}
+
+\begin{tabular}{@{}p{4.2cm}p{11cm}@{}}
+\textbf{Nombre del curso} & Data Science con Python \\
+\textbf{Semestre} & 2026-II (10 de agosto al 21 de noviembre de 2026) \\
+\textbf{Profesor del curso} & Alexander Quispe Rojas \\
+\textbf{Email} & \href{mailto:aw.quispero@up.edu.pe}{aw.quispero@up.edu.pe}, \href{mailto:alexander.quispe@pucp.edu.pe}{alexander.quispe@pucp.edu.pe} \\
+\textbf{Jefes de pr\'acticas} & Paul Melo Ramos, Jean Pool Nieto \\
+\textbf{Email de pr\'acticas} & \href{mailto:PA.MeloR@up.edu.pe}{PA.MeloR@up.edu.pe}, \href{mailto:j.nietoc@up.edu.pe}{j.nietoc@up.edu.pe} \\
+\textbf{Horas Teor\'ia} & 2 Horas, martes 7:30--9:20 am \\
+\textbf{Horas Pr\'actica} & 2 Horas, mi\'ercoles 7:30--9:20 am \\
+\textbf{Asesor\'ia} & \url{https://calendly.com/alexander-quispe} \\
+\textbf{Curso web} & \url{https://d2cml-ai.github.io/Data-Science-Python/} \\
+\end{tabular}
+
+%================================================================
+\section{Sumilla}
+
+Este curso ofrece una visi\'on integral del ecosistema de Python aplicado a la ciencia de datos, recorriendo la cadena completa de valor de un producto moderno de datos: desde la gesti\'on de proyectos con Git y GitHub y los fundamentos del lenguaje, hasta la recolecci\'on de datos por \emph{web scraping} y APIs, el an\'alisis geoespacial, y la construcci\'on de aplicaciones con modelos de lenguaje de gran tama\~no. El curso incorpora las herramientas que definen la pr\'actica profesional actual: \textbf{agentes de c\'odigo} como entorno de desarrollo, \textbf{servidores MCP} para conectar agentes con servicios y fuentes de datos, \textbf{RAG} y \emph{fine-tuning} de modelos abiertos, \textbf{document AI} y reconocimiento de voz, y el \textbf{despliegue} de productos accesibles al p\'ublico. El semestre culmina con un proyecto individual: cada estudiante construye y despliega una \textbf{startup funcional} con todo el flujo de datos operando de extremo a extremo.
+
+%================================================================
+\section{Presentaci\'on}
+
+El prop\'osito de este curso es capacitar a las y los estudiantes en el uso de Python como herramienta versátil para el desarrollo de proyectos y la resoluci\'on de problemas complejos que involucran datos. Iniciaremos con una descripci\'on de qu\'e significa la ciencia de datos y su flujo de trabajo, y con el control de versiones mediante Git y GitHub, que garantiza colaboraci\'on ordenada y trazabilidad. Desde la primera sesi\'on incorporamos los \textbf{agentes de c\'odigo} ---Claude Code, Codex--- no como curiosidad sino como el entorno de trabajo real de quien programa hoy.
+
+A continuaci\'on recorreremos la recolecci\'on y manipulaci\'on de datos: \emph{web scraping} de sitios din\'amicos y consumo de APIs, y luego la conexi\'on de un agente de c\'odigo con servicios externos mediante \textbf{MCP}: GitHub, Gmail y WhatsApp. Sobre esa base trabajaremos visualizaci\'on, \emph{dashboards} y an\'alisis geoespacial vectorial y raster.
+
+El bloque final est\'a dedicado a la inteligencia artificial aplicada: modelos de lenguaje, salidas estructuradas, recuperaci\'on aumentada, \emph{fine-tuning}, digitalizaci\'on de documentos, transcripci\'on de voz y agentes. El curso cierra con \textbf{despliegue y evaluaci\'on}: c\'omo poner un producto en l\'inea y c\'omo saber que funciona.
+
+La diferencia de este semestre est\'a en el entregable final. No se pide un \emph{notebook} bonito ni un informe: se pide una \textbf{startup consolidada}, con su flujo de datos completo funcionando y desplegada en una URL p\'ublica, como la versi\'on de software o aplicaci\'on que se ofrecer\'ia al mercado.
+
+%================================================================
+\section{Resultados de Aprendizaje}
+
+Al finalizar el curso, las y los estudiantes ser\'an capaces de:
+
+\begin{itemize}
+\item \textbf{Aplicar el flujo de trabajo de la ciencia de datos}, usando Git y GitHub para gestionar versiones de forma colaborativa y ordenada, y agentes de c\'odigo como entorno de desarrollo.
+\item \textbf{Dominar los fundamentos de Python}: sintaxis, funciones, clases y organizaci\'on modular del c\'odigo.
+\item \textbf{Extraer datos} de sitios web din\'amicos con Selenium y de servicios mediante APIs, y \textbf{conectar un agente de c\'odigo} a servicios externos mediante MCP.
+\item \textbf{Crear visualizaciones y \emph{dashboards}} efectivos con seaborn y Streamlit.
+\item \textbf{Realizar an\'alisis geoespacial} con datos vectoriales y raster, generando mapas est\'aticos y din\'amicos.
+\item \textbf{Construir aplicaciones con LLMs}: dise\~no de instrucciones, salidas estructuradas, recuperaci\'on aumentada y \emph{fine-tuning} de modelos abiertos.
+\item \textbf{Digitalizar documentos y audio} mediante OCR y reconocimiento autom\'atico de voz, con extracci\'on estructurada.
+\item \textbf{Orquestar agentes} que ejecutan tareas de varios pasos.
+\item \textbf{Desplegar un producto} en una URL p\'ublica y \textbf{evaluar} que funciona: pruebas, control de costos y monitoreo.
+\end{itemize}
+
+%================================================================
+\section{Contenido del Curso}
+
+\textbf{1. Ciencia de datos, Git y GitHub, y agentes de c\'odigo.}
+Qu\'e es la ciencia de datos y cu\'al es su flujo de trabajo. Control de versiones: repositorios, ramas, \emph{merges}, resoluci\'on de conflictos y \emph{pull requests}. Configuraci\'on del entorno de desarrollo con agentes de c\'odigo (Claude Code, Codex) y buenas pr\'acticas para trabajar con ellos.
+
+\textbf{2. Fundamentos de Python.}
+Sintaxis b\'asica, tipos de datos y estructuras de control. Funciones y clases; principios de programaci\'on orientada a objetos. Gesti\'on de entornos y dependencias.
+
+\textbf{3. Web Scraping y APIs.}
+Extracci\'on de informaci\'on de sitios din\'amicos con Selenium: automatizaci\'on de navegadores, manejo de tiempos de espera y localizaci\'on de elementos. Consumo de APIs y manejo de formatos de respuesta (JSON, XML), autenticaci\'on y l\'imites de tasa. Consideraciones \'eticas y legales de la recolecci\'on automatizada.
+
+\textbf{4. MCPs en Claude Code: GitHub, Gmail y WhatsApp.}
+El \emph{Model Context Protocol} como forma est\'andar de conectar un agente de c\'odigo a servicios externos. Instalaci\'on y uso de los MCP de \textbf{GitHub} (repositorios, \emph{issues}, \emph{pull requests}), \textbf{Gmail} (lectura, b\'usqueda y redacci\'on de correo) y \textbf{WhatsApp} (mensajer\'ia). Permisos, credenciales y l\'imites de seguridad al dar acceso a un agente. Como extensi\'on, construcci\'on de un servidor MCP propio que exponga una fuente de datos peruana.
+
+\textbf{5. Visualizaci\'on y \emph{dashboards}.}
+Gr\'aficos con matplotlib y seaborn: configuraci\'on, estilos y patrones de dise\~no. Construcci\'on de aplicaciones interactivas con Streamlit y su publicaci\'on.
+
+\textbf{6. An\'alisis geoespacial: mapas est\'aticos y din\'amicos.}
+Georreferenciaci\'on y geocodificaci\'on. Manipulaci\'on de datos espaciales (\emph{shapefiles}, GeoJSON) con GeoPandas y generaci\'on de mapas cropl\'eticos. Mapas interactivos con Folium: capas, controles y animaciones.
+
+\textbf{7. Datos raster.}
+Manejo de im\'agenes satelitales y modelos de elevaci\'on. Lectura, procesamiento y visualizaci\'on de rasters, y su combinaci\'on con datos vectoriales. Aplicaciones con luces nocturnas y cobertura del suelo.
+
+\textbf{8. LLMs: instrucciones, salidas estructuradas y RAG.}
+Fundamentos de los modelos de lenguaje. Dise\~no de instrucciones. \textbf{Salidas estructuradas} y llamada a funciones para integrar un modelo dentro de una aplicaci\'on. Generaci\'on aumentada por recuperaci\'on: \emph{embeddings}, bases vectoriales y evaluaci\'on de la recuperaci\'on.
+
+\textbf{9. Hugging Face y \emph{fine-tuning}.}
+Uso de modelos preentrenados del ecosistema Hugging Face. Ajuste fino de modelos abiertos sobre datos propios: preparaci\'on del conjunto, entrenamiento y evaluaci\'on. Cu\'ando conviene ajustar un modelo y cu\'ando basta con instrucciones o recuperaci\'on.
+
+\textbf{10. Document AI y voz.}
+Digitalizaci\'on de documentos con OCR (PaddleOCR) y extracci\'on estructurada de campos mediante modelos de lenguaje. Transcripci\'on de audio con Whisper y comparaci\'on de motores de reconocimiento de voz. Casos de uso en expedientes, facturas, actas y grabaciones.
+
+\textbf{11. Agentes.}
+Orquestaci\'on de agentes que ejecutan tareas de varios pasos: crewAI, subagentes y \emph{skills}. Agentes personales autoalojados conectados a aplicaciones de mensajer\'ia (OpenClaw). Dise\~no de herramientas y l\'imites de seguridad.
+
+\textbf{12. Despliegue y evaluaci\'on de productos de datos.}
+Empaquetado con Docker y publicaci\'on en Streamlit Cloud, Railway, Render o Hugging Face Spaces. Variables de entorno y manejo de secretos. Integraci\'on continua b\'asica. C\'omo evaluar una aplicaci\'on con IA: conjuntos de prueba, m\'etricas, control de costos por \emph{token} y monitoreo.
+
+%================================================================
+\section{Metodolog\'ia}
+
+Clases de teor\'ia los \textbf{martes} (2 horas) y sesiones de pr\'actica los \textbf{mi\'ercoles} (2 horas). Las sesiones de teor\'ia presentan los conceptos y el c\'odigo de referencia; las de pr\'actica son de laboratorio, con trabajo guiado sobre el mismo material.
+
+Todo el material ---\emph{notebooks}, diapositivas y datos--- vive en el repositorio del curso, y las entregas se hacen por GitHub. El uso de agentes de c\'odigo est\'a permitido y es parte del m\'etodo: lo que no se acepta es entregar c\'odigo que no se sabe explicar.
+
+%================================================================
+\section{Evaluaci\'on}
+
+Se asignan \textbf{seis evaluaciones}: cinco pr\'acticas calificadas y el trabajo final de \emph{startup}. \textbf{Se elimina la nota m\'as baja entre las cinco pr\'acticas}, de modo que promedian cuatro. Cada estudiante dispone de una semana para entregar cada pr\'actica. Los rubros usan la nomenclatura del sistema de notas de la Universidad, de modo que lo que se lee aqu\'i es exactamente lo que aparece en el registro.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}lXc@{}}
+\toprule
+\textbf{Rubro} & \textbf{Qu\'e comprende} & \textbf{Peso (\%)} \\
+\midrule
+\textbf{Promedio pr\'acticas} & Cinco pr\'acticas calificadas; se elimina la m\'as baja y promedian las cuatro restantes & 60 \\
+\textbf{Trabajo final} & Proyecto de \emph{startup} desplegada, con \emph{pitch} y sustentaci\'on & 30 \\
+\textbf{Asistencia} & Asistencia y participaci\'on en las sesiones & 10 \\
+\midrule
+\textbf{Total} & & \textbf{100} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Cada pr\'actica que cuenta aporta 15 puntos porcentuales. \textbf{Tres pr\'acticas se rinden antes de los ex\'amenes parciales} (1, 2 y 3) \textbf{y dos despu\'es} (4 y 5); el trabajo final de \emph{startup} es la \'ultima evaluaci\'on del semestre.
+
+\subsection*{Trabajo final: construye tu startup (30\,\%)}
+
+El entregable final no es un informe ni un \emph{notebook}: es una \textbf{empresa funcional en peque\~no}. Modalidad \textbf{individual} ---un \emph{solo founder} por proyecto, sin equipos---, sobre un problema real y verificable, preferentemente en Per\'u o Am\'erica Latina.
+
+\begin{itemize}
+\item \textbf{Flujo de datos completo y funcionando}, de extremo a extremo: ingesta, procesamiento, modelo e interfaz.
+\item \textbf{Demo desplegado} en una URL p\'ublica, accesible sin clonar ni configurar nada.
+\item \textbf{Repositorio p\'ublico en GitHub} con estructura limpia, \emph{README} \'util, \emph{backend} inspeccionable, integraci\'on continua b\'asica, \emph{commits} distribuidos en el tiempo y sin credenciales filtradas.
+\item \textbf{Al menos dos herramientas} trabajadas en el curso (MCP, RAG, \emph{fine-tuning}, OCR, ASR, agentes, geoespacial), con justificaci\'on de por qu\'e esa herramienta.
+\item \textbf{Pitch} de 7 minutos m\'as 3 de preguntas, con demo en vivo.
+\end{itemize}
+
+\textbf{R\'ubrica (escala vigesimal).} Problema y validaci\'on 3; soluci\'on e \emph{insight} 2; mercado y modelo de negocio 3; prototipo desplegado 5; repositorio 3; uso de herramientas del curso 2; \emph{pitch} y sustentaci\'on 2. La sustentaci\'on puede mover la nota hasta $\pm 2$ puntos.
+
+\textbf{Honestidad con la IA.} Se puede y se debe usar Claude Code, Codex u otros agentes. Lo que no se acepta es no entender el c\'odigo entregado: en la sustentaci\'on se pedir\'a explicar y modificar partes del repositorio en vivo.
+
+%================================================================
+\section{Bibliograf\'ia}
+
+\begin{itemize}
+\item B\'ek\'es, G., \& K\'ezdi, G. (2021). \emph{Data Analysis for Business, Economics, and Policy.} Cambridge University Press.
+\item Chacon, S., \& Straub, B. (2014). \emph{Pro Git} (2.\textsuperscript{a} ed.). Apress. \url{https://git-scm.com/book/en/v2}
+\item James, G., Witten, D., Hastie, T., \& Tibshirani, R. (2023). \emph{An Introduction to Statistical Learning: With Applications in Python.} Springer.
+\item McKinney, W. (2022). \emph{Python for Data Analysis} (3.\textsuperscript{a} ed.). O'Reilly. \url{https://wesmckinney.com/book/}
+\item Anthropic. \emph{Model Context Protocol: documentaci\'on.} \url{https://modelcontextprotocol.io}
+\item LangChain. \emph{Conceptual Guide.} \url{https://python.langchain.com/docs/concepts/}
+\item Hugging Face. \emph{NLP Course.} \url{https://huggingface.co/learn/nlp-course}
+\item Streamlit. \emph{Documentation.} \url{https://docs.streamlit.io}
+\end{itemize}
+
+%================================================================
+\section{Cronograma --- Semestre 2026-II}
+
+Teor\'ia los martes y pr\'actica los mi\'ercoles, 7:30--9:20 am. Inicio de clases: \textbf{lunes 10 de agosto de 2026}; \'ultimo d\'ia de clases: \textbf{s\'abado 21 de noviembre}. Durante la semana de ex\'amenes parciales (28 set--3 oct) la Universidad suspende las clases. \textbf{Ninguna sesi\'on del curso coincide con un feriado.}
+
+\begin{xltabular}{\textwidth}{@{}clXL{3.6cm}@{}}
+\toprule
+\textbf{Sem.} & \textbf{Fechas} & \textbf{Tema} & \textbf{Entrega} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Sem.} & \textbf{Fechas} & \textbf{Tema} & \textbf{Entrega} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+1 & 11--12 ago & Ciencia de datos, Git y GitHub, y agentes de c\'odigo & \\
+2 & 18--19 ago & Fundamentos de Python: sintaxis, funciones y clases & \\
+3 & 25--26 ago & Web Scraping y APIs: Selenium, requests y consumo de servicios & \textbf{Pr\'actica 1} (mi\'e 26 ago) \\
+4 & 1--2 set & MCPs en Claude Code: GitHub, Gmail y WhatsApp & \\
+5 & 8--9 set & Visualizaci\'on y \emph{dashboards}: seaborn y Streamlit & \textbf{Pr\'actica 2} (mi\'e 9 set) \\
+6 & 15--16 set & An\'alisis geoespacial: mapas est\'aticos y din\'amicos & \\
+7 & 22--23 set & Datos raster e im\'agenes satelitales & \textbf{Pr\'actica 3} (mi\'e 23 set) \\
+--- & 28 set -- 3 oct & \textit{Semana de ex\'amenes parciales --- sin clases} & \\
+8 & 6--7 oct & LLMs: instrucciones, salidas estructuradas y RAG & \\
+9 & 13--14 oct & Hugging Face y \emph{fine-tuning} de modelos abiertos & \textbf{Pr\'actica 4} (mi\'e 14 oct) \\
+10 & 20--21 oct & Document AI y voz: OCR, extracci\'on estructurada y ASR & \\
+11 & 27--28 oct & Agentes: crewAI, subagentes, \emph{skills} y OpenClaw & \textbf{Pr\'actica 5} (mi\'e 28 oct) \\
+12 & 3--4 nov & Despliegue y evaluaci\'on de productos de datos & \emph{Arranca el proyecto} \\
+13 & 10--11 nov & Taller de proyecto: acompa\~namiento en clase & \\
+14 & 17--18 nov & \textbf{Presentaciones de \emph{startups}} & \emph{Pitch} y demo \\
+--- & 23--29 nov & Cierre del semestre & \textbf{Entrega final} \\
+\end{xltabular}
+
+\subsection*{Fechas oficiales del calendario acad\'emico 2026-II}
+
+\begin{itemize}
+\item \textbf{Matr\'icula extempor\'anea y modificaci\'on de matr\'icula:} s\'abado 8 de agosto.
+\item \textbf{\'Ultimo d\'ia de retiro sin pago de derechos pendientes:} s\'abado 22 de agosto.
+\item \textbf{Ex\'amenes parciales} (no hay clases esa semana): 28 de setiembre al 3 de octubre.
+\item \textbf{Encuestas de evaluaci\'on docente:} 2 al 15 de noviembre.
+\item \textbf{\'Ultimo d\'ia de retiro con pago de derechos pendientes y \'ultimo d\'ia de clases:} s\'abado 21 de noviembre.
+\item \textbf{Ex\'amenes finales} (entrega del proyecto final): 23 al 29 de noviembre.
+\item \textbf{Devoluci\'on de calificaciones finales:} viernes 4 de diciembre, hasta las 12:00 horas.
+\end{itemize}
+
+\emph{Fuente: Calendario Acad\'emico Regular 2026, actualizado en enero de 2026.}
+
+\end{document}

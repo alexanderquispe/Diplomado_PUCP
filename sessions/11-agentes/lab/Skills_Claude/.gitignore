@@ -1,0 +1,4 @@
+.venv/
+bcrp_data.json
+__pycache__/
+*.pyc

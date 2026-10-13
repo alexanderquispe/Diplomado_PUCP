@@ -1,0 +1,4 @@
+.venv/
+datosabiertos_snapshot.json
+__pycache__/
+*.pyc

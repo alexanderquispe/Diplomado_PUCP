@@ -136,4 +136,38 @@ responde por sus números.
 ## Continúa en
 
 **Python Intermedio** (7 al 31 de octubre): scraping con Selenium, RAG y
-embeddings, MCP, agentes y despliegue.
+embeddings, MCP, agentes y despliegue. Su material ya está en este repositorio:
+
+| Carpeta | Tema | Grupo |
+|---|---|---|
+| [07-raster](sessions/07-raster) | Datos raster | `raster` |
+| [08-llms-rag](sessions/08-llms-rag) | LLMs: instrucciones, salidas estructuradas y RAG | `llm` |
+| [09-huggingface-finetuning](sessions/09-huggingface-finetuning) | Hugging Face y fine-tuning | `hf` |
+| [10-document-ai-voz](sessions/10-document-ai-voz) | Document AI y voz | `docai` |
+| [11-agentes](sessions/11-agentes) | Agentes | `agents` |
+| [12-despliegue-evaluacion](sessions/12-despliegue-evaluacion) | Despliegue y evaluación | `deploy` |
+
+Estas carpetas llevan su propia numeración: `07-raster` y `08-llms-rag` no
+reemplazan a `07-mapas` ni a `08-dashboard`.
+
+Igual que en Fundamentos, cada sesión instala su grupo, y ese grupo trae todo lo
+que la sesión importa:
+
+```bash
+uv sync --group llm
+uv run jupyter lab
+```
+
+Dos cosas que conviene saber antes de la primera clase:
+
+- **Pesan.** Los grupos `llm`, `hf`, `docai` y `agents` ocupan entre 1,3 y 1,5 GB
+  cada uno una vez instalados. Conviene instalarlos con buena conexión.
+- **No todo corre en la laptop.** Varios notebooks se escribieron para Google
+  Colab, porque necesitan GPU o suben archivos con `files.upload()`. El README
+  de cada carpeta dice cuál corre dónde y qué clave de API pide.
+
+El único dato que se descarga aparte es el del laboratorio de raster:
+
+```bash
+uv run python scripts/fetch_data.py 07-raster
+```

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bcrp": {
+      "command": ".venv\\Scripts\\python",
+      "args": ["mcp_bcrp_server.py"],
+      "cwd": "C:\\Users\\Jean Pool\\Documents\\GitHub\\Data-Science-Python\\Labs\\Python_Notebooks\\LAB11\\Skills_Claude"
+    }
+  }
+}
