@@ -26,7 +26,7 @@ actualiza Selenium solo — no hay que bajar `chromedriver` a mano.
 
 ## Contenido
 
-Dos notebooks, en este orden.
+Los notebooks, en este orden.
 
 ### `02_web_al_dataframe.ipynb` — la página ya trae el dato
 
@@ -77,6 +77,24 @@ posición puede moverse**. Un índice equivocado no da error — guarda el dato
 incorrecto en silencio.
 
 Abre el navegador **visible** por defecto.
+
+### `06_empleos_analista_datos.ipynb` — la base de datos de analistas
+
+Recorre 4 búsquedas (*analista de datos*, *data analyst*, *analista bi*,
+*business intelligence*) y lee **cada tarjeta del listado**: no entra a cada
+aviso, porque la tarjeta ya trae la descripción completa. Arma una base con
+**una fila por aviso**: puesto, empresa, calificación, modalidad, distrito,
+departamento, antigüedad, descripción y qué herramientas pide (SQL, Python,
+Power BI…).
+
+**Pregunta que responde:** ¿dónde están hoy los empleos de analista de datos
+en el Perú, en qué modalidad, y qué herramientas piden?
+
+Cubre: reintentar cuando Bumeran devuelve la página vacía, leer cada dato por
+el **nombre de su ícono** (`following::h3[1]`) en vez de por su posición, y
+detectar herramientas en el texto con expresiones regulares.
+
+**Genera:** `empleos_analista_datos_<fecha>.csv`. Toma **un par de minutos**.
 
 > Los resultados cambian cada vez que se corre: son avisos de empleo reales,
 > publicados hoy. Eso es parte de la gracia — y la razón por la que el notebook
